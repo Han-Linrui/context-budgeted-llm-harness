@@ -1,38 +1,42 @@
 # Lightweight LLM Harness for Robust Few-Shot Classification
 
-本项目实现了一个面向受限上下文窗口的轻量级 LLM Harness，用于研究冻结大模型在少样本文本分类、分布外任务和自然语言选择题中的测试时适应能力。项目最初基于 2026 创智学院 Harness Engineering 考核框架完成，核心实现集中在 `solution.py` 中；本仓库在保留官方评测接口的基础上，补充了更清晰的工程结构、公开配置方式、扩展 benchmark 与实验报告。
+[English](README.md) | [中文](README.zh-CN.md)
 
-## 项目动机
+This repository presents a lightweight LLM harness for robust few-shot classification under a constrained context window. The project was originally developed on top of the 2026 SII Harness Engineering assessment scaffold, where the official interface requires a frozen LLM to infer labels from a streaming set of labeled examples. The main contribution of this repository is the design and implementation of `MyHarness` in `solution.py`, together with a cleaned public configuration, extended benchmarks, and reproducible documentation.
 
-在许多 LLM 应用中，模型权重并不会在每个新任务上重新训练，系统能力主要来自外部 Harness：如何组织 prompt、检索记忆、控制上下文、解析输出、处理异常与注入攻击。本项目关注一个较小但完整的问题：在单次 prompt 不超过 2048 token 的限制下，如何让冻结的 Qwen3-8B 模型从训练流中的少量带标签样本中完成高鲁棒性的 exact-match 分类。
+## Research Motivation
 
-这个问题与 Test-Time Alignment、LLM 鲁棒性评测、Agent/Harness Engineering 等方向直接相关：模型本身保持冻结，所有“学习”和控制逻辑都发生在外部状态与确定性代码中。
+Modern LLM applications often rely less on parameter updates and more on the external harness surrounding the model: prompt construction, memory retrieval, context budgeting, output parsing, fallback control, and injection resistance. This project studies a compact but representative setting:
 
-## 核心设计
+> Given a frozen Qwen3-8B model and a prompt budget of 2048 tokens, how can an external harness perform reliable exact-match classification from a small labeled training stream?
 
-`MyHarness` 由四个部分构成：
+The problem is closely related to test-time adaptation, LLM evaluation, and agent/harness engineering. The model remains fixed; all task-specific adaptation occurs through external memory and deterministic control logic.
 
-1. **混合特征动态检索**：使用 word-level token 与 character 3-gram 的多重集合 Jaccard 相似度，从历史样本中选择最相关的 few-shot 示例。
-2. **标签空间任务路由**：根据训练标签的形态自动区分普通意图分类与选择题任务，并切换对应 prompt。
-3. **结构化推理输出**：约束模型输出 `<thought>` 与 `<label>`，再用确定性解析逻辑提取最终 label。
-4. **预算控制与容错兜底**：在调用 LLM 前主动检查 token 数，必要时减少示例数量；当模型输出不规范时，使用 exact match、清洗匹配、子串匹配与最近邻标签兜底。
+## Method Overview
 
-该设计刻意保持轻量，不依赖 sklearn、torch 或外部索引库，符合原评测对 `solution.py` 的导入限制。
+`MyHarness` combines four mechanisms:
 
-## 仓库结构
+1. **Hybrid dynamic retrieval**: ranks stored training examples using multiset Jaccard similarity over word-level tokens and character 3-grams, improving robustness on short and noisy texts.
+2. **Label-space task routing**: detects whether the current task is standard intent classification or multiple-choice reasoning by inspecting the runtime label space.
+3. **Structured LLM generation**: asks the model to produce a compact XML-like response with `<thought>` and `<label>` fields, then extracts the final label deterministically.
+4. **Token-budgeted context assembly**: removes lower-ranked demonstrations until the prompt fits the budget, with exact-match, cleaned-match, substring-match, and nearest-neighbor fallback paths.
+
+The solution intentionally avoids heavyweight external dependencies such as sklearn, torch, or embedding indexes, matching the original assessment constraints while keeping the design transparent and auditable.
+
+## Repository Structure
 
 ```text
 .
-├── solution.py                 # 主要贡献：MyHarness 的检索、路由、prompt 与解析逻辑
-├── harness_base.py             # 官方 Harness 基类接口
-├── run.py                      # 官方本地评测入口
-├── llm_client.py               # OpenAI-compatible LLM 客户端，使用环境变量配置
+├── solution.py                 # Main contribution: retrieval, routing, prompting, and parsing logic
+├── harness_base.py             # Official harness base class
+├── run.py                      # Official local evaluation entrypoint
+├── llm_client.py               # OpenAI-compatible client configured through environment variables
 ├── requirements.txt
-├── data/                       # 官方 DEV 数据：train_dev / test_dev
-├── tokenizer/                  # 本地 tokenizer，用于精确 token 计数
-├── mock-data/                  # 社区/自造扩展评测数据
+├── data/                       # Official DEV data: train_dev / test_dev
+├── tokenizer/                  # Local tokenizer for prompt-budget accounting
+├── mock-data/                  # Community/mock datasets for extended evaluation
 ├── scripts/
-│   └── benchmark.py            # 扩展 benchmark 运行脚本
+│   └── benchmark.py            # Extended benchmark runner
 ├── docs/
 │   ├── assignment-spec-2026-summer.pdf
 │   └── exploration_report.md
@@ -41,17 +45,17 @@
     └── benchmark-results-repeat.png
 ```
 
-## 快速开始
+## Quick Start
 
-安装依赖：
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-配置 OpenAI-compatible API。推荐在本地复制 `.env.example` 后自行加载环境变量，不要提交真实密钥。
+Configure an OpenAI-compatible endpoint. Copy `.env.example` locally if desired, but do not commit real credentials.
 
-PowerShell 示例：
+PowerShell:
 
 ```powershell
 $env:LLM_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
@@ -60,7 +64,7 @@ $env:LLM_MODEL="qwen3-8b"
 $env:LLM_ENABLE_THINKING="false"
 ```
 
-Bash 示例：
+Bash:
 
 ```bash
 export LLM_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
@@ -69,38 +73,38 @@ export LLM_MODEL="qwen3-8b"
 export LLM_ENABLE_THINKING="false"
 ```
 
-运行官方 DEV 评测：
+Run the official DEV evaluation:
 
 ```bash
 python run.py --runs 1
 ```
 
-运行扩展 benchmark：
+Run the extended benchmark suite:
 
 ```bash
 python scripts/benchmark.py
 ```
 
-## 实验结果
+## Results
 
-官方 DEV 集包含 231 条训练样本、539 条测试样本和 77 个标签。在 Qwen3-8B 非思考模式下，本方案在本地 DEV split 上约达到 83% accuracy。扩展 benchmark 覆盖同分布分类、OOD 标签空间、自然语言选择题、中文/双语输入和部分垂直领域任务。
+The official DEV split contains 231 training examples, 539 test examples, and 77 labels. Under the Qwen3-8B non-thinking setting, this harness obtains approximately 83% accuracy on the local DEV split. The extended benchmark covers same-distribution classification, out-of-domain labels, multiple-choice tasks, bilingual inputs, and selected vertical domains.
 
 ![Extended benchmark results](assets/benchmark-results.png)
 
-更详细的方法说明、消融观察和异常数据分析见 [docs/exploration_report.md](docs/exploration_report.md)。
+See [docs/exploration_report.md](docs/exploration_report.md) for design details, ablation observations, and data-quality analysis.
 
-## 来源与贡献边界
+## Attribution and Contribution Boundary
 
-为保证可复现性，本仓库保留了原评测的核心文件布局。这样做不是为了弱化项目独立性，而是为了让评测契约、实现边界和实验入口足够清楚。
+The repository deliberately preserves the original evaluation layout so that the assessment contract remains reproducible and the contribution boundary is clear.
 
-- 官方/考核框架提供：`harness_base.py`、`run.py`、`data/`、`tokenizer/` 以及原始任务说明。
-- 本项目主要实现：`solution.py` 中的 Harness 策略、`llm_client.py` 的公开配置整理、`scripts/benchmark.py` 扩展评测脚本、实验报告与仓库文档。
-- 扩展数据：`mock-data/` 来自公开社区数据、考核模拟数据和部分自造数据，具体来源见 [mock-data/SII-26Summer-HE-Data-main/README.md](mock-data/SII-26Summer-HE-Data-main/README.md)。
+- Provided by the original assessment scaffold: `harness_base.py`, `run.py`, `data/`, `tokenizer/`, and the assignment specification.
+- Implemented or organized in this repository: the harness strategy in `solution.py`, environment-based API configuration in `llm_client.py`, the extended benchmark runner, experiment documentation, and repository-level README files.
+- Extended data: `mock-data/` contains public community datasets, mock assessment data, and partially self-constructed examples. See [mock-data/SII-26Summer-HE-Data-main/README.md](mock-data/SII-26Summer-HE-Data-main/README.md) for source notes.
 
-## 工程取舍
+## Engineering Rationale
 
-本项目没有重构成复杂 Python package，原因是官方评测环境以根目录下的 `solution.py` / `run.py` 为契约。对于展示项目而言，保留这一结构能让读者直接复现实验，也能清楚地区分官方 scaffold 与个人实现。整理重点放在配置安全、文档可读性、实验脚本和结果归档上，而不是为了形式上的“工程化”牺牲可验证性。
+The project is not refactored into a large Python package because the official evaluation environment is defined around root-level `solution.py` and `run.py`. For a research-facing demonstration, preserving that contract improves reproducibility and makes the official scaffold versus personal implementation boundary explicit. The engineering work is therefore focused on safe configuration, clean documentation, reproducible scripts, and experimental traceability rather than superficial restructuring.
 
-## 安全与隐私
+## Safety and Privacy
 
-公开仓库中不应包含个人申请材料、真实 API Key 或私有通信内容。本项目通过环境变量读取 API 配置，并用 `.gitignore` 排除本地 `.env` 与个人申请材料。如果曾经把真实 API Key 提交到 Git 历史中，建议在推送公开仓库前撤销该密钥并清理提交历史。
+The public repository should not contain private application materials, real API keys, or personal correspondence. API configuration is read from environment variables, and `.gitignore` excludes local `.env` files and private application documents. If a real key has appeared in Git history, rotate the key and clean the history before publishing the repository.
