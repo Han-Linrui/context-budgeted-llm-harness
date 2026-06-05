@@ -1,0 +1,90 @@
+{"text": "Route this case by its primary operational risk: credential stuffing attempt. Do not classify by the reporter's emotion.", "label": "SEC__CREDENTIAL_STUFFING_ATTEMPT"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says mfa fatigue attack.", "label": "SEC__MFA_FATIGUE_ATTACK"}
+{"text": "Route this case by its primary operational risk: malware quarantine event. Do not classify by the reporter's emotion.", "label": "SEC__MALWARE_QUARANTINE_EVENT"}
+{"text": "cybersecurity alert triage ticket: the main issue is endpoint beaconing activity. Mentioned side notes are only context.", "label": "SEC__ENDPOINT_BEACONING_ACTIVITY"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近钓鱼或恶意行为；英文摘要 says ransomware behavior pattern.", "label": "SEC__RANSOMWARE_BEHAVIOR_PATTERN"}
+{"text": "Route this case by its primary operational risk: data exfiltration suspicion. Do not classify by the reporter's emotion.", "label": "SEC__DATA_EXFILTRATION_SUSPICION"}
+{"text": "Route this case by its primary operational risk: supply chain package risk. Do not classify by the reporter's emotion.", "label": "SEC__SUPPLY_CHAIN_PACKAGE_RISK"}
+{"text": "cybersecurity alert triage ticket: the main issue is cloud role overpermissioned. Mentioned side notes are only context.", "label": "SEC__CLOUD_ROLE_OVERPERMISSIONED"}
+{"text": "Route this case by its primary operational risk: typosquatting domain alert. Do not classify by the reporter's emotion.", "label": "SEC__TYPOSQUATTING_DOMAIN_ALERT"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近钓鱼或恶意行为；英文摘要 says edr sensor disabled.", "label": "SEC__EDR_SENSOR_DISABLED"}
+{"text": "Route this case by its primary operational risk: waf sql injection block. Do not classify by the reporter's emotion.", "label": "SEC__WAF_SQL_INJECTION_BLOCK"}
+{"text": "cybersecurity alert triage ticket: the main issue is edr sensor disabled. Mentioned side notes are only context.", "label": "SEC__EDR_SENSOR_DISABLED"}
+{"text": "cybersecurity alert triage ticket: the main issue is insider data access spike. Mentioned side notes are only context.", "label": "SEC__INSIDER_DATA_ACCESS_SPIKE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says blocked command and control.", "label": "SEC__BLOCKED_COMMAND_AND_CONTROL"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says brute force ssh attack.", "label": "SEC__BRUTE_FORCE_SSH_ATTACK"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says impossible travel login.", "label": "SEC__IMPOSSIBLE_TRAVEL_LOGIN"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says waf sql injection block.", "label": "SEC__WAF_SQL_INJECTION_BLOCK"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says credential paste site hit.", "label": "SEC__CREDENTIAL_PASTE_SITE_HIT"}
+{"text": "cybersecurity alert triage ticket: the main issue is suspicious oauth consent. Mentioned side notes are only context.", "label": "SEC__SUSPICIOUS_OAUTH_CONSENT"}
+{"text": "cybersecurity alert triage ticket: the main issue is credential stuffing attempt. Mentioned side notes are only context.", "label": "SEC__CREDENTIAL_STUFFING_ATTEMPT"}
+{"text": "cybersecurity alert triage ticket: the main issue is vpn login anomaly. Mentioned side notes are only context.", "label": "SEC__VPN_LOGIN_ANOMALY"}
+{"text": "cybersecurity alert triage ticket: the main issue is certificate private key leak. Mentioned side notes are only context.", "label": "SEC__CERTIFICATE_PRIVATE_KEY_LEAK"}
+{"text": "Route this case by its primary operational risk: secrets exposed in repo. Do not classify by the reporter's emotion.", "label": "SEC__SECRETS_EXPOSED_IN_REPO"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says secrets exposed in repo.", "label": "SEC__SECRETS_EXPOSED_IN_REPO"}
+{"text": "Route this case by its primary operational risk: new risky service account. Do not classify by the reporter's emotion.", "label": "SEC__NEW_RISKY_SERVICE_ACCOUNT"}
+{"text": "Route this case by its primary operational risk: impossible travel login. Do not classify by the reporter's emotion.", "label": "SEC__IMPOSSIBLE_TRAVEL_LOGIN"}
+{"text": "cybersecurity alert triage ticket: the main issue is credential paste site hit. Mentioned side notes are only context.", "label": "SEC__CREDENTIAL_PASTE_SITE_HIT"}
+{"text": "cybersecurity alert triage ticket: the main issue is container escape indicator. Mentioned side notes are only context.", "label": "SEC__CONTAINER_ESCAPE_INDICATOR"}
+{"text": "cybersecurity alert triage ticket: the main issue is public bucket exposure. Mentioned side notes are only context.", "label": "SEC__PUBLIC_BUCKET_EXPOSURE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says shadow it app discovery.", "label": "SEC__SHADOW_IT_APP_DISCOVERY"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says unauthorized firewall change.", "label": "SEC__UNAUTHORIZED_FIREWALL_CHANGE"}
+{"text": "cybersecurity alert triage ticket: the main issue is privilege escalation signal. Mentioned side notes are only context.", "label": "SEC__PRIVILEGE_ESCALATION_SIGNAL"}
+{"text": "Route this case by its primary operational risk: edr sensor disabled. Do not classify by the reporter's emotion.", "label": "SEC__EDR_SENSOR_DISABLED"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says credential stuffing attempt.", "label": "SEC__CREDENTIAL_STUFFING_ATTEMPT"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says phishing link report.", "label": "SEC__PHISHING_LINK_REPORT"}
+{"text": "cybersecurity alert triage ticket: the main issue is dns tunneling indicator. Mentioned side notes are only context.", "label": "SEC__DNS_TUNNELING_INDICATOR"}
+{"text": "cybersecurity alert triage ticket: the main issue is unusual admin token use. Mentioned side notes are only context.", "label": "SEC__UNUSUAL_ADMIN_TOKEN_USE"}
+{"text": "Route this case by its primary operational risk: unusual admin token use. Do not classify by the reporter's emotion.", "label": "SEC__UNUSUAL_ADMIN_TOKEN_USE"}
+{"text": "cybersecurity alert triage ticket: the main issue is phishing link report. Mentioned side notes are only context.", "label": "SEC__PHISHING_LINK_REPORT"}
+{"text": "cybersecurity alert triage ticket: the main issue is malware quarantine event. Mentioned side notes are only context.", "label": "SEC__MALWARE_QUARANTINE_EVENT"}
+{"text": "Route this case by its primary operational risk: suspicious inbox forwarding. Do not classify by the reporter's emotion.", "label": "SEC__SUSPICIOUS_INBOX_FORWARDING"}
+{"text": "cybersecurity alert triage ticket: the main issue is suspicious inbox forwarding. Mentioned side notes are only context.", "label": "SEC__SUSPICIOUS_INBOX_FORWARDING"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says cloud role overpermissioned.", "label": "SEC__CLOUD_ROLE_OVERPERMISSIONED"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近钓鱼或恶意行为；英文摘要 says container escape indicator.", "label": "SEC__CONTAINER_ESCAPE_INDICATOR"}
+{"text": "Route this case by its primary operational risk: container escape indicator. Do not classify by the reporter's emotion.", "label": "SEC__CONTAINER_ESCAPE_INDICATOR"}
+{"text": "cybersecurity alert triage ticket: the main issue is brute force ssh attack. Mentioned side notes are only context.", "label": "SEC__BRUTE_FORCE_SSH_ATTACK"}
+{"text": "cybersecurity alert triage ticket: the main issue is mfa fatigue attack. Mentioned side notes are only context.", "label": "SEC__MFA_FATIGUE_ATTACK"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says privilege escalation signal.", "label": "SEC__PRIVILEGE_ESCALATION_SIGNAL"}
+{"text": "cybersecurity alert triage ticket: the main issue is unauthorized firewall change. Mentioned side notes are only context.", "label": "SEC__UNAUTHORIZED_FIREWALL_CHANGE"}
+{"text": "Route this case by its primary operational risk: unauthorized firewall change. Do not classify by the reporter's emotion.", "label": "SEC__UNAUTHORIZED_FIREWALL_CHANGE"}
+{"text": "Route this case by its primary operational risk: mfa fatigue attack. Do not classify by the reporter's emotion.", "label": "SEC__MFA_FATIGUE_ATTACK"}
+{"text": "cybersecurity alert triage ticket: the main issue is blocked command and control. Mentioned side notes are only context.", "label": "SEC__BLOCKED_COMMAND_AND_CONTROL"}
+{"text": "Route this case by its primary operational risk: blocked command and control. Do not classify by the reporter's emotion.", "label": "SEC__BLOCKED_COMMAND_AND_CONTROL"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says typosquatting domain alert.", "label": "SEC__TYPOSQUATTING_DOMAIN_ALERT"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says insider data access spike.", "label": "SEC__INSIDER_DATA_ACCESS_SPIKE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近钓鱼或恶意行为；英文摘要 says certificate private key leak.", "label": "SEC__CERTIFICATE_PRIVATE_KEY_LEAK"}
+{"text": "cybersecurity alert triage ticket: the main issue is typosquatting domain alert. Mentioned side notes are only context.", "label": "SEC__TYPOSQUATTING_DOMAIN_ALERT"}
+{"text": "Route this case by its primary operational risk: dns tunneling indicator. Do not classify by the reporter's emotion.", "label": "SEC__DNS_TUNNELING_INDICATOR"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says supply chain package risk.", "label": "SEC__SUPPLY_CHAIN_PACKAGE_RISK"}
+{"text": "cybersecurity alert triage ticket: the main issue is data exfiltration suspicion. Mentioned side notes are only context.", "label": "SEC__DATA_EXFILTRATION_SUSPICION"}
+{"text": "Route this case by its primary operational risk: endpoint beaconing activity. Do not classify by the reporter's emotion.", "label": "SEC__ENDPOINT_BEACONING_ACTIVITY"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says suspicious oauth consent.", "label": "SEC__SUSPICIOUS_OAUTH_CONSENT"}
+{"text": "cybersecurity alert triage ticket: the main issue is new risky service account. Mentioned side notes are only context.", "label": "SEC__NEW_RISKY_SERVICE_ACCOUNT"}
+{"text": "cybersecurity alert triage ticket: the main issue is supply chain package risk. Mentioned side notes are only context.", "label": "SEC__SUPPLY_CHAIN_PACKAGE_RISK"}
+{"text": "Route this case by its primary operational risk: insider data access spike. Do not classify by the reporter's emotion.", "label": "SEC__INSIDER_DATA_ACCESS_SPIKE"}
+{"text": "Route this case by its primary operational risk: cloud role overpermissioned. Do not classify by the reporter's emotion.", "label": "SEC__CLOUD_ROLE_OVERPERMISSIONED"}
+{"text": "Route this case by its primary operational risk: suspicious oauth consent. Do not classify by the reporter's emotion.", "label": "SEC__SUSPICIOUS_OAUTH_CONSENT"}
+{"text": "Route this case by its primary operational risk: brute force ssh attack. Do not classify by the reporter's emotion.", "label": "SEC__BRUTE_FORCE_SSH_ATTACK"}
+{"text": "Route this case by its primary operational risk: phishing link report. Do not classify by the reporter's emotion.", "label": "SEC__PHISHING_LINK_REPORT"}
+{"text": "Route this case by its primary operational risk: public bucket exposure. Do not classify by the reporter's emotion.", "label": "SEC__PUBLIC_BUCKET_EXPOSURE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says dns tunneling indicator.", "label": "SEC__DNS_TUNNELING_INDICATOR"}
+{"text": "cybersecurity alert triage ticket: the main issue is shadow it app discovery. Mentioned side notes are only context.", "label": "SEC__SHADOW_IT_APP_DISCOVERY"}
+{"text": "Route this case by its primary operational risk: credential paste site hit. Do not classify by the reporter's emotion.", "label": "SEC__CREDENTIAL_PASTE_SITE_HIT"}
+{"text": "Route this case by its primary operational risk: certificate private key leak. Do not classify by the reporter's emotion.", "label": "SEC__CERTIFICATE_PRIVATE_KEY_LEAK"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says public bucket exposure.", "label": "SEC__PUBLIC_BUCKET_EXPOSURE"}
+{"text": "cybersecurity alert triage ticket: the main issue is waf sql injection block. Mentioned side notes are only context.", "label": "SEC__WAF_SQL_INJECTION_BLOCK"}
+{"text": "Route this case by its primary operational risk: vpn login anomaly. Do not classify by the reporter's emotion.", "label": "SEC__VPN_LOGIN_ANOMALY"}
+{"text": "cybersecurity alert triage ticket: the main issue is ransomware behavior pattern. Mentioned side notes are only context.", "label": "SEC__RANSOMWARE_BEHAVIOR_PATTERN"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says data exfiltration suspicion.", "label": "SEC__DATA_EXFILTRATION_SUSPICION"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says malware quarantine event.", "label": "SEC__MALWARE_QUARANTINE_EVENT"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says suspicious inbox forwarding.", "label": "SEC__SUSPICIOUS_INBOX_FORWARDING"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says new risky service account.", "label": "SEC__NEW_RISKY_SERVICE_ACCOUNT"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says unusual admin token use.", "label": "SEC__UNUSUAL_ADMIN_TOKEN_USE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says vpn login anomaly.", "label": "SEC__VPN_LOGIN_ANOMALY"}
+{"text": "Route this case by its primary operational risk: privilege escalation signal. Do not classify by the reporter's emotion.", "label": "SEC__PRIVILEGE_ESCALATION_SIGNAL"}
+{"text": "Route this case by its primary operational risk: ransomware behavior pattern. Do not classify by the reporter's emotion.", "label": "SEC__RANSOMWARE_BEHAVIOR_PATTERN"}
+{"text": "cybersecurity alert triage ticket: the main issue is secrets exposed in repo. Mentioned side notes are only context.", "label": "SEC__SECRETS_EXPOSED_IN_REPO"}
+{"text": "Route this case by its primary operational risk: shadow it app discovery. Do not classify by the reporter's emotion.", "label": "SEC__SHADOW_IT_APP_DISCOVERY"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says endpoint beaconing activity.", "label": "SEC__ENDPOINT_BEACONING_ACTIVITY"}
+{"text": "cybersecurity alert triage ticket: the main issue is impossible travel login. Mentioned side notes are only context.", "label": "SEC__IMPOSSIBLE_TRAVEL_LOGIN"}

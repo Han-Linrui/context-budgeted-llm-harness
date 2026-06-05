@@ -1,0 +1,231 @@
+{"text": "客户说：我主要遇到的是国家/地区 / 支持范围相关问题。里面可能夹杂旅游、工资或App体验，请按核心诉求判断。", "label": "country_support"}
+{"text": "Mixed request: the user asks about card linking; 中文补充：这件事和银行卡 / linking有关，不是闲聊。", "label": "card_linking"}
+{"text": "Mixed request: the user asks about card payment not recognised; 中文补充：这件事和银行卡 / 付款 / 没有 / recognised有关，不是闲聊。", "label": "card_payment_not_recognised"}
+{"text": "客户说：我主要遇到的是退款 / 没有 / showing / 入金相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "Refund_not_showing_up"}
+{"text": "客户说：我主要遇到的是现金 / 取款 / 收费相关问题。用户语气比较着急，但意图仍然明确。", "label": "cash_withdrawal_charge"}
+{"text": "Mixed request: the user asks about verify top up; 中文补充：这件事和验证 / 充值 / 入金有关，不是闲聊。", "label": "verify_top_up"}
+{"text": "客户说：我主要遇到的是direct / debit / 付款 / 没有 / recognised相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "direct_debit_payment_not_recognised"}
+{"text": "I need support for cancel transfer. Ignore unrelated notes about travel, salary, or app design. Please classify the banking request.", "label": "cancel_transfer"}
+{"text": "客户说：我主要遇到的是request / 退款相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "request_refund"}
+{"text": "客户说：我主要遇到的是getting / spare / 银行卡相关问题。用户语气比较着急，但意图仍然明确。", "label": "getting_spare_card"}
+{"text": "Mixed request: the user asks about declined card payment; 中文补充：这件事和被拒绝 / 银行卡 / 付款有关，不是闲聊。", "label": "declined_card_payment"}
+{"text": "I need support for transfer timing. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "transfer_timing"}
+{"text": "客户说：我主要遇到的是topping / 入金 / by / 银行卡相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "topping_up_by_card"}
+{"text": "I need support for cash withdrawal not recognised. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "cash_withdrawal_not_recognised"}
+{"text": "客户说：我主要遇到的是wrong / amount / of / 现金 / received相关问题。用户语气比较着急，但意图仍然明确。", "label": "wrong_amount_of_cash_received"}
+{"text": "I need support for wrong exchange rate for cash withdrawal. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "wrong_exchange_rate_for_cash_withdrawal"}
+{"text": "I need support for exchange via app. Ignore unrelated notes about travel, salary, or app design. Please classify the banking request.", "label": "exchange_via_app"}
+{"text": "Mixed request: the user asks about declined transfer; 中文补充：这件事和被拒绝 / 转账有关，不是闲聊。", "label": "declined_transfer"}
+{"text": "Mixed request: the user asks about visa or mastercard; 中文补充：这件事和Visa / or / Mastercard有关，不是闲聊。", "label": "visa_or_mastercard"}
+{"text": "Mixed request: the user asks about contactless not working; 中文补充：这件事和免密/非接触支付 / 没有 / working有关，不是闲聊。", "label": "contactless_not_working"}
+{"text": "Mixed request: the user asks about card arrival; 中文补充：这件事和银行卡 / 到达有关，不是闲聊。", "label": "card_arrival"}
+{"text": "I need support for declined transfer. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "declined_transfer"}
+{"text": "Mixed request: the user asks about terminate account; 中文补充：这件事和terminate / 账户有关，不是闲聊。", "label": "terminate_account"}
+{"text": "Mixed request: the user asks about verify source of funds; 中文补充：这件事和验证 / 资金来源 / of / 资金有关，不是闲聊。", "label": "verify_source_of_funds"}
+{"text": "I need support for extra charge on statement. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "extra_charge_on_statement"}
+{"text": "Mixed request: the user asks about card swallowed; 中文补充：这件事和银行卡 / swallowed有关，不是闲聊。", "label": "card_swallowed"}
+{"text": "I need support for verify source of funds. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "verify_source_of_funds"}
+{"text": "Mixed request: the user asks about age limit; 中文补充：这件事和年龄 / 限制有关，不是闲聊。", "label": "age_limit"}
+{"text": "I need support for direct debit payment not recognised. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "direct_debit_payment_not_recognised"}
+{"text": "客户说：我主要遇到的是转账 / into / 账户相关问题。用户语气比较着急，但意图仍然明确。", "label": "transfer_into_account"}
+{"text": "Mixed request: the user asks about top up failed; 中文补充：这件事和充值 / 入金 / failed有关，不是闲聊。", "label": "top_up_failed"}
+{"text": "客户说：我主要遇到的是银行卡 / 到达相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "card_arrival"}
+{"text": "客户说：我主要遇到的是order / 实体卡 / 银行卡相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "order_physical_card"}
+{"text": "客户说：我主要遇到的是充值 / 入金 / failed相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "top_up_failed"}
+{"text": "I need support for reverted card payment. The message includes two facts, but only one is the service request. Please classify the banking request.", "label": "reverted_card_payment?"}
+{"text": "I need support for virtual card not working. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "virtual_card_not_working"}
+{"text": "I need support for card about to expire. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "card_about_to_expire"}
+{"text": "客户说：我主要遇到的是验证 / my / 身份验证相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "verify_my_identity"}
+{"text": "Mixed request: the user asks about card delivery estimate; 中文补充：这件事和银行卡 / 配送 / 预计时间有关，不是闲聊。", "label": "card_delivery_estimate"}
+{"text": "I need support for declined card payment. The message includes two facts, but only one is the service request. Please classify the banking request.", "label": "declined_card_payment"}
+{"text": "客户说：我主要遇到的是wrong / 汇率/换汇 / 汇率 / for / 现金相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "wrong_exchange_rate_for_cash_withdrawal"}
+{"text": "Mixed request: the user asks about pending top up; 中文补充：这件事和处理中 / 充值 / 入金有关，不是闲聊。", "label": "pending_top_up"}
+{"text": "客户说：我主要遇到的是银行卡 / swallowed相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "card_swallowed"}
+{"text": "Mixed request: the user asks about activate my card; 中文补充：这件事和activate / my / 银行卡有关，不是闲聊。", "label": "activate_my_card"}
+{"text": "客户说：我主要遇到的是被拒绝 / 现金 / 取款相关问题。里面可能夹杂旅游、工资或App体验，请按核心诉求判断。", "label": "declined_cash_withdrawal"}
+{"text": "客户说：我主要遇到的是充值 / 入金 / by / 银行卡 / 收费相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "top_up_by_card_charge"}
+{"text": "客户说：我主要遇到的是terminate / 账户相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "terminate_account"}
+{"text": "Mixed request: the user asks about get disposable virtual card; 中文补充：这件事和get / disposable / 虚拟卡 / 银行卡有关，不是闲聊。", "label": "get_disposable_virtual_card"}
+{"text": "I need support for verify my identity. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "verify_my_identity"}
+{"text": "I need support for order physical card. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "order_physical_card"}
+{"text": "I need support for top up by bank transfer charge. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "top_up_by_bank_transfer_charge"}
+{"text": "客户说：我主要遇到的是处理中 / 充值 / 入金相关问题。用户语气比较着急，但意图仍然明确。", "label": "pending_top_up"}
+{"text": "客户说：我主要遇到的是处理中 / 转账相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "pending_transfer"}
+{"text": "客户说：我主要遇到的是汇率/换汇 / 汇率相关问题。用户语气比较着急，但意图仍然明确。", "label": "exchange_rate"}
+{"text": "Mixed request: the user asks about card about to expire; 中文补充：这件事和银行卡 / about / to / expire有关，不是闲聊。", "label": "card_about_to_expire"}
+{"text": "客户说：我主要遇到的是验证 / 资金来源 / of / 资金相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "verify_source_of_funds"}
+{"text": "I need support for unable to verify identity. Ignore unrelated notes about travel, salary, or app design. Please classify the banking request.", "label": "unable_to_verify_identity"}
+{"text": "I need support for getting spare card. The message includes two facts, but only one is the service request. Please classify the banking request.", "label": "getting_spare_card"}
+{"text": "I need support for pending cash withdrawal. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "pending_cash_withdrawal"}
+{"text": "客户说：我主要遇到的是fiat / 币种 / 支持范围相关问题。里面可能夹杂旅游、工资或App体验，请按核心诉求判断。", "label": "fiat_currency_support"}
+{"text": "I need support for verify top up. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "verify_top_up"}
+{"text": "I need support for why verify identity. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "why_verify_identity"}
+{"text": "I need support for declined cash withdrawal. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "declined_cash_withdrawal"}
+{"text": "客户说：我主要遇到的是disposable / 银行卡 / 限制相关问题。用户语气比较着急，但意图仍然明确。", "label": "disposable_card_limits"}
+{"text": "客户说：我主要遇到的是why / 验证 / 身份验证相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "why_verify_identity"}
+{"text": "I need support for pending top up. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "pending_top_up"}
+{"text": "客户说：我主要遇到的是银行卡 / about / to / expire相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "card_about_to_expire"}
+{"text": "Mixed request: the user asks about fiat currency support; 中文补充：这件事和fiat / 币种 / 支持范围有关，不是闲聊。", "label": "fiat_currency_support"}
+{"text": "I need support for automatic top up. Ignore unrelated notes about travel, salary, or app design. Please classify the banking request.", "label": "automatic_top_up"}
+{"text": "Mixed request: the user asks about unable to verify identity; 中文补充：这件事和unable / to / 验证 / 身份验证有关，不是闲聊。", "label": "unable_to_verify_identity"}
+{"text": "Mixed request: the user asks about cash withdrawal not recognised; 中文补充：这件事和现金 / 取款 / 没有 / recognised有关，不是闲聊。", "label": "cash_withdrawal_not_recognised"}
+{"text": "客户说：我主要遇到的是转账 / 手续费 / charged相关问题。用户语气比较着急，但意图仍然明确。", "label": "transfer_fee_charged"}
+{"text": "I need support for activate my card. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "activate_my_card"}
+{"text": "Mixed request: the user asks about apple pay or google pay; 中文补充：这件事和Apple Pay / pay / or / Google Pay / pay有关，不是闲聊。", "label": "apple_pay_or_google_pay"}
+{"text": "Mixed request: the user asks about disposable card limits; 中文补充：这件事和disposable / 银行卡 / 限制有关，不是闲聊。", "label": "disposable_card_limits"}
+{"text": "I need support for top up limits. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "top_up_limits"}
+{"text": "客户说：我主要遇到的是处理中 / 银行卡 / 付款相关问题。里面可能夹杂旅游、工资或App体验，请按核心诉求判断。", "label": "pending_card_payment"}
+{"text": "I need support for transfer into account. Ignore unrelated notes about travel, salary, or app design. Please classify the banking request.", "label": "transfer_into_account"}
+{"text": "Mixed request: the user asks about card payment wrong exchange rate; 中文补充：这件事和银行卡 / 付款 / wrong / 汇率/换汇 / 汇率有关，不是闲聊。", "label": "card_payment_wrong_exchange_rate"}
+{"text": "Mixed request: the user asks about top up reverted; 中文补充：这件事和充值 / 入金 / 被退回有关，不是闲聊。", "label": "top_up_reverted"}
+{"text": "I need support for balance not updated after bank transfer. Ignore unrelated notes about travel, salary, or app design. Please classify the banking request.", "label": "balance_not_updated_after_bank_transfer"}
+{"text": "客户说：我主要遇到的是银行卡 / 配送 / 预计时间相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "card_delivery_estimate"}
+{"text": "I need support for top up failed. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "top_up_failed"}
+{"text": "Mixed request: the user asks about country support; 中文补充：这件事和国家/地区 / 支持范围有关，不是闲聊。", "label": "country_support"}
+{"text": "客户说：我主要遇到的是验证 / 充值 / 入金相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "verify_top_up"}
+{"text": "客户说：我主要遇到的是cancel / 转账相关问题。里面可能夹杂旅游、工资或App体验，请按核心诉求判断。", "label": "cancel_transfer"}
+{"text": "I need support for card swallowed. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "card_swallowed"}
+{"text": "Mixed request: the user asks about getting spare card; 中文补充：这件事和getting / spare / 银行卡有关，不是闲聊。", "label": "getting_spare_card"}
+{"text": "客户说：我主要遇到的是汇率/换汇 / 收费相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "exchange_charge"}
+{"text": "客户说：我主要遇到的是现金 / 取款 / 没有 / recognised相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "cash_withdrawal_not_recognised"}
+{"text": "I need support for cash withdrawal charge. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "cash_withdrawal_charge"}
+{"text": "客户说：我主要遇到的是收款人 / 没有 / allowed相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "beneficiary_not_allowed"}
+{"text": "客户说：我主要遇到的是银行卡 / 付款 / wrong / 汇率/换汇 / 汇率相关问题。里面可能夹杂旅游、工资或App体验，请按核心诉求判断。", "label": "card_payment_wrong_exchange_rate"}
+{"text": "客户说：我主要遇到的是ATM / 支持范围相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "atm_support"}
+{"text": "客户说：我主要遇到的是充值 / 入金 / 被退回相关问题。用户语气比较着急，但意图仍然明确。", "label": "top_up_reverted"}
+{"text": "客户说：我主要遇到的是丢失 / or / 被盗 / 银行卡相关问题。用户语气比较着急，但意图仍然明确。", "label": "lost_or_stolen_card"}
+{"text": "I need support for card acceptance. Ignore unrelated notes about travel, salary, or app design. Please classify the banking request.", "label": "card_acceptance"}
+{"text": "Mixed request: the user asks about exchange charge; 中文补充：这件事和汇率/换汇 / 收费有关，不是闲聊。", "label": "exchange_charge"}
+{"text": "Mixed request: the user asks about atm support; 中文补充：这件事和ATM / 支持范围有关，不是闲聊。", "label": "atm_support"}
+{"text": "客户说：我主要遇到的是edit / personal / details相关问题。用户语气比较着急，但意图仍然明确。", "label": "edit_personal_details"}
+{"text": "客户说：我主要遇到的是activate / my / 银行卡相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "activate_my_card"}
+{"text": "Mixed request: the user asks about top up by cash or cheque; 中文补充：这件事和充值 / 入金 / by / 现金 / or有关，不是闲聊。", "label": "top_up_by_cash_or_cheque"}
+{"text": "Mixed request: the user asks about card payment fee charged; 中文补充：这件事和银行卡 / 付款 / 手续费 / charged有关，不是闲聊。", "label": "card_payment_fee_charged"}
+{"text": "Mixed request: the user asks about extra charge on statement; 中文补充：这件事和extra / 收费 / on / 账单有关，不是闲聊。", "label": "extra_charge_on_statement"}
+{"text": "客户说：我主要遇到的是extra / 收费 / on / 账单相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "extra_charge_on_statement"}
+{"text": "客户说：我主要遇到的是免密/非接触支付 / 没有 / working相关问题。用户语气比较着急，但意图仍然明确。", "label": "contactless_not_working"}
+{"text": "I need support for pending card payment. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "pending_card_payment"}
+{"text": "I need support for pin blocked. Ignore unrelated notes about travel, salary, or app design. Please classify the banking request.", "label": "pin_blocked"}
+{"text": "I need support for lost or stolen phone. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "lost_or_stolen_phone"}
+{"text": "客户说：我主要遇到的是change / PIN码相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "change_pin"}
+{"text": "客户说：我主要遇到的是年龄 / 限制相关问题。用户语气比较着急，但意图仍然明确。", "label": "age_limit"}
+{"text": "Mixed request: the user asks about exchange via app; 中文补充：这件事和汇率/换汇 / via / app有关，不是闲聊。", "label": "exchange_via_app"}
+{"text": "I need support for getting virtual card. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "getting_virtual_card"}
+{"text": "Mixed request: the user asks about verify my identity; 中文补充：这件事和验证 / my / 身份验证有关，不是闲聊。", "label": "verify_my_identity"}
+{"text": "Mixed request: the user asks about transfer into account; 中文补充：这件事和转账 / into / 账户有关，不是闲聊。", "label": "transfer_into_account"}
+{"text": "客户说：我主要遇到的是failed / 转账相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "failed_transfer"}
+{"text": "I need support for fiat currency support. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "fiat_currency_support"}
+{"text": "客户说：我主要遇到的是充值 / 入金 / 限制相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "top_up_limits"}
+{"text": "客户说：我主要遇到的是丢失 / or / 被盗 / 手机相关问题。用户语气比较着急，但意图仍然明确。", "label": "lost_or_stolen_phone"}
+{"text": "I need support for balance not updated after cheque or cash deposit. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"text": "I need support for edit personal details. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "edit_personal_details"}
+{"text": "客户说：我主要遇到的是登录密码 / forgotten相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "passcode_forgotten"}
+{"text": "客户说：我主要遇到的是supported / cards / and / 币种相关问题。里面可能夹杂旅游、工资或App体验，请按核心诉求判断。", "label": "supported_cards_and_currencies"}
+{"text": "客户说：我主要遇到的是get / disposable / 虚拟卡 / 银行卡相关问题。用户语气比较着急，但意图仍然明确。", "label": "get_disposable_virtual_card"}
+{"text": "客户说：我主要遇到的是虚拟卡 / 银行卡 / 没有 / working相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "virtual_card_not_working"}
+{"text": "Mixed request: the user asks about top up by card charge; 中文补充：这件事和充值 / 入金 / by / 银行卡 / 收费有关，不是闲聊。", "label": "top_up_by_card_charge"}
+{"text": "I need support for receiving money. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "receiving_money"}
+{"text": "客户说：我主要遇到的是transaction / charged / twice相关问题。用户语气比较着急，但意图仍然明确。", "label": "transaction_charged_twice"}
+{"text": "客户说：我主要遇到的是银行卡 / acceptance相关问题。里面可能夹杂旅游、工资或App体验，请按核心诉求判断。", "label": "card_acceptance"}
+{"text": "Mixed request: the user asks about change pin; 中文补充：这件事和change / PIN码有关，不是闲聊。", "label": "change_pin"}
+{"text": "I need support for card linking. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "card_linking"}
+{"text": "Mixed request: the user asks about request refund; 中文补充：这件事和request / 退款有关，不是闲聊。", "label": "request_refund"}
+{"text": "客户说：我主要遇到的是getting / 虚拟卡 / 银行卡相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "getting_virtual_card"}
+{"text": "客户说：我主要遇到的是处理中 / 现金 / 取款相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "pending_cash_withdrawal"}
+{"text": "客户说：我主要遇到的是get / 实体卡 / 银行卡相关问题。用户语气比较着急，但意图仍然明确。", "label": "get_physical_card"}
+{"text": "I need support for transfer not received by recipient. Ignore unrelated notes about travel, salary, or app design. Please classify the banking request.", "label": "transfer_not_received_by_recipient"}
+{"text": "I need support for visa or mastercard. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "visa_or_mastercard"}
+{"text": "Mixed request: the user asks about why verify identity; 中文补充：这件事和why / 验证 / 身份验证有关，不是闲聊。", "label": "why_verify_identity"}
+{"text": "客户说：我主要遇到的是被退回 / 银行卡 / 付款相关问题。用户语气比较着急，但意图仍然明确。", "label": "reverted_card_payment?"}
+{"text": "客户说：我主要遇到的是Visa / or / Mastercard相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "visa_or_mastercard"}
+{"text": "I need support for top up by card charge. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "top_up_by_card_charge"}
+{"text": "客户说：我主要遇到的是automatic / 充值 / 入金相关问题。用户语气比较着急，但意图仍然明确。", "label": "automatic_top_up"}
+{"text": "Mixed request: the user asks about transfer fee charged; 中文补充：这件事和转账 / 手续费 / charged有关，不是闲聊。", "label": "transfer_fee_charged"}
+{"text": "Mixed request: the user asks about receiving money; 中文补充：这件事和receiving / money有关，不是闲聊。", "label": "receiving_money"}
+{"text": "Mixed request: the user asks about lost or stolen phone; 中文补充：这件事和丢失 / or / 被盗 / 手机有关，不是闲聊。", "label": "lost_or_stolen_phone"}
+{"text": "Mixed request: the user asks about card not working; 中文补充：这件事和银行卡 / 没有 / working有关，不是闲聊。", "label": "card_not_working"}
+{"text": "Mixed request: the user asks about lost or stolen card; 中文补充：这件事和丢失 / or / 被盗 / 银行卡有关，不是闲聊。", "label": "lost_or_stolen_card"}
+{"text": "Mixed request: the user asks about topping up by card; 中文补充：这件事和topping / 入金 / by / 银行卡有关，不是闲聊。", "label": "topping_up_by_card"}
+{"text": "Mixed request: the user asks about transfer timing; 中文补充：这件事和转账 / timing有关，不是闲聊。", "label": "transfer_timing"}
+{"text": "I need support for supported cards and currencies. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "supported_cards_and_currencies"}
+{"text": "Mixed request: the user asks about order physical card; 中文补充：这件事和order / 实体卡 / 银行卡有关，不是闲聊。", "label": "order_physical_card"}
+{"text": "I need support for card payment wrong exchange rate. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "card_payment_wrong_exchange_rate"}
+{"text": "Mixed request: the user asks about compromised card; 中文补充：这件事和compromised / 银行卡有关，不是闲聊。", "label": "compromised_card"}
+{"text": "I need support for failed transfer. The message includes two facts, but only one is the service request. Please classify the banking request.", "label": "failed_transfer"}
+{"text": "客户说：我主要遇到的是receiving / money相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "receiving_money"}
+{"text": "客户说：我主要遇到的是compromised / 银行卡相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "compromised_card"}
+{"text": "I need support for compromised card. Ignore unrelated notes about travel, salary, or app design. Please classify the banking request.", "label": "compromised_card"}
+{"text": "Mixed request: the user asks about exchange rate; 中文补充：这件事和汇率/换汇 / 汇率有关，不是闲聊。", "label": "exchange_rate"}
+{"text": "客户说：我主要遇到的是充值 / 入金 / by / bank / 转账相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "top_up_by_bank_transfer_charge"}
+{"text": "I need support for exchange rate. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "exchange_rate"}
+{"text": "I need support for wrong amount of cash received. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "wrong_amount_of_cash_received"}
+{"text": "Mixed request: the user asks about cancel transfer; 中文补充：这件事和cancel / 转账有关，不是闲聊。", "label": "cancel_transfer"}
+{"text": "I need support for Refund not showing up. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "Refund_not_showing_up"}
+{"text": "Mixed request: the user asks about beneficiary not allowed; 中文补充：这件事和收款人 / 没有 / allowed有关，不是闲聊。", "label": "beneficiary_not_allowed"}
+{"text": "Mixed request: the user asks about transfer not received by recipient; 中文补充：这件事和转账 / 没有 / received / by / recipient有关，不是闲聊。", "label": "transfer_not_received_by_recipient"}
+{"text": "Mixed request: the user asks about wrong exchange rate for cash withdrawal; 中文补充：这件事和wrong / 汇率/换汇 / 汇率 / for / 现金有关，不是闲聊。", "label": "wrong_exchange_rate_for_cash_withdrawal"}
+{"text": "客户说：我主要遇到的是银行卡 / 付款 / 手续费 / charged相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "card_payment_fee_charged"}
+{"text": "I need support for top up by cash or cheque. The message includes two facts, but only one is the service request. Please classify the banking request.", "label": "top_up_by_cash_or_cheque"}
+{"text": "客户说：我主要遇到的是银行卡 / linking相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "card_linking"}
+{"text": "Mixed request: the user asks about balance not updated after bank transfer; 中文补充：这件事和balance / 没有 / updated / after / bank有关，不是闲聊。", "label": "balance_not_updated_after_bank_transfer"}
+{"text": "Mixed request: the user asks about balance not updated after cheque or cash deposit; 中文补充：这件事和balance / 没有 / updated / after / 支票有关，不是闲聊。", "label": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"text": "Mixed request: the user asks about Refund not showing up; 中文补充：这件事和退款 / 没有 / showing / 入金有关，不是闲聊。", "label": "Refund_not_showing_up"}
+{"text": "客户说：我主要遇到的是银行卡 / 没有 / working相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "card_not_working"}
+{"text": "Mixed request: the user asks about declined cash withdrawal; 中文补充：这件事和被拒绝 / 现金 / 取款有关，不是闲聊。", "label": "declined_cash_withdrawal"}
+{"text": "客户说：我主要遇到的是balance / 没有 / updated / after / 支票相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "balance_not_updated_after_cheque_or_cash_deposit"}
+{"text": "Mixed request: the user asks about automatic top up; 中文补充：这件事和automatic / 充值 / 入金有关，不是闲聊。", "label": "automatic_top_up"}
+{"text": "I need support for card delivery estimate. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "card_delivery_estimate"}
+{"text": "Mixed request: the user asks about virtual card not working; 中文补充：这件事和虚拟卡 / 银行卡 / 没有 / working有关，不是闲聊。", "label": "virtual_card_not_working"}
+{"text": "客户说：我主要遇到的是转账 / timing相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "transfer_timing"}
+{"text": "客户说：我主要遇到的是PIN码 / blocked相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "pin_blocked"}
+{"text": "Mixed request: the user asks about pending cash withdrawal; 中文补充：这件事和处理中 / 现金 / 取款有关，不是闲聊。", "label": "pending_cash_withdrawal"}
+{"text": "I need support for apple pay or google pay. The message includes two facts, but only one is the service request. Please classify the banking request.", "label": "apple_pay_or_google_pay"}
+{"text": "Mixed request: the user asks about transaction charged twice; 中文补充：这件事和transaction / charged / twice有关，不是闲聊。", "label": "transaction_charged_twice"}
+{"text": "Mixed request: the user asks about edit personal details; 中文补充：这件事和edit / personal / details有关，不是闲聊。", "label": "edit_personal_details"}
+{"text": "Mixed request: the user asks about failed transfer; 中文补充：这件事和failed / 转账有关，不是闲聊。", "label": "failed_transfer"}
+{"text": "Mixed request: the user asks about reverted card payment; 中文补充：这件事和被退回 / 银行卡 / 付款有关，不是闲聊。", "label": "reverted_card_payment?"}
+{"text": "Mixed request: the user asks about passcode forgotten; 中文补充：这件事和登录密码 / forgotten有关，不是闲聊。", "label": "passcode_forgotten"}
+{"text": "I need support for transaction charged twice. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "transaction_charged_twice"}
+{"text": "客户说：我主要遇到的是充值 / 入金 / by / 现金 / or相关问题。虽然提到最近消费，但核心问题不是普通消费查询。", "label": "top_up_by_cash_or_cheque"}
+{"text": "I need support for contactless not working. The message includes two facts, but only one is the service request. Please classify the banking request.", "label": "contactless_not_working"}
+{"text": "I need support for top up reverted. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "top_up_reverted"}
+{"text": "客户说：我主要遇到的是被拒绝 / 银行卡 / 付款相关问题。用户语气比较着急，但意图仍然明确。", "label": "declined_card_payment"}
+{"text": "客户说：我主要遇到的是被拒绝 / 转账相关问题。里面可能夹杂旅游、工资或App体验，请按核心诉求判断。", "label": "declined_transfer"}
+{"text": "I need support for terminate account. Ignore unrelated notes about travel, salary, or app design. Please classify the banking request.", "label": "terminate_account"}
+{"text": "I need support for card arrival. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "card_arrival"}
+{"text": "I need support for get physical card. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "get_physical_card"}
+{"text": "Mixed request: the user asks about direct debit payment not recognised; 中文补充：这件事和direct / debit / 付款 / 没有 / recognised有关，不是闲聊。", "label": "direct_debit_payment_not_recognised"}
+{"text": "客户说：我主要遇到的是汇率/换汇 / via / app相关问题。里面可能夹杂旅游、工资或App体验，请按核心诉求判断。", "label": "exchange_via_app"}
+{"text": "I need support for pending transfer. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "pending_transfer"}
+{"text": "I need support for exchange charge. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "exchange_charge"}
+{"text": "Mixed request: the user asks about pending transfer; 中文补充：这件事和处理中 / 转账有关，不是闲聊。", "label": "pending_transfer"}
+{"text": "I need support for get disposable virtual card. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "get_disposable_virtual_card"}
+{"text": "客户说：我主要遇到的是转账 / 没有 / received / by / recipient相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "transfer_not_received_by_recipient"}
+{"text": "I need support for disposable card limits. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "disposable_card_limits"}
+{"text": "Mixed request: the user asks about supported cards and currencies; 中文补充：这件事和supported / cards / and / 币种有关，不是闲聊。", "label": "supported_cards_and_currencies"}
+{"text": "I need support for transfer fee charged. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "transfer_fee_charged"}
+{"text": "I need support for card not working. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "card_not_working"}
+{"text": "Mixed request: the user asks about card acceptance; 中文补充：这件事和银行卡 / acceptance有关，不是闲聊。", "label": "card_acceptance"}
+{"text": "I need support for passcode forgotten. The message includes two facts, but only one is the service request. Please classify the banking request.", "label": "passcode_forgotten"}
+{"text": "I need support for request refund. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "request_refund"}
+{"text": "I need support for beneficiary not allowed. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "beneficiary_not_allowed"}
+{"text": "I need support for lost or stolen card. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "lost_or_stolen_card"}
+{"text": "客户说：我主要遇到的是Apple Pay / pay / or / Google Pay / pay相关问题。文本有多个事实，请选择最主要的业务问题。", "label": "apple_pay_or_google_pay"}
+{"text": "客户说：我主要遇到的是unable / to / 验证 / 身份验证相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "unable_to_verify_identity"}
+{"text": "I need support for card payment not recognised. Ignore unrelated notes about travel, salary, or app design. Please classify the banking request.", "label": "card_payment_not_recognised"}
+{"text": "Mixed request: the user asks about getting virtual card; 中文补充：这件事和getting / 虚拟卡 / 银行卡有关，不是闲聊。", "label": "getting_virtual_card"}
+{"text": "I need support for country support. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "country_support"}
+{"text": "Mixed request: the user asks about pending card payment; 中文补充：这件事和处理中 / 银行卡 / 付款有关，不是闲聊。", "label": "pending_card_payment"}
+{"text": "I need support for topping up by card. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "topping_up_by_card"}
+{"text": "客户说：我主要遇到的是银行卡 / 付款 / 没有 / recognised相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "card_payment_not_recognised"}
+{"text": "Mixed request: the user asks about get physical card; 中文补充：这件事和get / 实体卡 / 银行卡有关，不是闲聊。", "label": "get_physical_card"}
+{"text": "Mixed request: the user asks about cash withdrawal charge; 中文补充：这件事和现金 / 取款 / 收费有关，不是闲聊。", "label": "cash_withdrawal_charge"}
+{"text": "Mixed request: the user asks about top up by bank transfer charge; 中文补充：这件事和充值 / 入金 / by / bank / 转账有关，不是闲聊。", "label": "top_up_by_bank_transfer_charge"}
+{"text": "Mixed request: the user asks about top up limits; 中文补充：这件事和充值 / 入金 / 限制有关，不是闲聊。", "label": "top_up_limits"}
+{"text": "I need support for age limit. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "age_limit"}
+{"text": "I need support for card payment fee charged. The account balance and app notifications may be mentioned, but they are background details. Please classify the banking request.", "label": "card_payment_fee_charged"}
+{"text": "Mixed request: the user asks about wrong amount of cash received; 中文补充：这件事和wrong / amount / of / 现金 / received有关，不是闲聊。", "label": "wrong_amount_of_cash_received"}
+{"text": "客户说：我主要遇到的是balance / 没有 / updated / after / bank相关问题。短信提醒和余额只是背景信息，不是主要诉求。", "label": "balance_not_updated_after_bank_transfer"}
+{"text": "I need support for change pin. The customer is anxious and uses informal wording. Please classify the banking request.", "label": "change_pin"}
+{"text": "Mixed request: the user asks about pin blocked; 中文补充：这件事和PIN码 / blocked有关，不是闲聊。", "label": "pin_blocked"}
+{"text": "I need support for atm support. There may also be a recent card payment, but it is not the main issue. Please classify the banking request.", "label": "atm_support"}

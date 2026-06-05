@@ -1,0 +1,90 @@
+{"text": "financial operations exception routing ticket: the main issue is manual journal review. Mentioned side notes are only context.", "label": "FIN__MANUAL_JOURNAL_REVIEW"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says subscription proration error.", "label": "FIN__SUBSCRIPTION_PRORATION_ERROR"}
+{"text": "financial operations exception routing ticket: the main issue is cash application suspense. Mentioned side notes are only context.", "label": "FIN__CASH_APPLICATION_SUSPENSE"}
+{"text": "financial operations exception routing ticket: the main issue is remittance advice missing. Mentioned side notes are only context.", "label": "FIN__REMITTANCE_ADVICE_MISSING"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says payment batch cut off.", "label": "FIN__PAYMENT_BATCH_CUT_OFF"}
+{"text": "Route this case by its primary operational risk: purchase order overrun. Do not classify by the reporter's emotion.", "label": "FIN__PURCHASE_ORDER_OVERRUN"}
+{"text": "financial operations exception routing ticket: the main issue is duplicate invoice detected. Mentioned side notes are only context.", "label": "FIN__DUPLICATE_INVOICE_DETECTED"}
+{"text": "financial operations exception routing ticket: the main issue is incorrect legal entity. Mentioned side notes are only context.", "label": "FIN__INCORRECT_LEGAL_ENTITY"}
+{"text": "Route this case by its primary operational risk: payment batch cut off. Do not classify by the reporter's emotion.", "label": "FIN__PAYMENT_BATCH_CUT_OFF"}
+{"text": "Route this case by its primary operational risk: manual journal review. Do not classify by the reporter's emotion.", "label": "FIN__MANUAL_JOURNAL_REVIEW"}
+{"text": "financial operations exception routing ticket: the main issue is tax code mismatch. Mentioned side notes are only context.", "label": "FIN__TAX_CODE_MISMATCH"}
+{"text": "Route this case by its primary operational risk: subscription proration error. Do not classify by the reporter's emotion.", "label": "FIN__SUBSCRIPTION_PRORATION_ERROR"}
+{"text": "Route this case by its primary operational risk: late payment penalty dispute. Do not classify by the reporter's emotion.", "label": "FIN__LATE_PAYMENT_PENALTY_DISPUTE"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says refund approval threshold.", "label": "FIN__REFUND_APPROVAL_THRESHOLD"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says manual journal review.", "label": "FIN__MANUAL_JOURNAL_REVIEW"}
+{"text": "financial operations exception routing ticket: the main issue is fx settlement variance. Mentioned side notes are only context.", "label": "FIN__FX_SETTLEMENT_VARIANCE"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says aged receivable escalation.", "label": "FIN__AGED_RECEIVABLE_ESCALATION"}
+{"text": "financial operations exception routing ticket: the main issue is invoice approver conflict. Mentioned side notes are only context.", "label": "FIN__INVOICE_APPROVER_CONFLICT"}
+{"text": "financial operations exception routing ticket: the main issue is aged receivable escalation. Mentioned side notes are only context.", "label": "FIN__AGED_RECEIVABLE_ESCALATION"}
+{"text": "Route this case by its primary operational risk: unapproved discount applied. Do not classify by the reporter's emotion.", "label": "FIN__UNAPPROVED_DISCOUNT_APPLIED"}
+{"text": "financial operations exception routing ticket: the main issue is chargeback evidence needed. Mentioned side notes are only context.", "label": "FIN__CHARGEBACK_EVIDENCE_NEEDED"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近发票/付款异常；英文摘要 says cash application suspense.", "label": "FIN__CASH_APPLICATION_SUSPENSE"}
+{"text": "financial operations exception routing ticket: the main issue is purchase order overrun. Mentioned side notes are only context.", "label": "FIN__PURCHASE_ORDER_OVERRUN"}
+{"text": "financial operations exception routing ticket: the main issue is late payment penalty dispute. Mentioned side notes are only context.", "label": "FIN__LATE_PAYMENT_PENALTY_DISPUTE"}
+{"text": "Route this case by its primary operational risk: incorrect legal entity. Do not classify by the reporter's emotion.", "label": "FIN__INCORRECT_LEGAL_ENTITY"}
+{"text": "Route this case by its primary operational risk: refund approval threshold. Do not classify by the reporter's emotion.", "label": "FIN__REFUND_APPROVAL_THRESHOLD"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近发票/付款异常；英文摘要 says billing address mismatch.", "label": "FIN__BILLING_ADDRESS_MISMATCH"}
+{"text": "financial operations exception routing ticket: the main issue is intercompany mismatch. Mentioned side notes are only context.", "label": "FIN__INTERCOMPANY_MISMATCH"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says withholding tax exception.", "label": "FIN__WITHHOLDING_TAX_EXCEPTION"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近税务或结算差异；英文摘要 says failed ach payment.", "label": "FIN__FAILED_ACH_PAYMENT"}
+{"text": "Route this case by its primary operational risk: fx settlement variance. Do not classify by the reporter's emotion.", "label": "FIN__FX_SETTLEMENT_VARIANCE"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近税务或结算差异；英文摘要 says duplicate invoice detected.", "label": "FIN__DUPLICATE_INVOICE_DETECTED"}
+{"text": "Route this case by its primary operational risk: credit memo missing. Do not classify by the reporter's emotion.", "label": "FIN__CREDIT_MEMO_MISSING"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says unapproved discount applied.", "label": "FIN__UNAPPROVED_DISCOUNT_APPLIED"}
+{"text": "Route this case by its primary operational risk: duplicate invoice detected. Do not classify by the reporter's emotion.", "label": "FIN__DUPLICATE_INVOICE_DETECTED"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近税务或结算差异；英文摘要 says payment reversal request.", "label": "FIN__PAYMENT_REVERSAL_REQUEST"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近税务或结算差异；英文摘要 says procurement card misuse.", "label": "FIN__PROCUREMENT_CARD_MISUSE"}
+{"text": "financial operations exception routing ticket: the main issue is failed ach payment. Mentioned side notes are only context.", "label": "FIN__FAILED_ACH_PAYMENT"}
+{"text": "Route this case by its primary operational risk: vendor bank change review. Do not classify by the reporter's emotion.", "label": "FIN__VENDOR_BANK_CHANGE_REVIEW"}
+{"text": "Route this case by its primary operational risk: royalty calculation dispute. Do not classify by the reporter's emotion.", "label": "FIN__ROYALTY_CALCULATION_DISPUTE"}
+{"text": "Route this case by its primary operational risk: chargeback evidence needed. Do not classify by the reporter's emotion.", "label": "FIN__CHARGEBACK_EVIDENCE_NEEDED"}
+{"text": "financial operations exception routing ticket: the main issue is unapproved discount applied. Mentioned side notes are only context.", "label": "FIN__UNAPPROVED_DISCOUNT_APPLIED"}
+{"text": "financial operations exception routing ticket: the main issue is billing address mismatch. Mentioned side notes are only context.", "label": "FIN__BILLING_ADDRESS_MISMATCH"}
+{"text": "financial operations exception routing ticket: the main issue is procurement card misuse. Mentioned side notes are only context.", "label": "FIN__PROCUREMENT_CARD_MISUSE"}
+{"text": "financial operations exception routing ticket: the main issue is withholding tax exception. Mentioned side notes are only context.", "label": "FIN__WITHHOLDING_TAX_EXCEPTION"}
+{"text": "financial operations exception routing ticket: the main issue is refund approval threshold. Mentioned side notes are only context.", "label": "FIN__REFUND_APPROVAL_THRESHOLD"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says chargeback evidence needed.", "label": "FIN__CHARGEBACK_EVIDENCE_NEEDED"}
+{"text": "Route this case by its primary operational risk: refund duplicate risk. Do not classify by the reporter's emotion.", "label": "FIN__REFUND_DUPLICATE_RISK"}
+{"text": "financial operations exception routing ticket: the main issue is royalty calculation dispute. Mentioned side notes are only context.", "label": "FIN__ROYALTY_CALCULATION_DISPUTE"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says budget owner missing.", "label": "FIN__BUDGET_OWNER_MISSING"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says refund duplicate risk.", "label": "FIN__REFUND_DUPLICATE_RISK"}
+{"text": "financial operations exception routing ticket: the main issue is subscription proration error. Mentioned side notes are only context.", "label": "FIN__SUBSCRIPTION_PRORATION_ERROR"}
+{"text": "Route this case by its primary operational risk: billing address mismatch. Do not classify by the reporter's emotion.", "label": "FIN__BILLING_ADDRESS_MISMATCH"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says incorrect legal entity.", "label": "FIN__INCORRECT_LEGAL_ENTITY"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says remittance advice missing.", "label": "FIN__REMITTANCE_ADVICE_MISSING"}
+{"text": "financial operations exception routing ticket: the main issue is payment batch cut off. Mentioned side notes are only context.", "label": "FIN__PAYMENT_BATCH_CUT_OFF"}
+{"text": "Route this case by its primary operational risk: procurement card misuse. Do not classify by the reporter's emotion.", "label": "FIN__PROCUREMENT_CARD_MISUSE"}
+{"text": "Route this case by its primary operational risk: cash application suspense. Do not classify by the reporter's emotion.", "label": "FIN__CASH_APPLICATION_SUSPENSE"}
+{"text": "Route this case by its primary operational risk: payment reversal request. Do not classify by the reporter's emotion.", "label": "FIN__PAYMENT_REVERSAL_REQUEST"}
+{"text": "Route this case by its primary operational risk: tax code mismatch. Do not classify by the reporter's emotion.", "label": "FIN__TAX_CODE_MISMATCH"}
+{"text": "Route this case by its primary operational risk: aged receivable escalation. Do not classify by the reporter's emotion.", "label": "FIN__AGED_RECEIVABLE_ESCALATION"}
+{"text": "financial operations exception routing ticket: the main issue is sanctions screening hit. Mentioned side notes are only context.", "label": "FIN__SANCTIONS_SCREENING_HIT"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says vendor bank change review.", "label": "FIN__VENDOR_BANK_CHANGE_REVIEW"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近发票/付款异常；英文摘要 says invoice approver conflict.", "label": "FIN__INVOICE_APPROVER_CONFLICT"}
+{"text": "Route this case by its primary operational risk: expense policy violation. Do not classify by the reporter's emotion.", "label": "FIN__EXPENSE_POLICY_VIOLATION"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says sanctions screening hit.", "label": "FIN__SANCTIONS_SCREENING_HIT"}
+{"text": "financial operations exception routing ticket: the main issue is vendor bank change review. Mentioned side notes are only context.", "label": "FIN__VENDOR_BANK_CHANGE_REVIEW"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近税务或结算差异；英文摘要 says late payment penalty dispute.", "label": "FIN__LATE_PAYMENT_PENALTY_DISPUTE"}
+{"text": "financial operations exception routing ticket: the main issue is payment reversal request. Mentioned side notes are only context.", "label": "FIN__PAYMENT_REVERSAL_REQUEST"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近税务或结算差异；英文摘要 says credit memo missing.", "label": "FIN__CREDIT_MEMO_MISSING"}
+{"text": "Route this case by its primary operational risk: invoice approver conflict. Do not classify by the reporter's emotion.", "label": "FIN__INVOICE_APPROVER_CONFLICT"}
+{"text": "Route this case by its primary operational risk: revenue recognition hold. Do not classify by the reporter's emotion.", "label": "FIN__REVENUE_RECOGNITION_HOLD"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says revenue recognition hold.", "label": "FIN__REVENUE_RECOGNITION_HOLD"}
+{"text": "Route this case by its primary operational risk: budget owner missing. Do not classify by the reporter's emotion.", "label": "FIN__BUDGET_OWNER_MISSING"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近发票/付款异常；英文摘要 says royalty calculation dispute.", "label": "FIN__ROYALTY_CALCULATION_DISPUTE"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says fx settlement variance.", "label": "FIN__FX_SETTLEMENT_VARIANCE"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近发票/付款异常；英文摘要 says purchase order overrun.", "label": "FIN__PURCHASE_ORDER_OVERRUN"}
+{"text": "financial operations exception routing ticket: the main issue is credit memo missing. Mentioned side notes are only context.", "label": "FIN__CREDIT_MEMO_MISSING"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近发票/付款异常；英文摘要 says expense policy violation.", "label": "FIN__EXPENSE_POLICY_VIOLATION"}
+{"text": "Route this case by its primary operational risk: intercompany mismatch. Do not classify by the reporter's emotion.", "label": "FIN__INTERCOMPANY_MISMATCH"}
+{"text": "Route this case by its primary operational risk: withholding tax exception. Do not classify by the reporter's emotion.", "label": "FIN__WITHHOLDING_TAX_EXCEPTION"}
+{"text": "financial operations exception routing ticket: the main issue is expense policy violation. Mentioned side notes are only context.", "label": "FIN__EXPENSE_POLICY_VIOLATION"}
+{"text": "Route this case by its primary operational risk: remittance advice missing. Do not classify by the reporter's emotion.", "label": "FIN__REMITTANCE_ADVICE_MISSING"}
+{"text": "Route this case by its primary operational risk: sanctions screening hit. Do not classify by the reporter's emotion.", "label": "FIN__SANCTIONS_SCREENING_HIT"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says tax code mismatch.", "label": "FIN__TAX_CODE_MISMATCH"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says intercompany mismatch.", "label": "FIN__INTERCOMPANY_MISMATCH"}
+{"text": "financial operations exception routing ticket: the main issue is budget owner missing. Mentioned side notes are only context.", "label": "FIN__BUDGET_OWNER_MISSING"}
+{"text": "financial operations exception routing ticket: the main issue is revenue recognition hold. Mentioned side notes are only context.", "label": "FIN__REVENUE_RECOGNITION_HOLD"}
+{"text": "Route this case by its primary operational risk: failed ach payment. Do not classify by the reporter's emotion.", "label": "FIN__FAILED_ACH_PAYMENT"}
+{"text": "financial operations exception routing ticket: the main issue is refund duplicate risk. Mentioned side notes are only context.", "label": "FIN__REFUND_DUPLICATE_RISK"}

@@ -1,0 +1,90 @@
+{"text": "logistics supply chain exception routing ticket: the main issue is pallet overage discovered. Mentioned side notes are only context.", "label": "LOG__PALLET_OVERAGE_DISCOVERED"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近货物差异；英文摘要 says backorder priority conflict.", "label": "LOG__BACKORDER_PRIORITY_CONFLICT"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近货物差异；英文摘要 says dock door congestion.", "label": "LOG__DOCK_DOOR_CONGESTION"}
+{"text": "Route this case by its primary operational risk: lot traceability gap. Do not classify by the reporter's emotion.", "label": "LOG__LOT_TRACEABILITY_GAP"}
+{"text": "Route this case by its primary operational risk: split shipment reconciliation. Do not classify by the reporter's emotion.", "label": "LOG__SPLIT_SHIPMENT_RECONCILIATION"}
+{"text": "logistics supply chain exception routing ticket: the main issue is return authorization mismatch. Mentioned side notes are only context.", "label": "LOG__RETURN_AUTHORIZATION_MISMATCH"}
+{"text": "Route this case by its primary operational risk: package dimension mismatch. Do not classify by the reporter's emotion.", "label": "LOG__PACKAGE_DIMENSION_MISMATCH"}
+{"text": "logistics supply chain exception routing ticket: the main issue is freight invoice discrepancy. Mentioned side notes are only context.", "label": "LOG__FREIGHT_INVOICE_DISCREPANCY"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says address validation failure.", "label": "LOG__ADDRESS_VALIDATION_FAILURE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近仓库问题；英文摘要 says supplier capacity shortage.", "label": "LOG__SUPPLIER_CAPACITY_SHORTAGE"}
+{"text": "logistics supply chain exception routing ticket: the main issue is warehouse system outage. Mentioned side notes are only context.", "label": "LOG__WAREHOUSE_SYSTEM_OUTAGE"}
+{"text": "Route this case by its primary operational risk: supplier capacity shortage. Do not classify by the reporter's emotion.", "label": "LOG__SUPPLIER_CAPACITY_SHORTAGE"}
+{"text": "Route this case by its primary operational risk: container seal discrepancy. Do not classify by the reporter's emotion.", "label": "LOG__CONTAINER_SEAL_DISCREPANCY"}
+{"text": "logistics supply chain exception routing ticket: the main issue is international duty dispute. Mentioned side notes are only context.", "label": "LOG__INTERNATIONAL_DUTY_DISPUTE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says cold chain temperature breach.", "label": "LOG__COLD_CHAIN_TEMPERATURE_BREACH"}
+{"text": "logistics supply chain exception routing ticket: the main issue is truck appointment missed. Mentioned side notes are only context.", "label": "LOG__TRUCK_APPOINTMENT_MISSED"}
+{"text": "logistics supply chain exception routing ticket: the main issue is expedited shipping request. Mentioned side notes are only context.", "label": "LOG__EXPEDITED_SHIPPING_REQUEST"}
+{"text": "Route this case by its primary operational risk: inventory cycle count variance. Do not classify by the reporter's emotion.", "label": "LOG__INVENTORY_CYCLE_COUNT_VARIANCE"}
+{"text": "Route this case by its primary operational risk: wrong warehouse dispatch. Do not classify by the reporter's emotion.", "label": "LOG__WRONG_WAREHOUSE_DISPATCH"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says route weather delay.", "label": "LOG__ROUTE_WEATHER_DELAY"}
+{"text": "Route this case by its primary operational risk: temperature logger missing. Do not classify by the reporter's emotion.", "label": "LOG__TEMPERATURE_LOGGER_MISSING"}
+{"text": "logistics supply chain exception routing ticket: the main issue is wrong warehouse dispatch. Mentioned side notes are only context.", "label": "LOG__WRONG_WAREHOUSE_DISPATCH"}
+{"text": "logistics supply chain exception routing ticket: the main issue is damaged goods report. Mentioned side notes are only context.", "label": "LOG__DAMAGED_GOODS_REPORT"}
+{"text": "Route this case by its primary operational risk: carrier no scan. Do not classify by the reporter's emotion.", "label": "LOG__CARRIER_NO_SCAN"}
+{"text": "Route this case by its primary operational risk: address validation failure. Do not classify by the reporter's emotion.", "label": "LOG__ADDRESS_VALIDATION_FAILURE"}
+{"text": "Route this case by its primary operational risk: freight invoice discrepancy. Do not classify by the reporter's emotion.", "label": "LOG__FREIGHT_INVOICE_DISCREPANCY"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says freight invoice discrepancy.", "label": "LOG__FREIGHT_INVOICE_DISCREPANCY"}
+{"text": "logistics supply chain exception routing ticket: the main issue is partial shipment shortfall. Mentioned side notes are only context.", "label": "LOG__PARTIAL_SHIPMENT_SHORTFALL"}
+{"text": "logistics supply chain exception routing ticket: the main issue is recall hold required. Mentioned side notes are only context.", "label": "LOG__RECALL_HOLD_REQUIRED"}
+{"text": "logistics supply chain exception routing ticket: the main issue is carrier no scan. Mentioned side notes are only context.", "label": "LOG__CARRIER_NO_SCAN"}
+{"text": "logistics supply chain exception routing ticket: the main issue is split shipment reconciliation. Mentioned side notes are only context.", "label": "LOG__SPLIT_SHIPMENT_RECONCILIATION"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近货物差异；英文摘要 says late port clearance.", "label": "LOG__LATE_PORT_CLEARANCE"}
+{"text": "Route this case by its primary operational risk: truck appointment missed. Do not classify by the reporter's emotion.", "label": "LOG__TRUCK_APPOINTMENT_MISSED"}
+{"text": "logistics supply chain exception routing ticket: the main issue is route weather delay. Mentioned side notes are only context.", "label": "LOG__ROUTE_WEATHER_DELAY"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says partial shipment shortfall.", "label": "LOG__PARTIAL_SHIPMENT_SHORTFALL"}
+{"text": "logistics supply chain exception routing ticket: the main issue is last mile failed attempt. Mentioned side notes are only context.", "label": "LOG__LAST_MILE_FAILED_ATTEMPT"}
+{"text": "logistics supply chain exception routing ticket: the main issue is cold chain temperature breach. Mentioned side notes are only context.", "label": "LOG__COLD_CHAIN_TEMPERATURE_BREACH"}
+{"text": "logistics supply chain exception routing ticket: the main issue is dock door congestion. Mentioned side notes are only context.", "label": "LOG__DOCK_DOOR_CONGESTION"}
+{"text": "logistics supply chain exception routing ticket: the main issue is lot traceability gap. Mentioned side notes are only context.", "label": "LOG__LOT_TRACEABILITY_GAP"}
+{"text": "Route this case by its primary operational risk: late port clearance. Do not classify by the reporter's emotion.", "label": "LOG__LATE_PORT_CLEARANCE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says last mile failed attempt.", "label": "LOG__LAST_MILE_FAILED_ATTEMPT"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近仓库问题；英文摘要 says pallet overage discovered.", "label": "LOG__PALLET_OVERAGE_DISCOVERED"}
+{"text": "logistics supply chain exception routing ticket: the main issue is package dimension mismatch. Mentioned side notes are only context.", "label": "LOG__PACKAGE_DIMENSION_MISMATCH"}
+{"text": "Route this case by its primary operational risk: partial shipment shortfall. Do not classify by the reporter's emotion.", "label": "LOG__PARTIAL_SHIPMENT_SHORTFALL"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says international duty dispute.", "label": "LOG__INTERNATIONAL_DUTY_DISPUTE"}
+{"text": "logistics supply chain exception routing ticket: the main issue is supplier capacity shortage. Mentioned side notes are only context.", "label": "LOG__SUPPLIER_CAPACITY_SHORTAGE"}
+{"text": "logistics supply chain exception routing ticket: the main issue is backorder priority conflict. Mentioned side notes are only context.", "label": "LOG__BACKORDER_PRIORITY_CONFLICT"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says expedited shipping request.", "label": "LOG__EXPEDITED_SHIPPING_REQUEST"}
+{"text": "logistics supply chain exception routing ticket: the main issue is address validation failure. Mentioned side notes are only context.", "label": "LOG__ADDRESS_VALIDATION_FAILURE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says warehouse system outage.", "label": "LOG__WAREHOUSE_SYSTEM_OUTAGE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近仓库问题；英文摘要 says carrier no scan.", "label": "LOG__CARRIER_NO_SCAN"}
+{"text": "Route this case by its primary operational risk: international duty dispute. Do not classify by the reporter's emotion.", "label": "LOG__INTERNATIONAL_DUTY_DISPUTE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近货物差异；英文摘要 says proof of delivery dispute.", "label": "LOG__PROOF_OF_DELIVERY_DISPUTE"}
+{"text": "Route this case by its primary operational risk: route weather delay. Do not classify by the reporter's emotion.", "label": "LOG__ROUTE_WEATHER_DELAY"}
+{"text": "Route this case by its primary operational risk: proof of delivery dispute. Do not classify by the reporter's emotion.", "label": "LOG__PROOF_OF_DELIVERY_DISPUTE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近货物差异；英文摘要 says hazmat label missing.", "label": "LOG__HAZMAT_LABEL_MISSING"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近货物差异；英文摘要 says truck appointment missed.", "label": "LOG__TRUCK_APPOINTMENT_MISSED"}
+{"text": "Route this case by its primary operational risk: warehouse system outage. Do not classify by the reporter's emotion.", "label": "LOG__WAREHOUSE_SYSTEM_OUTAGE"}
+{"text": "Route this case by its primary operational risk: damaged goods report. Do not classify by the reporter's emotion.", "label": "LOG__DAMAGED_GOODS_REPORT"}
+{"text": "logistics supply chain exception routing ticket: the main issue is hazmat label missing. Mentioned side notes are only context.", "label": "LOG__HAZMAT_LABEL_MISSING"}
+{"text": "logistics supply chain exception routing ticket: the main issue is temperature logger missing. Mentioned side notes are only context.", "label": "LOG__TEMPERATURE_LOGGER_MISSING"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近仓库问题；英文摘要 says temperature logger missing.", "label": "LOG__TEMPERATURE_LOGGER_MISSING"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says recall hold required.", "label": "LOG__RECALL_HOLD_REQUIRED"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says wrong warehouse dispatch.", "label": "LOG__WRONG_WAREHOUSE_DISPATCH"}
+{"text": "Route this case by its primary operational risk: recall hold required. Do not classify by the reporter's emotion.", "label": "LOG__RECALL_HOLD_REQUIRED"}
+{"text": "logistics supply chain exception routing ticket: the main issue is proof of delivery dispute. Mentioned side notes are only context.", "label": "LOG__PROOF_OF_DELIVERY_DISPUTE"}
+{"text": "logistics supply chain exception routing ticket: the main issue is container seal discrepancy. Mentioned side notes are only context.", "label": "LOG__CONTAINER_SEAL_DISCREPANCY"}
+{"text": "Route this case by its primary operational risk: cold chain temperature breach. Do not classify by the reporter's emotion.", "label": "LOG__COLD_CHAIN_TEMPERATURE_BREACH"}
+{"text": "Route this case by its primary operational risk: hazmat label missing. Do not classify by the reporter's emotion.", "label": "LOG__HAZMAT_LABEL_MISSING"}
+{"text": "logistics supply chain exception routing ticket: the main issue is cross dock sorting error. Mentioned side notes are only context.", "label": "LOG__CROSS_DOCK_SORTING_ERROR"}
+{"text": "Route this case by its primary operational risk: pallet overage discovered. Do not classify by the reporter's emotion.", "label": "LOG__PALLET_OVERAGE_DISCOVERED"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近仓库问题；英文摘要 says container seal discrepancy.", "label": "LOG__CONTAINER_SEAL_DISCREPANCY"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says package dimension mismatch.", "label": "LOG__PACKAGE_DIMENSION_MISMATCH"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says lot traceability gap.", "label": "LOG__LOT_TRACEABILITY_GAP"}
+{"text": "Route this case by its primary operational risk: cross dock sorting error. Do not classify by the reporter's emotion.", "label": "LOG__CROSS_DOCK_SORTING_ERROR"}
+{"text": "Route this case by its primary operational risk: backorder priority conflict. Do not classify by the reporter's emotion.", "label": "LOG__BACKORDER_PRIORITY_CONFLICT"}
+{"text": "Route this case by its primary operational risk: expedited shipping request. Do not classify by the reporter's emotion.", "label": "LOG__EXPEDITED_SHIPPING_REQUEST"}
+{"text": "Route this case by its primary operational risk: return authorization mismatch. Do not classify by the reporter's emotion.", "label": "LOG__RETURN_AUTHORIZATION_MISMATCH"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says cross dock sorting error.", "label": "LOG__CROSS_DOCK_SORTING_ERROR"}
+{"text": "Route this case by its primary operational risk: dock door congestion. Do not classify by the reporter's emotion.", "label": "LOG__DOCK_DOOR_CONGESTION"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says inventory cycle count variance.", "label": "LOG__INVENTORY_CYCLE_COUNT_VARIANCE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says split shipment reconciliation.", "label": "LOG__SPLIT_SHIPMENT_RECONCILIATION"}
+{"text": "logistics supply chain exception routing ticket: the main issue is inventory cycle count variance. Mentioned side notes are only context.", "label": "LOG__INVENTORY_CYCLE_COUNT_VARIANCE"}
+{"text": "Route this case by its primary operational risk: customs document missing. Do not classify by the reporter's emotion.", "label": "LOG__CUSTOMS_DOCUMENT_MISSING"}
+{"text": "logistics supply chain exception routing ticket: the main issue is customs document missing. Mentioned side notes are only context.", "label": "LOG__CUSTOMS_DOCUMENT_MISSING"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says customs document missing.", "label": "LOG__CUSTOMS_DOCUMENT_MISSING"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says damaged goods report.", "label": "LOG__DAMAGED_GOODS_REPORT"}
+{"text": "logistics supply chain exception routing ticket: the main issue is late port clearance. Mentioned side notes are only context.", "label": "LOG__LATE_PORT_CLEARANCE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says return authorization mismatch.", "label": "LOG__RETURN_AUTHORIZATION_MISMATCH"}
+{"text": "Route this case by its primary operational risk: last mile failed attempt. Do not classify by the reporter's emotion.", "label": "LOG__LAST_MILE_FAILED_ATTEMPT"}

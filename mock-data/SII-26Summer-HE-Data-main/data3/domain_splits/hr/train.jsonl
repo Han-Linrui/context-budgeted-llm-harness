@@ -1,0 +1,90 @@
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says promotion process appeal.", "label": "HR__PROMOTION_PROCESS_APPEAL"}
+{"text": "workplace policy case routing ticket: the main issue is disciplinary warning response. Mentioned side notes are only context.", "label": "HR__DISCIPLINARY_WARNING_RESPONSE"}
+{"text": "workplace policy case routing ticket: the main issue is equipment return missing. Mentioned side notes are only context.", "label": "HR__EQUIPMENT_RETURN_MISSING"}
+{"text": "workplace policy case routing ticket: the main issue is training completion waiver. Mentioned side notes are only context.", "label": "HR__TRAINING_COMPLETION_WAIVER"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says internal transfer eligibility.", "label": "HR__INTERNAL_TRANSFER_ELIGIBILITY"}
+{"text": "Route this case by its primary operational risk: equipment return missing. Do not classify by the reporter's emotion.", "label": "HR__EQUIPMENT_RETURN_MISSING"}
+{"text": "Route this case by its primary operational risk: performance review dispute. Do not classify by the reporter's emotion.", "label": "HR__PERFORMANCE_REVIEW_DISPUTE"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says code of conduct allegation.", "label": "HR__CODE_OF_CONDUCT_ALLEGATION"}
+{"text": "Route this case by its primary operational risk: learning budget reimbursement. Do not classify by the reporter's emotion.", "label": "HR__LEARNING_BUDGET_REIMBURSEMENT"}
+{"text": "workplace policy case routing ticket: the main issue is termination documentation review. Mentioned side notes are only context.", "label": "HR__TERMINATION_DOCUMENTATION_REVIEW"}
+{"text": "Route this case by its primary operational risk: payroll underpayment claim. Do not classify by the reporter's emotion.", "label": "HR__PAYROLL_UNDERPAYMENT_CLAIM"}
+{"text": "Route this case by its primary operational risk: relocation package exception. Do not classify by the reporter's emotion.", "label": "HR__RELOCATION_PACKAGE_EXCEPTION"}
+{"text": "Route this case by its primary operational risk: salary band exception. Do not classify by the reporter's emotion.", "label": "HR__SALARY_BAND_EXCEPTION"}
+{"text": "Route this case by its primary operational risk: mental health accommodation. Do not classify by the reporter's emotion.", "label": "HR__MENTAL_HEALTH_ACCOMMODATION"}
+{"text": "workplace policy case routing ticket: the main issue is holiday scheduling conflict. Mentioned side notes are only context.", "label": "HR__HOLIDAY_SCHEDULING_CONFLICT"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says leave policy exception.", "label": "HR__LEAVE_POLICY_EXCEPTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says conflict of interest disclosure.", "label": "HR__CONFLICT_OF_INTEREST_DISCLOSURE"}
+{"text": "workplace policy case routing ticket: the main issue is attendance record correction. Mentioned side notes are only context.", "label": "HR__ATTENDANCE_RECORD_CORRECTION"}
+{"text": "workplace policy case routing ticket: the main issue is learning budget reimbursement. Mentioned side notes are only context.", "label": "HR__LEARNING_BUDGET_REIMBURSEMENT"}
+{"text": "workplace policy case routing ticket: the main issue is code of conduct allegation. Mentioned side notes are only context.", "label": "HR__CODE_OF_CONDUCT_ALLEGATION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says learning budget reimbursement.", "label": "HR__LEARNING_BUDGET_REIMBURSEMENT"}
+{"text": "Route this case by its primary operational risk: remote work accommodation. Do not classify by the reporter's emotion.", "label": "HR__REMOTE_WORK_ACCOMMODATION"}
+{"text": "Route this case by its primary operational risk: access badge deactivation. Do not classify by the reporter's emotion.", "label": "HR__ACCESS_BADGE_DEACTIVATION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says visa sponsorship question.", "label": "HR__VISA_SPONSORSHIP_QUESTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says termination documentation review.", "label": "HR__TERMINATION_DOCUMENTATION_REVIEW"}
+{"text": "workplace policy case routing ticket: the main issue is visa sponsorship question. Mentioned side notes are only context.", "label": "HR__VISA_SPONSORSHIP_QUESTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says probation extension request.", "label": "HR__PROBATION_EXTENSION_REQUEST"}
+{"text": "workplace policy case routing ticket: the main issue is workplace safety report. Mentioned side notes are only context.", "label": "HR__WORKPLACE_SAFETY_REPORT"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近员工政策；英文摘要 says background check delay.", "label": "HR__BACKGROUND_CHECK_DELAY"}
+{"text": "Route this case by its primary operational risk: workplace safety report. Do not classify by the reporter's emotion.", "label": "HR__WORKPLACE_SAFETY_REPORT"}
+{"text": "Route this case by its primary operational risk: internal transfer eligibility. Do not classify by the reporter's emotion.", "label": "HR__INTERNAL_TRANSFER_ELIGIBILITY"}
+{"text": "workplace policy case routing ticket: the main issue is payroll underpayment claim. Mentioned side notes are only context.", "label": "HR__PAYROLL_UNDERPAYMENT_CLAIM"}
+{"text": "Route this case by its primary operational risk: background check delay. Do not classify by the reporter's emotion.", "label": "HR__BACKGROUND_CHECK_DELAY"}
+{"text": "Route this case by its primary operational risk: leave policy exception. Do not classify by the reporter's emotion.", "label": "HR__LEAVE_POLICY_EXCEPTION"}
+{"text": "workplace policy case routing ticket: the main issue is harassment complaint intake. Mentioned side notes are only context.", "label": "HR__HARASSMENT_COMPLAINT_INTAKE"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近人事流程；英文摘要 says relocation package exception.", "label": "HR__RELOCATION_PACKAGE_EXCEPTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says overtime approval issue.", "label": "HR__OVERTIME_APPROVAL_ISSUE"}
+{"text": "Route this case by its primary operational risk: code of conduct allegation. Do not classify by the reporter's emotion.", "label": "HR__CODE_OF_CONDUCT_ALLEGATION"}
+{"text": "workplace policy case routing ticket: the main issue is background check delay. Mentioned side notes are only context.", "label": "HR__BACKGROUND_CHECK_DELAY"}
+{"text": "workplace policy case routing ticket: the main issue is salary band exception. Mentioned side notes are only context.", "label": "HR__SALARY_BAND_EXCEPTION"}
+{"text": "workplace policy case routing ticket: the main issue is relocation package exception. Mentioned side notes are only context.", "label": "HR__RELOCATION_PACKAGE_EXCEPTION"}
+{"text": "workplace policy case routing ticket: the main issue is promotion process appeal. Mentioned side notes are only context.", "label": "HR__PROMOTION_PROCESS_APPEAL"}
+{"text": "workplace policy case routing ticket: the main issue is employee data correction. Mentioned side notes are only context.", "label": "HR__EMPLOYEE_DATA_CORRECTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近员工政策；英文摘要 says training completion waiver.", "label": "HR__TRAINING_COMPLETION_WAIVER"}
+{"text": "workplace policy case routing ticket: the main issue is conflict of interest disclosure. Mentioned side notes are only context.", "label": "HR__CONFLICT_OF_INTEREST_DISCLOSURE"}
+{"text": "Route this case by its primary operational risk: parental leave planning. Do not classify by the reporter's emotion.", "label": "HR__PARENTAL_LEAVE_PLANNING"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says equipment return missing.", "label": "HR__EQUIPMENT_RETURN_MISSING"}
+{"text": "Route this case by its primary operational risk: promotion process appeal. Do not classify by the reporter's emotion.", "label": "HR__PROMOTION_PROCESS_APPEAL"}
+{"text": "workplace policy case routing ticket: the main issue is performance review dispute. Mentioned side notes are only context.", "label": "HR__PERFORMANCE_REVIEW_DISPUTE"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says attendance record correction.", "label": "HR__ATTENDANCE_RECORD_CORRECTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近员工政策；英文摘要 says access badge deactivation.", "label": "HR__ACCESS_BADGE_DEACTIVATION"}
+{"text": "Route this case by its primary operational risk: conflict of interest disclosure. Do not classify by the reporter's emotion.", "label": "HR__CONFLICT_OF_INTEREST_DISCLOSURE"}
+{"text": "workplace policy case routing ticket: the main issue is probation extension request. Mentioned side notes are only context.", "label": "HR__PROBATION_EXTENSION_REQUEST"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近人事流程；英文摘要 says mental health accommodation.", "label": "HR__MENTAL_HEALTH_ACCOMMODATION"}
+{"text": "Route this case by its primary operational risk: contractor conversion request. Do not classify by the reporter's emotion.", "label": "HR__CONTRACTOR_CONVERSION_REQUEST"}
+{"text": "Route this case by its primary operational risk: training completion waiver. Do not classify by the reporter's emotion.", "label": "HR__TRAINING_COMPLETION_WAIVER"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says manager conflict mediation.", "label": "HR__MANAGER_CONFLICT_MEDIATION"}
+{"text": "workplace policy case routing ticket: the main issue is internal transfer eligibility. Mentioned side notes are only context.", "label": "HR__INTERNAL_TRANSFER_ELIGIBILITY"}
+{"text": "Route this case by its primary operational risk: termination documentation review. Do not classify by the reporter's emotion.", "label": "HR__TERMINATION_DOCUMENTATION_REVIEW"}
+{"text": "Route this case by its primary operational risk: disciplinary warning response. Do not classify by the reporter's emotion.", "label": "HR__DISCIPLINARY_WARNING_RESPONSE"}
+{"text": "workplace policy case routing ticket: the main issue is access badge deactivation. Mentioned side notes are only context.", "label": "HR__ACCESS_BADGE_DEACTIVATION"}
+{"text": "workplace policy case routing ticket: the main issue is parental leave planning. Mentioned side notes are only context.", "label": "HR__PARENTAL_LEAVE_PLANNING"}
+{"text": "workplace policy case routing ticket: the main issue is leave policy exception. Mentioned side notes are only context.", "label": "HR__LEAVE_POLICY_EXCEPTION"}
+{"text": "Route this case by its primary operational risk: harassment complaint intake. Do not classify by the reporter's emotion.", "label": "HR__HARASSMENT_COMPLAINT_INTAKE"}
+{"text": "Route this case by its primary operational risk: holiday scheduling conflict. Do not classify by the reporter's emotion.", "label": "HR__HOLIDAY_SCHEDULING_CONFLICT"}
+{"text": "Route this case by its primary operational risk: benefits enrollment correction. Do not classify by the reporter's emotion.", "label": "HR__BENEFITS_ENROLLMENT_CORRECTION"}
+{"text": "Route this case by its primary operational risk: visa sponsorship question. Do not classify by the reporter's emotion.", "label": "HR__VISA_SPONSORSHIP_QUESTION"}
+{"text": "workplace policy case routing ticket: the main issue is benefits enrollment correction. Mentioned side notes are only context.", "label": "HR__BENEFITS_ENROLLMENT_CORRECTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says performance review dispute.", "label": "HR__PERFORMANCE_REVIEW_DISPUTE"}
+{"text": "workplace policy case routing ticket: the main issue is contractor conversion request. Mentioned side notes are only context.", "label": "HR__CONTRACTOR_CONVERSION_REQUEST"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says remote work accommodation.", "label": "HR__REMOTE_WORK_ACCOMMODATION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says employee data correction.", "label": "HR__EMPLOYEE_DATA_CORRECTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近人事流程；英文摘要 says salary band exception.", "label": "HR__SALARY_BAND_EXCEPTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says benefits enrollment correction.", "label": "HR__BENEFITS_ENROLLMENT_CORRECTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近人事流程；英文摘要 says payroll underpayment claim.", "label": "HR__PAYROLL_UNDERPAYMENT_CLAIM"}
+{"text": "Route this case by its primary operational risk: attendance record correction. Do not classify by the reporter's emotion.", "label": "HR__ATTENDANCE_RECORD_CORRECTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says disciplinary warning response.", "label": "HR__DISCIPLINARY_WARNING_RESPONSE"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近人事流程；英文摘要 says parental leave planning.", "label": "HR__PARENTAL_LEAVE_PLANNING"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says harassment complaint intake.", "label": "HR__HARASSMENT_COMPLAINT_INTAKE"}
+{"text": "Route this case by its primary operational risk: overtime approval issue. Do not classify by the reporter's emotion.", "label": "HR__OVERTIME_APPROVAL_ISSUE"}
+{"text": "workplace policy case routing ticket: the main issue is overtime approval issue. Mentioned side notes are only context.", "label": "HR__OVERTIME_APPROVAL_ISSUE"}
+{"text": "workplace policy case routing ticket: the main issue is remote work accommodation. Mentioned side notes are only context.", "label": "HR__REMOTE_WORK_ACCOMMODATION"}
+{"text": "workplace policy case routing ticket: the main issue is manager conflict mediation. Mentioned side notes are only context.", "label": "HR__MANAGER_CONFLICT_MEDIATION"}
+{"text": "workplace policy case routing ticket: the main issue is mental health accommodation. Mentioned side notes are only context.", "label": "HR__MENTAL_HEALTH_ACCOMMODATION"}
+{"text": "Route this case by its primary operational risk: probation extension request. Do not classify by the reporter's emotion.", "label": "HR__PROBATION_EXTENSION_REQUEST"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近员工政策；英文摘要 says holiday scheduling conflict.", "label": "HR__HOLIDAY_SCHEDULING_CONFLICT"}
+{"text": "Route this case by its primary operational risk: employee data correction. Do not classify by the reporter's emotion.", "label": "HR__EMPLOYEE_DATA_CORRECTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says workplace safety report.", "label": "HR__WORKPLACE_SAFETY_REPORT"}
+{"text": "Route this case by its primary operational risk: manager conflict mediation. Do not classify by the reporter's emotion.", "label": "HR__MANAGER_CONFLICT_MEDIATION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says contractor conversion request.", "label": "HR__CONTRACTOR_CONVERSION_REQUEST"}

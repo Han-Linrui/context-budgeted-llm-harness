@@ -1,0 +1,58 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Logs and runtime outputs
+*.log
+logs/
+out/
+outputs/
+results/
+runs/
+tmp/
+temp/
+
+# Notebook and editor noise
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Personal/private application materials in this workspace
+private/
+CV_*.pdf
+套磁信_*.pdf
+
+# Large local archives and model/checkpoint artifacts
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin

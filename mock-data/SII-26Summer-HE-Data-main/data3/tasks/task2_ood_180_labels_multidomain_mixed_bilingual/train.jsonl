@@ -1,0 +1,540 @@
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says promotion process appeal.", "label": "HR__PROMOTION_PROCESS_APPEAL"}
+{"text": "Route this case by its primary operational risk: credential stuffing attempt. Do not classify by the reporter's emotion.", "label": "SEC__CREDENTIAL_STUFFING_ATTEMPT"}
+{"text": "software incident triage ticket: the main issue is incorrect timezone rendering. Mentioned side notes are only context.", "label": "SW__INCORRECT_TIMEZONE_RENDERING"}
+{"text": "workplace policy case routing ticket: the main issue is disciplinary warning response. Mentioned side notes are only context.", "label": "HR__DISCIPLINARY_WARNING_RESPONSE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says mfa fatigue attack.", "label": "SEC__MFA_FATIGUE_ATTACK"}
+{"text": "software incident triage ticket: the main issue is feature flag misroute. Mentioned side notes are only context.", "label": "SW__FEATURE_FLAG_MISROUTE"}
+{"text": "financial operations exception routing ticket: the main issue is manual journal review. Mentioned side notes are only context.", "label": "FIN__MANUAL_JOURNAL_REVIEW"}
+{"text": "Route this case by its primary operational risk: malware quarantine event. Do not classify by the reporter's emotion.", "label": "SEC__MALWARE_QUARANTINE_EVENT"}
+{"text": "cybersecurity alert triage ticket: the main issue is endpoint beaconing activity. Mentioned side notes are only context.", "label": "SEC__ENDPOINT_BEACONING_ACTIVITY"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says subscription proration error.", "label": "FIN__SUBSCRIPTION_PRORATION_ERROR"}
+{"text": "workplace policy case routing ticket: the main issue is equipment return missing. Mentioned side notes are only context.", "label": "HR__EQUIPMENT_RETURN_MISSING"}
+{"text": "Route this case by its primary operational risk: database read replica lag. Do not classify by the reporter's emotion.", "label": "SW__DATABASE_READ_REPLICA_LAG"}
+{"text": "financial operations exception routing ticket: the main issue is cash application suspense. Mentioned side notes are only context.", "label": "FIN__CASH_APPLICATION_SUSPENSE"}
+{"text": "policy contract compliance risk ticket: the main issue is regulatory reporting trigger. Mentioned side notes are only context.", "label": "POL__REGULATORY_REPORTING_TRIGGER"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says report export failure.", "label": "SW__REPORT_EXPORT_FAILURE"}
+{"text": "Route this case by its primary operational risk: regulatory reporting trigger. Do not classify by the reporter's emotion.", "label": "POL__REGULATORY_REPORTING_TRIGGER"}
+{"text": "Route this case by its primary operational risk: memory leak in worker. Do not classify by the reporter's emotion.", "label": "SW__MEMORY_LEAK_IN_WORKER"}
+{"text": "policy contract compliance risk ticket: the main issue is vendor dpa missing. Mentioned side notes are only context.", "label": "POL__VENDOR_DPA_MISSING"}
+{"text": "Route this case by its primary operational risk: search index corruption. Do not classify by the reporter's emotion.", "label": "SW__SEARCH_INDEX_CORRUPTION"}
+{"text": "logistics supply chain exception routing ticket: the main issue is pallet overage discovered. Mentioned side notes are only context.", "label": "LOG__PALLET_OVERAGE_DISCOVERED"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近货物差异；英文摘要 says backorder priority conflict.", "label": "LOG__BACKORDER_PRIORITY_CONFLICT"}
+{"text": "workplace policy case routing ticket: the main issue is training completion waiver. Mentioned side notes are only context.", "label": "HR__TRAINING_COMPLETION_WAIVER"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近钓鱼或恶意行为；英文摘要 says ransomware behavior pattern.", "label": "SEC__RANSOMWARE_BEHAVIOR_PATTERN"}
+{"text": "financial operations exception routing ticket: the main issue is remittance advice missing. Mentioned side notes are only context.", "label": "FIN__REMITTANCE_ADVICE_MISSING"}
+{"text": "software incident triage ticket: the main issue is permission sync delay. Mentioned side notes are only context.", "label": "SW__PERMISSION_SYNC_DELAY"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近货物差异；英文摘要 says dock door congestion.", "label": "LOG__DOCK_DOOR_CONGESTION"}
+{"text": "software incident triage ticket: the main issue is service discovery failure. Mentioned side notes are only context.", "label": "SW__SERVICE_DISCOVERY_FAILURE"}
+{"text": "Route this case by its primary operational risk: lot traceability gap. Do not classify by the reporter's emotion.", "label": "LOG__LOT_TRACEABILITY_GAP"}
+{"text": "Route this case by its primary operational risk: data exfiltration suspicion. Do not classify by the reporter's emotion.", "label": "SEC__DATA_EXFILTRATION_SUSPICION"}
+{"text": "software incident triage ticket: the main issue is message queue backlog. Mentioned side notes are only context.", "label": "SW__MESSAGE_QUEUE_BACKLOG"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says internal transfer eligibility.", "label": "HR__INTERNAL_TRANSFER_ELIGIBILITY"}
+{"text": "Route this case by its primary operational risk: equipment return missing. Do not classify by the reporter's emotion.", "label": "HR__EQUIPMENT_RETURN_MISSING"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says publicity rights restriction.", "label": "POL__PUBLICITY_RIGHTS_RESTRICTION"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says payment batch cut off.", "label": "FIN__PAYMENT_BATCH_CUT_OFF"}
+{"text": "Route this case by its primary operational risk: purchase order overrun. Do not classify by the reporter's emotion.", "label": "FIN__PURCHASE_ORDER_OVERRUN"}
+{"text": "Route this case by its primary operational risk: split shipment reconciliation. Do not classify by the reporter's emotion.", "label": "LOG__SPLIT_SHIPMENT_RECONCILIATION"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says memory leak in worker.", "label": "SW__MEMORY_LEAK_IN_WORKER"}
+{"text": "software incident triage ticket: the main issue is search index corruption. Mentioned side notes are only context.", "label": "SW__SEARCH_INDEX_CORRUPTION"}
+{"text": "Route this case by its primary operational risk: supply chain package risk. Do not classify by the reporter's emotion.", "label": "SEC__SUPPLY_CHAIN_PACKAGE_RISK"}
+{"text": "financial operations exception routing ticket: the main issue is duplicate invoice detected. Mentioned side notes are only context.", "label": "FIN__DUPLICATE_INVOICE_DETECTED"}
+{"text": "cybersecurity alert triage ticket: the main issue is cloud role overpermissioned. Mentioned side notes are only context.", "label": "SEC__CLOUD_ROLE_OVERPERMISSIONED"}
+{"text": "Route this case by its primary operational risk: performance review dispute. Do not classify by the reporter's emotion.", "label": "HR__PERFORMANCE_REVIEW_DISPUTE"}
+{"text": "Route this case by its primary operational risk: export control concern. Do not classify by the reporter's emotion.", "label": "POL__EXPORT_CONTROL_CONCERN"}
+{"text": "Route this case by its primary operational risk: ai use disclosure requirement. Do not classify by the reporter's emotion.", "label": "POL__AI_USE_DISCLOSURE_REQUIREMENT"}
+{"text": "logistics supply chain exception routing ticket: the main issue is return authorization mismatch. Mentioned side notes are only context.", "label": "LOG__RETURN_AUTHORIZATION_MISMATCH"}
+{"text": "financial operations exception routing ticket: the main issue is incorrect legal entity. Mentioned side notes are only context.", "label": "FIN__INCORRECT_LEGAL_ENTITY"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says database read replica lag.", "label": "SW__DATABASE_READ_REPLICA_LAG"}
+{"text": "Route this case by its primary operational risk: typosquatting domain alert. Do not classify by the reporter's emotion.", "label": "SEC__TYPOSQUATTING_DOMAIN_ALERT"}
+{"text": "Route this case by its primary operational risk: payment batch cut off. Do not classify by the reporter's emotion.", "label": "FIN__PAYMENT_BATCH_CUT_OFF"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近接口变慢；英文摘要 says cdn cache purge issue.", "label": "SW__CDN_CACHE_PURGE_ISSUE"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says code of conduct allegation.", "label": "HR__CODE_OF_CONDUCT_ALLEGATION"}
+{"text": "Route this case by its primary operational risk: manual journal review. Do not classify by the reporter's emotion.", "label": "FIN__MANUAL_JOURNAL_REVIEW"}
+{"text": "Route this case by its primary operational risk: insurance coverage gap. Do not classify by the reporter's emotion.", "label": "POL__INSURANCE_COVERAGE_GAP"}
+{"text": "Route this case by its primary operational risk: package dimension mismatch. Do not classify by the reporter's emotion.", "label": "LOG__PACKAGE_DIMENSION_MISMATCH"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近钓鱼或恶意行为；英文摘要 says edr sensor disabled.", "label": "SEC__EDR_SENSOR_DISABLED"}
+{"text": "logistics supply chain exception routing ticket: the main issue is freight invoice discrepancy. Mentioned side notes are only context.", "label": "LOG__FREIGHT_INVOICE_DISCREPANCY"}
+{"text": "financial operations exception routing ticket: the main issue is tax code mismatch. Mentioned side notes are only context.", "label": "FIN__TAX_CODE_MISMATCH"}
+{"text": "Route this case by its primary operational risk: waf sql injection block. Do not classify by the reporter's emotion.", "label": "SEC__WAF_SQL_INJECTION_BLOCK"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says address validation failure.", "label": "LOG__ADDRESS_VALIDATION_FAILURE"}
+{"text": "cybersecurity alert triage ticket: the main issue is edr sensor disabled. Mentioned side notes are only context.", "label": "SEC__EDR_SENSOR_DISABLED"}
+{"text": "Route this case by its primary operational risk: subscription proration error. Do not classify by the reporter's emotion.", "label": "FIN__SUBSCRIPTION_PRORATION_ERROR"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近仓库问题；英文摘要 says supplier capacity shortage.", "label": "LOG__SUPPLIER_CAPACITY_SHORTAGE"}
+{"text": "Route this case by its primary operational risk: late payment penalty dispute. Do not classify by the reporter's emotion.", "label": "FIN__LATE_PAYMENT_PENALTY_DISPUTE"}
+{"text": "cybersecurity alert triage ticket: the main issue is insider data access spike. Mentioned side notes are only context.", "label": "SEC__INSIDER_DATA_ACCESS_SPIKE"}
+{"text": "policy contract compliance risk ticket: the main issue is retention hold notice. Mentioned side notes are only context.", "label": "POL__RETENTION_HOLD_NOTICE"}
+{"text": "Route this case by its primary operational risk: feature flag misroute. Do not classify by the reporter's emotion.", "label": "SW__FEATURE_FLAG_MISROUTE"}
+{"text": "logistics supply chain exception routing ticket: the main issue is warehouse system outage. Mentioned side notes are only context.", "label": "LOG__WAREHOUSE_SYSTEM_OUTAGE"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says refund approval threshold.", "label": "FIN__REFUND_APPROVAL_THRESHOLD"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says blocked command and control.", "label": "SEC__BLOCKED_COMMAND_AND_CONTROL"}
+{"text": "Route this case by its primary operational risk: session invalidation bug. Do not classify by the reporter's emotion.", "label": "SW__SESSION_INVALIDATION_BUG"}
+{"text": "Route this case by its primary operational risk: supplier capacity shortage. Do not classify by the reporter's emotion.", "label": "LOG__SUPPLIER_CAPACITY_SHORTAGE"}
+{"text": "Route this case by its primary operational risk: container seal discrepancy. Do not classify by the reporter's emotion.", "label": "LOG__CONTAINER_SEAL_DISCREPANCY"}
+{"text": "policy contract compliance risk ticket: the main issue is cross border data transfer. Mentioned side notes are only context.", "label": "POL__CROSS_BORDER_DATA_TRANSFER"}
+{"text": "logistics supply chain exception routing ticket: the main issue is international duty dispute. Mentioned side notes are only context.", "label": "LOG__INTERNATIONAL_DUTY_DISPUTE"}
+{"text": "software incident triage ticket: the main issue is memory leak in worker. Mentioned side notes are only context.", "label": "SW__MEMORY_LEAK_IN_WORKER"}
+{"text": "Route this case by its primary operational risk: learning budget reimbursement. Do not classify by the reporter's emotion.", "label": "HR__LEARNING_BUDGET_REIMBURSEMENT"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says brute force ssh attack.", "label": "SEC__BRUTE_FORCE_SSH_ATTACK"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says cold chain temperature breach.", "label": "LOG__COLD_CHAIN_TEMPERATURE_BREACH"}
+{"text": "Route this case by its primary operational risk: accessibility compliance review. Do not classify by the reporter's emotion.", "label": "POL__ACCESSIBILITY_COMPLIANCE_REVIEW"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says manual journal review.", "label": "FIN__MANUAL_JOURNAL_REVIEW"}
+{"text": "financial operations exception routing ticket: the main issue is fx settlement variance. Mentioned side notes are only context.", "label": "FIN__FX_SETTLEMENT_VARIANCE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says impossible travel login.", "label": "SEC__IMPOSSIBLE_TRAVEL_LOGIN"}
+{"text": "workplace policy case routing ticket: the main issue is termination documentation review. Mentioned side notes are only context.", "label": "HR__TERMINATION_DOCUMENTATION_REVIEW"}
+{"text": "policy contract compliance risk ticket: the main issue is limitation of liability cap. Mentioned side notes are only context.", "label": "POL__LIMITATION_OF_LIABILITY_CAP"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says database deadlock.", "label": "SW__DATABASE_DEADLOCK"}
+{"text": "Route this case by its primary operational risk: force majeure interpretation. Do not classify by the reporter's emotion.", "label": "POL__FORCE_MAJEURE_INTERPRETATION"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says aged receivable escalation.", "label": "FIN__AGED_RECEIVABLE_ESCALATION"}
+{"text": "Route this case by its primary operational risk: cache stale read. Do not classify by the reporter's emotion.", "label": "SW__CACHE_STALE_READ"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says session invalidation bug.", "label": "SW__SESSION_INVALIDATION_BUG"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says service discovery failure.", "label": "SW__SERVICE_DISCOVERY_FAILURE"}
+{"text": "Route this case by its primary operational risk: payroll underpayment claim. Do not classify by the reporter's emotion.", "label": "HR__PAYROLL_UNDERPAYMENT_CLAIM"}
+{"text": "Route this case by its primary operational risk: configuration drift. Do not classify by the reporter's emotion.", "label": "SW__CONFIGURATION_DRIFT"}
+{"text": "Route this case by its primary operational risk: report export failure. Do not classify by the reporter's emotion.", "label": "SW__REPORT_EXPORT_FAILURE"}
+{"text": "policy contract compliance risk ticket: the main issue is ip ownership ambiguity. Mentioned side notes are only context.", "label": "POL__IP_OWNERSHIP_AMBIGUITY"}
+{"text": "Route this case by its primary operational risk: file upload timeout. Do not classify by the reporter's emotion.", "label": "SW__FILE_UPLOAD_TIMEOUT"}
+{"text": "policy contract compliance risk ticket: the main issue is auto renewal notice risk. Mentioned side notes are only context.", "label": "POL__AUTO_RENEWAL_NOTICE_RISK"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says waf sql injection block.", "label": "SEC__WAF_SQL_INJECTION_BLOCK"}
+{"text": "logistics supply chain exception routing ticket: the main issue is truck appointment missed. Mentioned side notes are only context.", "label": "LOG__TRUCK_APPOINTMENT_MISSED"}
+{"text": "financial operations exception routing ticket: the main issue is invoice approver conflict. Mentioned side notes are only context.", "label": "FIN__INVOICE_APPROVER_CONFLICT"}
+{"text": "Route this case by its primary operational risk: audit log gap. Do not classify by the reporter's emotion.", "label": "SW__AUDIT_LOG_GAP"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says indemnity clause escalation.", "label": "POL__INDEMNITY_CLAUSE_ESCALATION"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says credential paste site hit.", "label": "SEC__CREDENTIAL_PASTE_SITE_HIT"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合同条款；英文摘要 says accessibility compliance review.", "label": "POL__ACCESSIBILITY_COMPLIANCE_REVIEW"}
+{"text": "logistics supply chain exception routing ticket: the main issue is expedited shipping request. Mentioned side notes are only context.", "label": "LOG__EXPEDITED_SHIPPING_REQUEST"}
+{"text": "cybersecurity alert triage ticket: the main issue is suspicious oauth consent. Mentioned side notes are only context.", "label": "SEC__SUSPICIOUS_OAUTH_CONSENT"}
+{"text": "Route this case by its primary operational risk: biometric data approval. Do not classify by the reporter's emotion.", "label": "POL__BIOMETRIC_DATA_APPROVAL"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says billing webhook failure.", "label": "SW__BILLING_WEBHOOK_FAILURE"}
+{"text": "Route this case by its primary operational risk: relocation package exception. Do not classify by the reporter's emotion.", "label": "HR__RELOCATION_PACKAGE_EXCEPTION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合同条款；英文摘要 says records deletion request.", "label": "POL__RECORDS_DELETION_REQUEST"}
+{"text": "cybersecurity alert triage ticket: the main issue is credential stuffing attempt. Mentioned side notes are only context.", "label": "SEC__CREDENTIAL_STUFFING_ATTEMPT"}
+{"text": "Route this case by its primary operational risk: salary band exception. Do not classify by the reporter's emotion.", "label": "HR__SALARY_BAND_EXCEPTION"}
+{"text": "Route this case by its primary operational risk: mental health accommodation. Do not classify by the reporter's emotion.", "label": "HR__MENTAL_HEALTH_ACCOMMODATION"}
+{"text": "Route this case by its primary operational risk: inventory cycle count variance. Do not classify by the reporter's emotion.", "label": "LOG__INVENTORY_CYCLE_COUNT_VARIANCE"}
+{"text": "policy contract compliance risk ticket: the main issue is termination for convenience. Mentioned side notes are only context.", "label": "POL__TERMINATION_FOR_CONVENIENCE"}
+{"text": "Route this case by its primary operational risk: wrong warehouse dispatch. Do not classify by the reporter's emotion.", "label": "LOG__WRONG_WAREHOUSE_DISPATCH"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says route weather delay.", "label": "LOG__ROUTE_WEATHER_DELAY"}
+{"text": "Route this case by its primary operational risk: third party api degradation. Do not classify by the reporter's emotion.", "label": "SW__THIRD_PARTY_API_DEGRADATION"}
+{"text": "workplace policy case routing ticket: the main issue is holiday scheduling conflict. Mentioned side notes are only context.", "label": "HR__HOLIDAY_SCHEDULING_CONFLICT"}
+{"text": "financial operations exception routing ticket: the main issue is aged receivable escalation. Mentioned side notes are only context.", "label": "FIN__AGED_RECEIVABLE_ESCALATION"}
+{"text": "Route this case by its primary operational risk: unapproved discount applied. Do not classify by the reporter's emotion.", "label": "FIN__UNAPPROVED_DISCOUNT_APPLIED"}
+{"text": "Route this case by its primary operational risk: temperature logger missing. Do not classify by the reporter's emotion.", "label": "LOG__TEMPERATURE_LOGGER_MISSING"}
+{"text": "logistics supply chain exception routing ticket: the main issue is wrong warehouse dispatch. Mentioned side notes are only context.", "label": "LOG__WRONG_WAREHOUSE_DISPATCH"}
+{"text": "financial operations exception routing ticket: the main issue is chargeback evidence needed. Mentioned side notes are only context.", "label": "FIN__CHARGEBACK_EVIDENCE_NEEDED"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says file upload timeout.", "label": "SW__FILE_UPLOAD_TIMEOUT"}
+{"text": "Route this case by its primary operational risk: cdn cache purge issue. Do not classify by the reporter's emotion.", "label": "SW__CDN_CACHE_PURGE_ISSUE"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says leave policy exception.", "label": "HR__LEAVE_POLICY_EXCEPTION"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近发票/付款异常；英文摘要 says cash application suspense.", "label": "FIN__CASH_APPLICATION_SUSPENSE"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says conflict of interest disclosure.", "label": "HR__CONFLICT_OF_INTEREST_DISCLOSURE"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says security addendum deviation.", "label": "POL__SECURITY_ADDENDUM_DEVIATION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says confidential information carveout.", "label": "POL__CONFIDENTIAL_INFORMATION_CARVEOUT"}
+{"text": "financial operations exception routing ticket: the main issue is purchase order overrun. Mentioned side notes are only context.", "label": "FIN__PURCHASE_ORDER_OVERRUN"}
+{"text": "cybersecurity alert triage ticket: the main issue is vpn login anomaly. Mentioned side notes are only context.", "label": "SEC__VPN_LOGIN_ANOMALY"}
+{"text": "cybersecurity alert triage ticket: the main issue is certificate private key leak. Mentioned side notes are only context.", "label": "SEC__CERTIFICATE_PRIVATE_KEY_LEAK"}
+{"text": "Route this case by its primary operational risk: secrets exposed in repo. Do not classify by the reporter's emotion.", "label": "SEC__SECRETS_EXPOSED_IN_REPO"}
+{"text": "logistics supply chain exception routing ticket: the main issue is damaged goods report. Mentioned side notes are only context.", "label": "LOG__DAMAGED_GOODS_REPORT"}
+{"text": "Route this case by its primary operational risk: carrier no scan. Do not classify by the reporter's emotion.", "label": "LOG__CARRIER_NO_SCAN"}
+{"text": "Route this case by its primary operational risk: address validation failure. Do not classify by the reporter's emotion.", "label": "LOG__ADDRESS_VALIDATION_FAILURE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says secrets exposed in repo.", "label": "SEC__SECRETS_EXPOSED_IN_REPO"}
+{"text": "Route this case by its primary operational risk: authentication redirect loop. Do not classify by the reporter's emotion.", "label": "SW__AUTHENTICATION_REDIRECT_LOOP"}
+{"text": "Route this case by its primary operational risk: freight invoice discrepancy. Do not classify by the reporter's emotion.", "label": "LOG__FREIGHT_INVOICE_DISCREPANCY"}
+{"text": "policy contract compliance risk ticket: the main issue is service level credit claim. Mentioned side notes are only context.", "label": "POL__SERVICE_LEVEL_CREDIT_CLAIM"}
+{"text": "workplace policy case routing ticket: the main issue is attendance record correction. Mentioned side notes are only context.", "label": "HR__ATTENDANCE_RECORD_CORRECTION"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says freight invoice discrepancy.", "label": "LOG__FREIGHT_INVOICE_DISCREPANCY"}
+{"text": "logistics supply chain exception routing ticket: the main issue is partial shipment shortfall. Mentioned side notes are only context.", "label": "LOG__PARTIAL_SHIPMENT_SHORTFALL"}
+{"text": "logistics supply chain exception routing ticket: the main issue is recall hold required. Mentioned side notes are only context.", "label": "LOG__RECALL_HOLD_REQUIRED"}
+{"text": "financial operations exception routing ticket: the main issue is late payment penalty dispute. Mentioned side notes are only context.", "label": "FIN__LATE_PAYMENT_PENALTY_DISPUTE"}
+{"text": "Route this case by its primary operational risk: employee data transfer. Do not classify by the reporter's emotion.", "label": "POL__EMPLOYEE_DATA_TRANSFER"}
+{"text": "Route this case by its primary operational risk: billing webhook failure. Do not classify by the reporter's emotion.", "label": "SW__BILLING_WEBHOOK_FAILURE"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says background job retry storm.", "label": "SW__BACKGROUND_JOB_RETRY_STORM"}
+{"text": "policy contract compliance risk ticket: the main issue is minor user consent gap. Mentioned side notes are only context.", "label": "POL__MINOR_USER_CONSENT_GAP"}
+{"text": "software incident triage ticket: the main issue is file upload timeout. Mentioned side notes are only context.", "label": "SW__FILE_UPLOAD_TIMEOUT"}
+{"text": "workplace policy case routing ticket: the main issue is learning budget reimbursement. Mentioned side notes are only context.", "label": "HR__LEARNING_BUDGET_REIMBURSEMENT"}
+{"text": "logistics supply chain exception routing ticket: the main issue is carrier no scan. Mentioned side notes are only context.", "label": "LOG__CARRIER_NO_SCAN"}
+{"text": "logistics supply chain exception routing ticket: the main issue is split shipment reconciliation. Mentioned side notes are only context.", "label": "LOG__SPLIT_SHIPMENT_RECONCILIATION"}
+{"text": "Route this case by its primary operational risk: incorrect legal entity. Do not classify by the reporter's emotion.", "label": "FIN__INCORRECT_LEGAL_ENTITY"}
+{"text": "workplace policy case routing ticket: the main issue is code of conduct allegation. Mentioned side notes are only context.", "label": "HR__CODE_OF_CONDUCT_ALLEGATION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says learning budget reimbursement.", "label": "HR__LEARNING_BUDGET_REIMBURSEMENT"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says subprocessor approval needed.", "label": "POL__SUBPROCESSOR_APPROVAL_NEEDED"}
+{"text": "Route this case by its primary operational risk: new risky service account. Do not classify by the reporter's emotion.", "label": "SEC__NEW_RISKY_SERVICE_ACCOUNT"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近货物差异；英文摘要 says late port clearance.", "label": "LOG__LATE_PORT_CLEARANCE"}
+{"text": "Route this case by its primary operational risk: refund approval threshold. Do not classify by the reporter's emotion.", "label": "FIN__REFUND_APPROVAL_THRESHOLD"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says auto renewal notice risk.", "label": "POL__AUTO_RENEWAL_NOTICE_RISK"}
+{"text": "Route this case by its primary operational risk: impossible travel login. Do not classify by the reporter's emotion.", "label": "SEC__IMPOSSIBLE_TRAVEL_LOGIN"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近发票/付款异常；英文摘要 says billing address mismatch.", "label": "FIN__BILLING_ADDRESS_MISMATCH"}
+{"text": "Route this case by its primary operational risk: remote work accommodation. Do not classify by the reporter's emotion.", "label": "HR__REMOTE_WORK_ACCOMMODATION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says service level credit claim.", "label": "POL__SERVICE_LEVEL_CREDIT_CLAIM"}
+{"text": "Route this case by its primary operational risk: access badge deactivation. Do not classify by the reporter's emotion.", "label": "HR__ACCESS_BADGE_DEACTIVATION"}
+{"text": "cybersecurity alert triage ticket: the main issue is credential paste site hit. Mentioned side notes are only context.", "label": "SEC__CREDENTIAL_PASTE_SITE_HIT"}
+{"text": "cybersecurity alert triage ticket: the main issue is container escape indicator. Mentioned side notes are only context.", "label": "SEC__CONTAINER_ESCAPE_INDICATOR"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says visa sponsorship question.", "label": "HR__VISA_SPONSORSHIP_QUESTION"}
+{"text": "cybersecurity alert triage ticket: the main issue is public bucket exposure. Mentioned side notes are only context.", "label": "SEC__PUBLIC_BUCKET_EXPOSURE"}
+{"text": "Route this case by its primary operational risk: truck appointment missed. Do not classify by the reporter's emotion.", "label": "LOG__TRUCK_APPOINTMENT_MISSED"}
+{"text": "logistics supply chain exception routing ticket: the main issue is route weather delay. Mentioned side notes are only context.", "label": "LOG__ROUTE_WEATHER_DELAY"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says shadow it app discovery.", "label": "SEC__SHADOW_IT_APP_DISCOVERY"}
+{"text": "Route this case by its primary operational risk: minor user consent gap. Do not classify by the reporter's emotion.", "label": "POL__MINOR_USER_CONSENT_GAP"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says unauthorized firewall change.", "label": "SEC__UNAUTHORIZED_FIREWALL_CHANGE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says partial shipment shortfall.", "label": "LOG__PARTIAL_SHIPMENT_SHORTFALL"}
+{"text": "logistics supply chain exception routing ticket: the main issue is last mile failed attempt. Mentioned side notes are only context.", "label": "LOG__LAST_MILE_FAILED_ATTEMPT"}
+{"text": "logistics supply chain exception routing ticket: the main issue is cold chain temperature breach. Mentioned side notes are only context.", "label": "LOG__COLD_CHAIN_TEMPERATURE_BREACH"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says termination documentation review.", "label": "HR__TERMINATION_DOCUMENTATION_REVIEW"}
+{"text": "financial operations exception routing ticket: the main issue is intercompany mismatch. Mentioned side notes are only context.", "label": "FIN__INTERCOMPANY_MISMATCH"}
+{"text": "software incident triage ticket: the main issue is cdn cache purge issue. Mentioned side notes are only context.", "label": "SW__CDN_CACHE_PURGE_ISSUE"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近审批例外；英文摘要 says ip ownership ambiguity.", "label": "POL__IP_OWNERSHIP_AMBIGUITY"}
+{"text": "logistics supply chain exception routing ticket: the main issue is dock door congestion. Mentioned side notes are only context.", "label": "LOG__DOCK_DOOR_CONGESTION"}
+{"text": "cybersecurity alert triage ticket: the main issue is privilege escalation signal. Mentioned side notes are only context.", "label": "SEC__PRIVILEGE_ESCALATION_SIGNAL"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says cross border data transfer.", "label": "POL__CROSS_BORDER_DATA_TRANSFER"}
+{"text": "workplace policy case routing ticket: the main issue is visa sponsorship question. Mentioned side notes are only context.", "label": "HR__VISA_SPONSORSHIP_QUESTION"}
+{"text": "Route this case by its primary operational risk: edr sensor disabled. Do not classify by the reporter's emotion.", "label": "SEC__EDR_SENSOR_DISABLED"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says withholding tax exception.", "label": "FIN__WITHHOLDING_TAX_EXCEPTION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says ai use disclosure requirement.", "label": "POL__AI_USE_DISCLOSURE_REQUIREMENT"}
+{"text": "Route this case by its primary operational risk: background job retry storm. Do not classify by the reporter's emotion.", "label": "SW__BACKGROUND_JOB_RETRY_STORM"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says credential stuffing attempt.", "label": "SEC__CREDENTIAL_STUFFING_ATTEMPT"}
+{"text": "software incident triage ticket: the main issue is database deadlock. Mentioned side notes are only context.", "label": "SW__DATABASE_DEADLOCK"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says phishing link report.", "label": "SEC__PHISHING_LINK_REPORT"}
+{"text": "cybersecurity alert triage ticket: the main issue is dns tunneling indicator. Mentioned side notes are only context.", "label": "SEC__DNS_TUNNELING_INDICATOR"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近税务或结算差异；英文摘要 says failed ach payment.", "label": "FIN__FAILED_ACH_PAYMENT"}
+{"text": "policy contract compliance risk ticket: the main issue is jurisdiction clause mismatch. Mentioned side notes are only context.", "label": "POL__JURISDICTION_CLAUSE_MISMATCH"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says probation extension request.", "label": "HR__PROBATION_EXTENSION_REQUEST"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says deployment rollback needed.", "label": "SW__DEPLOYMENT_ROLLBACK_NEEDED"}
+{"text": "logistics supply chain exception routing ticket: the main issue is lot traceability gap. Mentioned side notes are only context.", "label": "LOG__LOT_TRACEABILITY_GAP"}
+{"text": "Route this case by its primary operational risk: fx settlement variance. Do not classify by the reporter's emotion.", "label": "FIN__FX_SETTLEMENT_VARIANCE"}
+{"text": "workplace policy case routing ticket: the main issue is workplace safety report. Mentioned side notes are only context.", "label": "HR__WORKPLACE_SAFETY_REPORT"}
+{"text": "cybersecurity alert triage ticket: the main issue is unusual admin token use. Mentioned side notes are only context.", "label": "SEC__UNUSUAL_ADMIN_TOKEN_USE"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近税务或结算差异；英文摘要 says duplicate invoice detected.", "label": "FIN__DUPLICATE_INVOICE_DETECTED"}
+{"text": "Route this case by its primary operational risk: credit memo missing. Do not classify by the reporter's emotion.", "label": "FIN__CREDIT_MEMO_MISSING"}
+{"text": "Route this case by its primary operational risk: unusual admin token use. Do not classify by the reporter's emotion.", "label": "SEC__UNUSUAL_ADMIN_TOKEN_USE"}
+{"text": "policy contract compliance risk ticket: the main issue is force majeure interpretation. Mentioned side notes are only context.", "label": "POL__FORCE_MAJEURE_INTERPRETATION"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says unapproved discount applied.", "label": "FIN__UNAPPROVED_DISCOUNT_APPLIED"}
+{"text": "cybersecurity alert triage ticket: the main issue is phishing link report. Mentioned side notes are only context.", "label": "SEC__PHISHING_LINK_REPORT"}
+{"text": "Route this case by its primary operational risk: subprocessor approval needed. Do not classify by the reporter's emotion.", "label": "POL__SUBPROCESSOR_APPROVAL_NEEDED"}
+{"text": "Route this case by its primary operational risk: duplicate invoice detected. Do not classify by the reporter's emotion.", "label": "FIN__DUPLICATE_INVOICE_DETECTED"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近税务或结算差异；英文摘要 says payment reversal request.", "label": "FIN__PAYMENT_REVERSAL_REQUEST"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近税务或结算差异；英文摘要 says procurement card misuse.", "label": "FIN__PROCUREMENT_CARD_MISUSE"}
+{"text": "financial operations exception routing ticket: the main issue is failed ach payment. Mentioned side notes are only context.", "label": "FIN__FAILED_ACH_PAYMENT"}
+{"text": "Route this case by its primary operational risk: late port clearance. Do not classify by the reporter's emotion.", "label": "LOG__LATE_PORT_CLEARANCE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says last mile failed attempt.", "label": "LOG__LAST_MILE_FAILED_ATTEMPT"}
+{"text": "Route this case by its primary operational risk: vendor bank change review. Do not classify by the reporter's emotion.", "label": "FIN__VENDOR_BANK_CHANGE_REVIEW"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近员工政策；英文摘要 says background check delay.", "label": "HR__BACKGROUND_CHECK_DELAY"}
+{"text": "cybersecurity alert triage ticket: the main issue is malware quarantine event. Mentioned side notes are only context.", "label": "SEC__MALWARE_QUARANTINE_EVENT"}
+{"text": "policy contract compliance risk ticket: the main issue is nda scope conflict. Mentioned side notes are only context.", "label": "POL__NDA_SCOPE_CONFLICT"}
+{"text": "Route this case by its primary operational risk: termination for convenience. Do not classify by the reporter's emotion.", "label": "POL__TERMINATION_FOR_CONVENIENCE"}
+{"text": "Route this case by its primary operational risk: royalty calculation dispute. Do not classify by the reporter's emotion.", "label": "FIN__ROYALTY_CALCULATION_DISPUTE"}
+{"text": "Route this case by its primary operational risk: workplace safety report. Do not classify by the reporter's emotion.", "label": "HR__WORKPLACE_SAFETY_REPORT"}
+{"text": "software incident triage ticket: the main issue is mobile crash regression. Mentioned side notes are only context.", "label": "SW__MOBILE_CRASH_REGRESSION"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近仓库问题；英文摘要 says pallet overage discovered.", "label": "LOG__PALLET_OVERAGE_DISCOVERED"}
+{"text": "Route this case by its primary operational risk: suspicious inbox forwarding. Do not classify by the reporter's emotion.", "label": "SEC__SUSPICIOUS_INBOX_FORWARDING"}
+{"text": "software incident triage ticket: the main issue is cache stale read. Mentioned side notes are only context.", "label": "SW__CACHE_STALE_READ"}
+{"text": "software incident triage ticket: the main issue is notification duplication. Mentioned side notes are only context.", "label": "SW__NOTIFICATION_DUPLICATION"}
+{"text": "software incident triage ticket: the main issue is authentication redirect loop. Mentioned side notes are only context.", "label": "SW__AUTHENTICATION_REDIRECT_LOOP"}
+{"text": "logistics supply chain exception routing ticket: the main issue is package dimension mismatch. Mentioned side notes are only context.", "label": "LOG__PACKAGE_DIMENSION_MISMATCH"}
+{"text": "Route this case by its primary operational risk: chargeback evidence needed. Do not classify by the reporter's emotion.", "label": "FIN__CHARGEBACK_EVIDENCE_NEEDED"}
+{"text": "Route this case by its primary operational risk: partial shipment shortfall. Do not classify by the reporter's emotion.", "label": "LOG__PARTIAL_SHIPMENT_SHORTFALL"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says tenant routing error.", "label": "SW__TENANT_ROUTING_ERROR"}
+{"text": "financial operations exception routing ticket: the main issue is unapproved discount applied. Mentioned side notes are only context.", "label": "FIN__UNAPPROVED_DISCOUNT_APPLIED"}
+{"text": "software incident triage ticket: the main issue is rate limit misconfiguration. Mentioned side notes are only context.", "label": "SW__RATE_LIMIT_MISCONFIGURATION"}
+{"text": "financial operations exception routing ticket: the main issue is billing address mismatch. Mentioned side notes are only context.", "label": "FIN__BILLING_ADDRESS_MISMATCH"}
+{"text": "Route this case by its primary operational risk: mobile crash regression. Do not classify by the reporter's emotion.", "label": "SW__MOBILE_CRASH_REGRESSION"}
+{"text": "Route this case by its primary operational risk: internal transfer eligibility. Do not classify by the reporter's emotion.", "label": "HR__INTERNAL_TRANSFER_ELIGIBILITY"}
+{"text": "policy contract compliance risk ticket: the main issue is biometric data approval. Mentioned side notes are only context.", "label": "POL__BIOMETRIC_DATA_APPROVAL"}
+{"text": "financial operations exception routing ticket: the main issue is procurement card misuse. Mentioned side notes are only context.", "label": "FIN__PROCUREMENT_CARD_MISUSE"}
+{"text": "workplace policy case routing ticket: the main issue is payroll underpayment claim. Mentioned side notes are only context.", "label": "HR__PAYROLL_UNDERPAYMENT_CLAIM"}
+{"text": "financial operations exception routing ticket: the main issue is withholding tax exception. Mentioned side notes are only context.", "label": "FIN__WITHHOLDING_TAX_EXCEPTION"}
+{"text": "Route this case by its primary operational risk: vendor dpa missing. Do not classify by the reporter's emotion.", "label": "POL__VENDOR_DPA_MISSING"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says international duty dispute.", "label": "LOG__INTERNATIONAL_DUTY_DISPUTE"}
+{"text": "Route this case by its primary operational risk: background check delay. Do not classify by the reporter's emotion.", "label": "HR__BACKGROUND_CHECK_DELAY"}
+{"text": "logistics supply chain exception routing ticket: the main issue is supplier capacity shortage. Mentioned side notes are only context.", "label": "LOG__SUPPLIER_CAPACITY_SHORTAGE"}
+{"text": "Route this case by its primary operational risk: leave policy exception. Do not classify by the reporter's emotion.", "label": "HR__LEAVE_POLICY_EXCEPTION"}
+{"text": "workplace policy case routing ticket: the main issue is harassment complaint intake. Mentioned side notes are only context.", "label": "HR__HARASSMENT_COMPLAINT_INTAKE"}
+{"text": "Route this case by its primary operational risk: audit rights dispute. Do not classify by the reporter's emotion.", "label": "POL__AUDIT_RIGHTS_DISPUTE"}
+{"text": "logistics supply chain exception routing ticket: the main issue is backorder priority conflict. Mentioned side notes are only context.", "label": "LOG__BACKORDER_PRIORITY_CONFLICT"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近审批例外；英文摘要 says biometric data approval.", "label": "POL__BIOMETRIC_DATA_APPROVAL"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says expedited shipping request.", "label": "LOG__EXPEDITED_SHIPPING_REQUEST"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近人事流程；英文摘要 says relocation package exception.", "label": "HR__RELOCATION_PACKAGE_EXCEPTION"}
+{"text": "cybersecurity alert triage ticket: the main issue is suspicious inbox forwarding. Mentioned side notes are only context.", "label": "SEC__SUSPICIOUS_INBOX_FORWARDING"}
+{"text": "financial operations exception routing ticket: the main issue is refund approval threshold. Mentioned side notes are only context.", "label": "FIN__REFUND_APPROVAL_THRESHOLD"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says overtime approval issue.", "label": "HR__OVERTIME_APPROVAL_ISSUE"}
+{"text": "logistics supply chain exception routing ticket: the main issue is address validation failure. Mentioned side notes are only context.", "label": "LOG__ADDRESS_VALIDATION_FAILURE"}
+{"text": "software incident triage ticket: the main issue is api latency spike. Mentioned side notes are only context.", "label": "SW__API_LATENCY_SPIKE"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says chargeback evidence needed.", "label": "FIN__CHARGEBACK_EVIDENCE_NEEDED"}
+{"text": "Route this case by its primary operational risk: code of conduct allegation. Do not classify by the reporter's emotion.", "label": "HR__CODE_OF_CONDUCT_ALLEGATION"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says cloud role overpermissioned.", "label": "SEC__CLOUD_ROLE_OVERPERMISSIONED"}
+{"text": "Route this case by its primary operational risk: refund duplicate risk. Do not classify by the reporter's emotion.", "label": "FIN__REFUND_DUPLICATE_RISK"}
+{"text": "financial operations exception routing ticket: the main issue is royalty calculation dispute. Mentioned side notes are only context.", "label": "FIN__ROYALTY_CALCULATION_DISPUTE"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合同条款；英文摘要 says jurisdiction clause mismatch.", "label": "POL__JURISDICTION_CLAUSE_MISMATCH"}
+{"text": "Route this case by its primary operational risk: email delivery outage. Do not classify by the reporter's emotion.", "label": "SW__EMAIL_DELIVERY_OUTAGE"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says budget owner missing.", "label": "FIN__BUDGET_OWNER_MISSING"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says authentication redirect loop.", "label": "SW__AUTHENTICATION_REDIRECT_LOOP"}
+{"text": "workplace policy case routing ticket: the main issue is background check delay. Mentioned side notes are only context.", "label": "HR__BACKGROUND_CHECK_DELAY"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says refund duplicate risk.", "label": "FIN__REFUND_DUPLICATE_RISK"}
+{"text": "financial operations exception routing ticket: the main issue is subscription proration error. Mentioned side notes are only context.", "label": "FIN__SUBSCRIPTION_PRORATION_ERROR"}
+{"text": "software incident triage ticket: the main issue is billing webhook failure. Mentioned side notes are only context.", "label": "SW__BILLING_WEBHOOK_FAILURE"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says payment status desync.", "label": "SW__PAYMENT_STATUS_DESYNC"}
+{"text": "Route this case by its primary operational risk: billing address mismatch. Do not classify by the reporter's emotion.", "label": "FIN__BILLING_ADDRESS_MISMATCH"}
+{"text": "Route this case by its primary operational risk: database deadlock. Do not classify by the reporter's emotion.", "label": "SW__DATABASE_DEADLOCK"}
+{"text": "Route this case by its primary operational risk: security addendum deviation. Do not classify by the reporter's emotion.", "label": "POL__SECURITY_ADDENDUM_DEVIATION"}
+{"text": "software incident triage ticket: the main issue is database read replica lag. Mentioned side notes are only context.", "label": "SW__DATABASE_READ_REPLICA_LAG"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says incorrect legal entity.", "label": "FIN__INCORRECT_LEGAL_ENTITY"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says warehouse system outage.", "label": "LOG__WAREHOUSE_SYSTEM_OUTAGE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近钓鱼或恶意行为；英文摘要 says container escape indicator.", "label": "SEC__CONTAINER_ESCAPE_INDICATOR"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says remittance advice missing.", "label": "FIN__REMITTANCE_ADVICE_MISSING"}
+{"text": "workplace policy case routing ticket: the main issue is salary band exception. Mentioned side notes are only context.", "label": "HR__SALARY_BAND_EXCEPTION"}
+{"text": "Route this case by its primary operational risk: container escape indicator. Do not classify by the reporter's emotion.", "label": "SEC__CONTAINER_ESCAPE_INDICATOR"}
+{"text": "policy contract compliance risk ticket: the main issue is ai use disclosure requirement. Mentioned side notes are only context.", "label": "POL__AI_USE_DISCLOSURE_REQUIREMENT"}
+{"text": "cybersecurity alert triage ticket: the main issue is brute force ssh attack. Mentioned side notes are only context.", "label": "SEC__BRUTE_FORCE_SSH_ATTACK"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近仓库问题；英文摘要 says carrier no scan.", "label": "LOG__CARRIER_NO_SCAN"}
+{"text": "workplace policy case routing ticket: the main issue is relocation package exception. Mentioned side notes are only context.", "label": "HR__RELOCATION_PACKAGE_EXCEPTION"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says message queue backlog.", "label": "SW__MESSAGE_QUEUE_BACKLOG"}
+{"text": "cybersecurity alert triage ticket: the main issue is mfa fatigue attack. Mentioned side notes are only context.", "label": "SEC__MFA_FATIGUE_ATTACK"}
+{"text": "Route this case by its primary operational risk: jurisdiction clause mismatch. Do not classify by the reporter's emotion.", "label": "POL__JURISDICTION_CLAUSE_MISMATCH"}
+{"text": "Route this case by its primary operational risk: payment status desync. Do not classify by the reporter's emotion.", "label": "SW__PAYMENT_STATUS_DESYNC"}
+{"text": "financial operations exception routing ticket: the main issue is payment batch cut off. Mentioned side notes are only context.", "label": "FIN__PAYMENT_BATCH_CUT_OFF"}
+{"text": "software incident triage ticket: the main issue is payment status desync. Mentioned side notes are only context.", "label": "SW__PAYMENT_STATUS_DESYNC"}
+{"text": "Route this case by its primary operational risk: procurement card misuse. Do not classify by the reporter's emotion.", "label": "FIN__PROCUREMENT_CARD_MISUSE"}
+{"text": "Route this case by its primary operational risk: international duty dispute. Do not classify by the reporter's emotion.", "label": "LOG__INTERNATIONAL_DUTY_DISPUTE"}
+{"text": "workplace policy case routing ticket: the main issue is promotion process appeal. Mentioned side notes are only context.", "label": "HR__PROMOTION_PROCESS_APPEAL"}
+{"text": "Route this case by its primary operational risk: rate limit misconfiguration. Do not classify by the reporter's emotion.", "label": "SW__RATE_LIMIT_MISCONFIGURATION"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近货物差异；英文摘要 says proof of delivery dispute.", "label": "LOG__PROOF_OF_DELIVERY_DISPUTE"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says marketing consent ambiguity.", "label": "POL__MARKETING_CONSENT_AMBIGUITY"}
+{"text": "workplace policy case routing ticket: the main issue is employee data correction. Mentioned side notes are only context.", "label": "HR__EMPLOYEE_DATA_CORRECTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近员工政策；英文摘要 says training completion waiver.", "label": "HR__TRAINING_COMPLETION_WAIVER"}
+{"text": "Route this case by its primary operational risk: indemnity clause escalation. Do not classify by the reporter's emotion.", "label": "POL__INDEMNITY_CLAUSE_ESCALATION"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says privilege escalation signal.", "label": "SEC__PRIVILEGE_ESCALATION_SIGNAL"}
+{"text": "policy contract compliance risk ticket: the main issue is data retention exception. Mentioned side notes are only context.", "label": "POL__DATA_RETENTION_EXCEPTION"}
+{"text": "Route this case by its primary operational risk: route weather delay. Do not classify by the reporter's emotion.", "label": "LOG__ROUTE_WEATHER_DELAY"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says schema migration mismatch.", "label": "SW__SCHEMA_MIGRATION_MISMATCH"}
+{"text": "Route this case by its primary operational risk: cash application suspense. Do not classify by the reporter's emotion.", "label": "FIN__CASH_APPLICATION_SUSPENSE"}
+{"text": "Route this case by its primary operational risk: proof of delivery dispute. Do not classify by the reporter's emotion.", "label": "LOG__PROOF_OF_DELIVERY_DISPUTE"}
+{"text": "workplace policy case routing ticket: the main issue is conflict of interest disclosure. Mentioned side notes are only context.", "label": "HR__CONFLICT_OF_INTEREST_DISCLOSURE"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says vendor dpa missing.", "label": "POL__VENDOR_DPA_MISSING"}
+{"text": "Route this case by its primary operational risk: open source license conflict. Do not classify by the reporter's emotion.", "label": "POL__OPEN_SOURCE_LICENSE_CONFLICT"}
+{"text": "cybersecurity alert triage ticket: the main issue is unauthorized firewall change. Mentioned side notes are only context.", "label": "SEC__UNAUTHORIZED_FIREWALL_CHANGE"}
+{"text": "policy contract compliance risk ticket: the main issue is confidential information carveout. Mentioned side notes are only context.", "label": "POL__CONFIDENTIAL_INFORMATION_CARVEOUT"}
+{"text": "Route this case by its primary operational risk: parental leave planning. Do not classify by the reporter's emotion.", "label": "HR__PARENTAL_LEAVE_PLANNING"}
+{"text": "Route this case by its primary operational risk: unauthorized firewall change. Do not classify by the reporter's emotion.", "label": "SEC__UNAUTHORIZED_FIREWALL_CHANGE"}
+{"text": "Route this case by its primary operational risk: payment reversal request. Do not classify by the reporter's emotion.", "label": "FIN__PAYMENT_REVERSAL_REQUEST"}
+{"text": "Route this case by its primary operational risk: mfa fatigue attack. Do not classify by the reporter's emotion.", "label": "SEC__MFA_FATIGUE_ATTACK"}
+{"text": "Route this case by its primary operational risk: tax code mismatch. Do not classify by the reporter's emotion.", "label": "FIN__TAX_CODE_MISMATCH"}
+{"text": "Route this case by its primary operational risk: nda scope conflict. Do not classify by the reporter's emotion.", "label": "POL__NDA_SCOPE_CONFLICT"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合同条款；英文摘要 says minor user consent gap.", "label": "POL__MINOR_USER_CONSENT_GAP"}
+{"text": "policy contract compliance risk ticket: the main issue is indemnity clause escalation. Mentioned side notes are only context.", "label": "POL__INDEMNITY_CLAUSE_ESCALATION"}
+{"text": "cybersecurity alert triage ticket: the main issue is blocked command and control. Mentioned side notes are only context.", "label": "SEC__BLOCKED_COMMAND_AND_CONTROL"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近货物差异；英文摘要 says hazmat label missing.", "label": "LOG__HAZMAT_LABEL_MISSING"}
+{"text": "Route this case by its primary operational risk: aged receivable escalation. Do not classify by the reporter's emotion.", "label": "FIN__AGED_RECEIVABLE_ESCALATION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says equipment return missing.", "label": "HR__EQUIPMENT_RETURN_MISSING"}
+{"text": "financial operations exception routing ticket: the main issue is sanctions screening hit. Mentioned side notes are only context.", "label": "FIN__SANCTIONS_SCREENING_HIT"}
+{"text": "Route this case by its primary operational risk: blocked command and control. Do not classify by the reporter's emotion.", "label": "SEC__BLOCKED_COMMAND_AND_CONTROL"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says retention hold notice.", "label": "POL__RETENTION_HOLD_NOTICE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says typosquatting domain alert.", "label": "SEC__TYPOSQUATTING_DOMAIN_ALERT"}
+{"text": "Route this case by its primary operational risk: confidential information carveout. Do not classify by the reporter's emotion.", "label": "POL__CONFIDENTIAL_INFORMATION_CARVEOUT"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says vendor bank change review.", "label": "FIN__VENDOR_BANK_CHANGE_REVIEW"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近货物差异；英文摘要 says truck appointment missed.", "label": "LOG__TRUCK_APPOINTMENT_MISSED"}
+{"text": "Route this case by its primary operational risk: idempotency key collision. Do not classify by the reporter's emotion.", "label": "SW__IDEMPOTENCY_KEY_COLLISION"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says insider data access spike.", "label": "SEC__INSIDER_DATA_ACCESS_SPIKE"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近发票/付款异常；英文摘要 says invoice approver conflict.", "label": "FIN__INVOICE_APPROVER_CONFLICT"}
+{"text": "Route this case by its primary operational risk: limitation of liability cap. Do not classify by the reporter's emotion.", "label": "POL__LIMITATION_OF_LIABILITY_CAP"}
+{"text": "Route this case by its primary operational risk: permission sync delay. Do not classify by the reporter's emotion.", "label": "SW__PERMISSION_SYNC_DELAY"}
+{"text": "policy contract compliance risk ticket: the main issue is accessibility compliance review. Mentioned side notes are only context.", "label": "POL__ACCESSIBILITY_COMPLIANCE_REVIEW"}
+{"text": "Route this case by its primary operational risk: expense policy violation. Do not classify by the reporter's emotion.", "label": "FIN__EXPENSE_POLICY_VIOLATION"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says sanctions screening hit.", "label": "FIN__SANCTIONS_SCREENING_HIT"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says mobile crash regression.", "label": "SW__MOBILE_CRASH_REGRESSION"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近钓鱼或恶意行为；英文摘要 says certificate private key leak.", "label": "SEC__CERTIFICATE_PRIVATE_KEY_LEAK"}
+{"text": "Route this case by its primary operational risk: warehouse system outage. Do not classify by the reporter's emotion.", "label": "LOG__WAREHOUSE_SYSTEM_OUTAGE"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says payment terms exception.", "label": "POL__PAYMENT_TERMS_EXCEPTION"}
+{"text": "cybersecurity alert triage ticket: the main issue is typosquatting domain alert. Mentioned side notes are only context.", "label": "SEC__TYPOSQUATTING_DOMAIN_ALERT"}
+{"text": "Route this case by its primary operational risk: promotion process appeal. Do not classify by the reporter's emotion.", "label": "HR__PROMOTION_PROCESS_APPEAL"}
+{"text": "Route this case by its primary operational risk: damaged goods report. Do not classify by the reporter's emotion.", "label": "LOG__DAMAGED_GOODS_REPORT"}
+{"text": "logistics supply chain exception routing ticket: the main issue is hazmat label missing. Mentioned side notes are only context.", "label": "LOG__HAZMAT_LABEL_MISSING"}
+{"text": "software incident triage ticket: the main issue is schema migration mismatch. Mentioned side notes are only context.", "label": "SW__SCHEMA_MIGRATION_MISMATCH"}
+{"text": "workplace policy case routing ticket: the main issue is performance review dispute. Mentioned side notes are only context.", "label": "HR__PERFORMANCE_REVIEW_DISPUTE"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says feature flag misroute.", "label": "SW__FEATURE_FLAG_MISROUTE"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says attendance record correction.", "label": "HR__ATTENDANCE_RECORD_CORRECTION"}
+{"text": "Route this case by its primary operational risk: dns tunneling indicator. Do not classify by the reporter's emotion.", "label": "SEC__DNS_TUNNELING_INDICATOR"}
+{"text": "financial operations exception routing ticket: the main issue is vendor bank change review. Mentioned side notes are only context.", "label": "FIN__VENDOR_BANK_CHANGE_REVIEW"}
+{"text": "logistics supply chain exception routing ticket: the main issue is temperature logger missing. Mentioned side notes are only context.", "label": "LOG__TEMPERATURE_LOGGER_MISSING"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近税务或结算差异；英文摘要 says late payment penalty dispute.", "label": "FIN__LATE_PAYMENT_PENALTY_DISPUTE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近仓库问题；英文摘要 says temperature logger missing.", "label": "LOG__TEMPERATURE_LOGGER_MISSING"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says recall hold required.", "label": "LOG__RECALL_HOLD_REQUIRED"}
+{"text": "policy contract compliance risk ticket: the main issue is records deletion request. Mentioned side notes are only context.", "label": "POL__RECORDS_DELETION_REQUEST"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says supply chain package risk.", "label": "SEC__SUPPLY_CHAIN_PACKAGE_RISK"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says wrong warehouse dispatch.", "label": "LOG__WRONG_WAREHOUSE_DISPATCH"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近员工政策；英文摘要 says access badge deactivation.", "label": "HR__ACCESS_BADGE_DEACTIVATION"}
+{"text": "Route this case by its primary operational risk: conflict of interest disclosure. Do not classify by the reporter's emotion.", "label": "HR__CONFLICT_OF_INTEREST_DISCLOSURE"}
+{"text": "Route this case by its primary operational risk: auto renewal notice risk. Do not classify by the reporter's emotion.", "label": "POL__AUTO_RENEWAL_NOTICE_RISK"}
+{"text": "Route this case by its primary operational risk: recall hold required. Do not classify by the reporter's emotion.", "label": "LOG__RECALL_HOLD_REQUIRED"}
+{"text": "workplace policy case routing ticket: the main issue is probation extension request. Mentioned side notes are only context.", "label": "HR__PROBATION_EXTENSION_REQUEST"}
+{"text": "cybersecurity alert triage ticket: the main issue is data exfiltration suspicion. Mentioned side notes are only context.", "label": "SEC__DATA_EXFILTRATION_SUSPICION"}
+{"text": "financial operations exception routing ticket: the main issue is payment reversal request. Mentioned side notes are only context.", "label": "FIN__PAYMENT_REVERSAL_REQUEST"}
+{"text": "Route this case by its primary operational risk: endpoint beaconing activity. Do not classify by the reporter's emotion.", "label": "SEC__ENDPOINT_BEACONING_ACTIVITY"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近人事流程；英文摘要 says mental health accommodation.", "label": "HR__MENTAL_HEALTH_ACCOMMODATION"}
+{"text": "logistics supply chain exception routing ticket: the main issue is proof of delivery dispute. Mentioned side notes are only context.", "label": "LOG__PROOF_OF_DELIVERY_DISPUTE"}
+{"text": "Route this case by its primary operational risk: contractor conversion request. Do not classify by the reporter's emotion.", "label": "HR__CONTRACTOR_CONVERSION_REQUEST"}
+{"text": "Route this case by its primary operational risk: service discovery failure. Do not classify by the reporter's emotion.", "label": "SW__SERVICE_DISCOVERY_FAILURE"}
+{"text": "logistics supply chain exception routing ticket: the main issue is container seal discrepancy. Mentioned side notes are only context.", "label": "LOG__CONTAINER_SEAL_DISCREPANCY"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近审批例外；英文摘要 says limitation of liability cap.", "label": "POL__LIMITATION_OF_LIABILITY_CAP"}
+{"text": "Route this case by its primary operational risk: cold chain temperature breach. Do not classify by the reporter's emotion.", "label": "LOG__COLD_CHAIN_TEMPERATURE_BREACH"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says suspicious oauth consent.", "label": "SEC__SUSPICIOUS_OAUTH_CONSENT"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says force majeure interpretation.", "label": "POL__FORCE_MAJEURE_INTERPRETATION"}
+{"text": "cybersecurity alert triage ticket: the main issue is new risky service account. Mentioned side notes are only context.", "label": "SEC__NEW_RISKY_SERVICE_ACCOUNT"}
+{"text": "cybersecurity alert triage ticket: the main issue is supply chain package risk. Mentioned side notes are only context.", "label": "SEC__SUPPLY_CHAIN_PACKAGE_RISK"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says idempotency key collision.", "label": "SW__IDEMPOTENCY_KEY_COLLISION"}
+{"text": "Route this case by its primary operational risk: hazmat label missing. Do not classify by the reporter's emotion.", "label": "LOG__HAZMAT_LABEL_MISSING"}
+{"text": "Route this case by its primary operational risk: insider data access spike. Do not classify by the reporter's emotion.", "label": "SEC__INSIDER_DATA_ACCESS_SPIKE"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近税务或结算差异；英文摘要 says credit memo missing.", "label": "FIN__CREDIT_MEMO_MISSING"}
+{"text": "Route this case by its primary operational risk: api latency spike. Do not classify by the reporter's emotion.", "label": "SW__API_LATENCY_SPIKE"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says termination for convenience.", "label": "POL__TERMINATION_FOR_CONVENIENCE"}
+{"text": "software incident triage ticket: the main issue is email delivery outage. Mentioned side notes are only context.", "label": "SW__EMAIL_DELIVERY_OUTAGE"}
+{"text": "Route this case by its primary operational risk: cloud role overpermissioned. Do not classify by the reporter's emotion.", "label": "SEC__CLOUD_ROLE_OVERPERMISSIONED"}
+{"text": "Route this case by its primary operational risk: training completion waiver. Do not classify by the reporter's emotion.", "label": "HR__TRAINING_COMPLETION_WAIVER"}
+{"text": "Route this case by its primary operational risk: invoice approver conflict. Do not classify by the reporter's emotion.", "label": "FIN__INVOICE_APPROVER_CONFLICT"}
+{"text": "Route this case by its primary operational risk: data retention exception. Do not classify by the reporter's emotion.", "label": "POL__DATA_RETENTION_EXCEPTION"}
+{"text": "logistics supply chain exception routing ticket: the main issue is cross dock sorting error. Mentioned side notes are only context.", "label": "LOG__CROSS_DOCK_SORTING_ERROR"}
+{"text": "Route this case by its primary operational risk: suspicious oauth consent. Do not classify by the reporter's emotion.", "label": "SEC__SUSPICIOUS_OAUTH_CONSENT"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says manager conflict mediation.", "label": "HR__MANAGER_CONFLICT_MEDIATION"}
+{"text": "Route this case by its primary operational risk: deployment rollback needed. Do not classify by the reporter's emotion.", "label": "SW__DEPLOYMENT_ROLLBACK_NEEDED"}
+{"text": "workplace policy case routing ticket: the main issue is internal transfer eligibility. Mentioned side notes are only context.", "label": "HR__INTERNAL_TRANSFER_ELIGIBILITY"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says insurance coverage gap.", "label": "POL__INSURANCE_COVERAGE_GAP"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近审批例外；英文摘要 says audit rights dispute.", "label": "POL__AUDIT_RIGHTS_DISPUTE"}
+{"text": "Route this case by its primary operational risk: termination documentation review. Do not classify by the reporter's emotion.", "label": "HR__TERMINATION_DOCUMENTATION_REVIEW"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says third party api degradation.", "label": "SW__THIRD_PARTY_API_DEGRADATION"}
+{"text": "Route this case by its primary operational risk: incorrect timezone rendering. Do not classify by the reporter's emotion.", "label": "SW__INCORRECT_TIMEZONE_RENDERING"}
+{"text": "Route this case by its primary operational risk: revenue recognition hold. Do not classify by the reporter's emotion.", "label": "FIN__REVENUE_RECOGNITION_HOLD"}
+{"text": "Route this case by its primary operational risk: disciplinary warning response. Do not classify by the reporter's emotion.", "label": "HR__DISCIPLINARY_WARNING_RESPONSE"}
+{"text": "workplace policy case routing ticket: the main issue is access badge deactivation. Mentioned side notes are only context.", "label": "HR__ACCESS_BADGE_DEACTIVATION"}
+{"text": "software incident triage ticket: the main issue is background job retry storm. Mentioned side notes are only context.", "label": "SW__BACKGROUND_JOB_RETRY_STORM"}
+{"text": "Route this case by its primary operational risk: brute force ssh attack. Do not classify by the reporter's emotion.", "label": "SEC__BRUTE_FORCE_SSH_ATTACK"}
+{"text": "workplace policy case routing ticket: the main issue is parental leave planning. Mentioned side notes are only context.", "label": "HR__PARENTAL_LEAVE_PLANNING"}
+{"text": "Route this case by its primary operational risk: payment terms exception. Do not classify by the reporter's emotion.", "label": "POL__PAYMENT_TERMS_EXCEPTION"}
+{"text": "Route this case by its primary operational risk: phishing link report. Do not classify by the reporter's emotion.", "label": "SEC__PHISHING_LINK_REPORT"}
+{"text": "Route this case by its primary operational risk: pallet overage discovered. Do not classify by the reporter's emotion.", "label": "LOG__PALLET_OVERAGE_DISCOVERED"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近仓库问题；英文摘要 says container seal discrepancy.", "label": "LOG__CONTAINER_SEAL_DISCREPANCY"}
+{"text": "workplace policy case routing ticket: the main issue is leave policy exception. Mentioned side notes are only context.", "label": "HR__LEAVE_POLICY_EXCEPTION"}
+{"text": "Route this case by its primary operational risk: harassment complaint intake. Do not classify by the reporter's emotion.", "label": "HR__HARASSMENT_COMPLAINT_INTAKE"}
+{"text": "Route this case by its primary operational risk: public bucket exposure. Do not classify by the reporter's emotion.", "label": "SEC__PUBLIC_BUCKET_EXPOSURE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says dns tunneling indicator.", "label": "SEC__DNS_TUNNELING_INDICATOR"}
+{"text": "Route this case by its primary operational risk: holiday scheduling conflict. Do not classify by the reporter's emotion.", "label": "HR__HOLIDAY_SCHEDULING_CONFLICT"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says revenue recognition hold.", "label": "FIN__REVENUE_RECOGNITION_HOLD"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says email delivery outage.", "label": "SW__EMAIL_DELIVERY_OUTAGE"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says nda scope conflict.", "label": "POL__NDA_SCOPE_CONFLICT"}
+{"text": "Route this case by its primary operational risk: notification duplication. Do not classify by the reporter's emotion.", "label": "SW__NOTIFICATION_DUPLICATION"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says configuration drift.", "label": "SW__CONFIGURATION_DRIFT"}
+{"text": "Route this case by its primary operational risk: benefits enrollment correction. Do not classify by the reporter's emotion.", "label": "HR__BENEFITS_ENROLLMENT_CORRECTION"}
+{"text": "Route this case by its primary operational risk: visa sponsorship question. Do not classify by the reporter's emotion.", "label": "HR__VISA_SPONSORSHIP_QUESTION"}
+{"text": "policy contract compliance risk ticket: the main issue is subprocessor approval needed. Mentioned side notes are only context.", "label": "POL__SUBPROCESSOR_APPROVAL_NEEDED"}
+{"text": "Route this case by its primary operational risk: publicity rights restriction. Do not classify by the reporter's emotion.", "label": "POL__PUBLICITY_RIGHTS_RESTRICTION"}
+{"text": "cybersecurity alert triage ticket: the main issue is shadow it app discovery. Mentioned side notes are only context.", "label": "SEC__SHADOW_IT_APP_DISCOVERY"}
+{"text": "Route this case by its primary operational risk: credential paste site hit. Do not classify by the reporter's emotion.", "label": "SEC__CREDENTIAL_PASTE_SITE_HIT"}
+{"text": "workplace policy case routing ticket: the main issue is benefits enrollment correction. Mentioned side notes are only context.", "label": "HR__BENEFITS_ENROLLMENT_CORRECTION"}
+{"text": "Route this case by its primary operational risk: certificate private key leak. Do not classify by the reporter's emotion.", "label": "SEC__CERTIFICATE_PRIVATE_KEY_LEAK"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says performance review dispute.", "label": "HR__PERFORMANCE_REVIEW_DISPUTE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says package dimension mismatch.", "label": "LOG__PACKAGE_DIMENSION_MISMATCH"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says export control concern.", "label": "POL__EXPORT_CONTROL_CONCERN"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says public bucket exposure.", "label": "SEC__PUBLIC_BUCKET_EXPOSURE"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says search index corruption.", "label": "SW__SEARCH_INDEX_CORRUPTION"}
+{"text": "Route this case by its primary operational risk: budget owner missing. Do not classify by the reporter's emotion.", "label": "FIN__BUDGET_OWNER_MISSING"}
+{"text": "Route this case by its primary operational risk: marketing consent ambiguity. Do not classify by the reporter's emotion.", "label": "POL__MARKETING_CONSENT_AMBIGUITY"}
+{"text": "software incident triage ticket: the main issue is configuration drift. Mentioned side notes are only context.", "label": "SW__CONFIGURATION_DRIFT"}
+{"text": "workplace policy case routing ticket: the main issue is contractor conversion request. Mentioned side notes are only context.", "label": "HR__CONTRACTOR_CONVERSION_REQUEST"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says data retention exception.", "label": "POL__DATA_RETENTION_EXCEPTION"}
+{"text": "software incident triage ticket: the main issue is third party api degradation. Mentioned side notes are only context.", "label": "SW__THIRD_PARTY_API_DEGRADATION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says remote work accommodation.", "label": "HR__REMOTE_WORK_ACCOMMODATION"}
+{"text": "Route this case by its primary operational risk: schema migration mismatch. Do not classify by the reporter's emotion.", "label": "SW__SCHEMA_MIGRATION_MISMATCH"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近发票/付款异常；英文摘要 says royalty calculation dispute.", "label": "FIN__ROYALTY_CALCULATION_DISPUTE"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says employee data correction.", "label": "HR__EMPLOYEE_DATA_CORRECTION"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says cache stale read.", "label": "SW__CACHE_STALE_READ"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says fx settlement variance.", "label": "FIN__FX_SETTLEMENT_VARIANCE"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says lot traceability gap.", "label": "LOG__LOT_TRACEABILITY_GAP"}
+{"text": "Route this case by its primary operational risk: cross border data transfer. Do not classify by the reporter's emotion.", "label": "POL__CROSS_BORDER_DATA_TRANSFER"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近人事流程；英文摘要 says salary band exception.", "label": "HR__SALARY_BAND_EXCEPTION"}
+{"text": "cybersecurity alert triage ticket: the main issue is waf sql injection block. Mentioned side notes are only context.", "label": "SEC__WAF_SQL_INJECTION_BLOCK"}
+{"text": "Route this case by its primary operational risk: vpn login anomaly. Do not classify by the reporter's emotion.", "label": "SEC__VPN_LOGIN_ANOMALY"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近发票/付款异常；英文摘要 says purchase order overrun.", "label": "FIN__PURCHASE_ORDER_OVERRUN"}
+{"text": "Route this case by its primary operational risk: cross dock sorting error. Do not classify by the reporter's emotion.", "label": "LOG__CROSS_DOCK_SORTING_ERROR"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says rate limit misconfiguration.", "label": "SW__RATE_LIMIT_MISCONFIGURATION"}
+{"text": "software incident triage ticket: the main issue is session invalidation bug. Mentioned side notes are only context.", "label": "SW__SESSION_INVALIDATION_BUG"}
+{"text": "cybersecurity alert triage ticket: the main issue is ransomware behavior pattern. Mentioned side notes are only context.", "label": "SEC__RANSOMWARE_BEHAVIOR_PATTERN"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says permission sync delay.", "label": "SW__PERMISSION_SYNC_DELAY"}
+{"text": "Route this case by its primary operational risk: retention hold notice. Do not classify by the reporter's emotion.", "label": "POL__RETENTION_HOLD_NOTICE"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says benefits enrollment correction.", "label": "HR__BENEFITS_ENROLLMENT_CORRECTION"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says data exfiltration suspicion.", "label": "SEC__DATA_EXFILTRATION_SUSPICION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近人事流程；英文摘要 says payroll underpayment claim.", "label": "HR__PAYROLL_UNDERPAYMENT_CLAIM"}
+{"text": "Route this case by its primary operational risk: attendance record correction. Do not classify by the reporter's emotion.", "label": "HR__ATTENDANCE_RECORD_CORRECTION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says disciplinary warning response.", "label": "HR__DISCIPLINARY_WARNING_RESPONSE"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近人事流程；英文摘要 says parental leave planning.", "label": "HR__PARENTAL_LEAVE_PLANNING"}
+{"text": "Route this case by its primary operational risk: backorder priority conflict. Do not classify by the reporter's emotion.", "label": "LOG__BACKORDER_PRIORITY_CONFLICT"}
+{"text": "Route this case by its primary operational risk: expedited shipping request. Do not classify by the reporter's emotion.", "label": "LOG__EXPEDITED_SHIPPING_REQUEST"}
+{"text": "financial operations exception routing ticket: the main issue is credit memo missing. Mentioned side notes are only context.", "label": "FIN__CREDIT_MEMO_MISSING"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近发票/付款异常；英文摘要 says expense policy violation.", "label": "FIN__EXPENSE_POLICY_VIOLATION"}
+{"text": "Route this case by its primary operational risk: intercompany mismatch. Do not classify by the reporter's emotion.", "label": "FIN__INTERCOMPANY_MISMATCH"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近职场投诉；英文摘要 says harassment complaint intake.", "label": "HR__HARASSMENT_COMPLAINT_INTAKE"}
+{"text": "Route this case by its primary operational risk: overtime approval issue. Do not classify by the reporter's emotion.", "label": "HR__OVERTIME_APPROVAL_ISSUE"}
+{"text": "Route this case by its primary operational risk: return authorization mismatch. Do not classify by the reporter's emotion.", "label": "LOG__RETURN_AUTHORIZATION_MISMATCH"}
+{"text": "policy contract compliance risk ticket: the main issue is audit rights dispute. Mentioned side notes are only context.", "label": "POL__AUDIT_RIGHTS_DISPUTE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says malware quarantine event.", "label": "SEC__MALWARE_QUARANTINE_EVENT"}
+{"text": "policy contract compliance risk ticket: the main issue is export control concern. Mentioned side notes are only context.", "label": "POL__EXPORT_CONTROL_CONCERN"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says cross dock sorting error.", "label": "LOG__CROSS_DOCK_SORTING_ERROR"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says regulatory reporting trigger.", "label": "POL__REGULATORY_REPORTING_TRIGGER"}
+{"text": "workplace policy case routing ticket: the main issue is overtime approval issue. Mentioned side notes are only context.", "label": "HR__OVERTIME_APPROVAL_ISSUE"}
+{"text": "Route this case by its primary operational risk: withholding tax exception. Do not classify by the reporter's emotion.", "label": "FIN__WITHHOLDING_TAX_EXCEPTION"}
+{"text": "Route this case by its primary operational risk: dock door congestion. Do not classify by the reporter's emotion.", "label": "LOG__DOCK_DOOR_CONGESTION"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says inventory cycle count variance.", "label": "LOG__INVENTORY_CYCLE_COUNT_VARIANCE"}
+{"text": "software incident triage ticket: the main issue is idempotency key collision. Mentioned side notes are only context.", "label": "SW__IDEMPOTENCY_KEY_COLLISION"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says split shipment reconciliation.", "label": "LOG__SPLIT_SHIPMENT_RECONCILIATION"}
+{"text": "logistics supply chain exception routing ticket: the main issue is inventory cycle count variance. Mentioned side notes are only context.", "label": "LOG__INVENTORY_CYCLE_COUNT_VARIANCE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says suspicious inbox forwarding.", "label": "SEC__SUSPICIOUS_INBOX_FORWARDING"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says new risky service account.", "label": "SEC__NEW_RISKY_SERVICE_ACCOUNT"}
+{"text": "workplace policy case routing ticket: the main issue is remote work accommodation. Mentioned side notes are only context.", "label": "HR__REMOTE_WORK_ACCOMMODATION"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says notification duplication.", "label": "SW__NOTIFICATION_DUPLICATION"}
+{"text": "policy contract compliance risk ticket: the main issue is open source license conflict. Mentioned side notes are only context.", "label": "POL__OPEN_SOURCE_LICENSE_CONFLICT"}
+{"text": "Route this case by its primary operational risk: records deletion request. Do not classify by the reporter's emotion.", "label": "POL__RECORDS_DELETION_REQUEST"}
+{"text": "financial operations exception routing ticket: the main issue is expense policy violation. Mentioned side notes are only context.", "label": "FIN__EXPENSE_POLICY_VIOLATION"}
+{"text": "Route this case by its primary operational risk: remittance advice missing. Do not classify by the reporter's emotion.", "label": "FIN__REMITTANCE_ADVICE_MISSING"}
+{"text": "Route this case by its primary operational risk: sanctions screening hit. Do not classify by the reporter's emotion.", "label": "FIN__SANCTIONS_SCREENING_HIT"}
+{"text": "workplace policy case routing ticket: the main issue is manager conflict mediation. Mentioned side notes are only context.", "label": "HR__MANAGER_CONFLICT_MEDIATION"}
+{"text": "Route this case by its primary operational risk: tenant routing error. Do not classify by the reporter's emotion.", "label": "SW__TENANT_ROUTING_ERROR"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近财务审批；英文摘要 says tax code mismatch.", "label": "FIN__TAX_CODE_MISMATCH"}
+{"text": "policy contract compliance risk ticket: the main issue is marketing consent ambiguity. Mentioned side notes are only context.", "label": "POL__MARKETING_CONSENT_AMBIGUITY"}
+{"text": "workplace policy case routing ticket: the main issue is mental health accommodation. Mentioned side notes are only context.", "label": "HR__MENTAL_HEALTH_ACCOMMODATION"}
+{"text": "Route this case by its primary operational risk: probation extension request. Do not classify by the reporter's emotion.", "label": "HR__PROBATION_EXTENSION_REQUEST"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近员工政策；英文摘要 says holiday scheduling conflict.", "label": "HR__HOLIDAY_SCHEDULING_CONFLICT"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近接口变慢；英文摘要 says api latency spike.", "label": "SW__API_LATENCY_SPIKE"}
+{"text": "Route this case by its primary operational risk: message queue backlog. Do not classify by the reporter's emotion.", "label": "SW__MESSAGE_QUEUE_BACKLOG"}
+{"text": "Route this case by its primary operational risk: customs document missing. Do not classify by the reporter's emotion.", "label": "LOG__CUSTOMS_DOCUMENT_MISSING"}
+{"text": "中文工单：这是一个财务运营场景，核心现象接近退款/冲账；英文摘要 says intercompany mismatch.", "label": "FIN__INTERCOMPANY_MISMATCH"}
+{"text": "software incident triage ticket: the main issue is report export failure. Mentioned side notes are only context.", "label": "SW__REPORT_EXPORT_FAILURE"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近权限异常；英文摘要 says unusual admin token use.", "label": "SEC__UNUSUAL_ADMIN_TOKEN_USE"}
+{"text": "financial operations exception routing ticket: the main issue is budget owner missing. Mentioned side notes are only context.", "label": "FIN__BUDGET_OWNER_MISSING"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近数据泄露风险；英文摘要 says vpn login anomaly.", "label": "SEC__VPN_LOGIN_ANOMALY"}
+{"text": "policy contract compliance risk ticket: the main issue is payment terms exception. Mentioned side notes are only context.", "label": "POL__PAYMENT_TERMS_EXCEPTION"}
+{"text": "financial operations exception routing ticket: the main issue is revenue recognition hold. Mentioned side notes are only context.", "label": "FIN__REVENUE_RECOGNITION_HOLD"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says open source license conflict.", "label": "POL__OPEN_SOURCE_LICENSE_CONFLICT"}
+{"text": "Route this case by its primary operational risk: privilege escalation signal. Do not classify by the reporter's emotion.", "label": "SEC__PRIVILEGE_ESCALATION_SIGNAL"}
+{"text": "Route this case by its primary operational risk: employee data correction. Do not classify by the reporter's emotion.", "label": "HR__EMPLOYEE_DATA_CORRECTION"}
+{"text": "Route this case by its primary operational risk: failed ach payment. Do not classify by the reporter's emotion.", "label": "FIN__FAILED_ACH_PAYMENT"}
+{"text": "logistics supply chain exception routing ticket: the main issue is customs document missing. Mentioned side notes are only context.", "label": "LOG__CUSTOMS_DOCUMENT_MISSING"}
+{"text": "financial operations exception routing ticket: the main issue is refund duplicate risk. Mentioned side notes are only context.", "label": "FIN__REFUND_DUPLICATE_RISK"}
+{"text": "Route this case by its primary operational risk: service level credit claim. Do not classify by the reporter's emotion.", "label": "POL__SERVICE_LEVEL_CREDIT_CLAIM"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近运输异常；英文摘要 says customs document missing.", "label": "LOG__CUSTOMS_DOCUMENT_MISSING"}
+{"text": "Route this case by its primary operational risk: ransomware behavior pattern. Do not classify by the reporter's emotion.", "label": "SEC__RANSOMWARE_BEHAVIOR_PATTERN"}
+{"text": "cybersecurity alert triage ticket: the main issue is secrets exposed in repo. Mentioned side notes are only context.", "label": "SEC__SECRETS_EXPOSED_IN_REPO"}
+{"text": "Route this case by its primary operational risk: shadow it app discovery. Do not classify by the reporter's emotion.", "label": "SEC__SHADOW_IT_APP_DISCOVERY"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says damaged goods report.", "label": "LOG__DAMAGED_GOODS_REPORT"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近审批例外；英文摘要 says employee data transfer.", "label": "POL__EMPLOYEE_DATA_TRANSFER"}
+{"text": "policy contract compliance risk ticket: the main issue is security addendum deviation. Mentioned side notes are only context.", "label": "POL__SECURITY_ADDENDUM_DEVIATION"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says workplace safety report.", "label": "HR__WORKPLACE_SAFETY_REPORT"}
+{"text": "policy contract compliance risk ticket: the main issue is employee data transfer. Mentioned side notes are only context.", "label": "POL__EMPLOYEE_DATA_TRANSFER"}
+{"text": "Route this case by its primary operational risk: ip ownership ambiguity. Do not classify by the reporter's emotion.", "label": "POL__IP_OWNERSHIP_AMBIGUITY"}
+{"text": "software incident triage ticket: the main issue is deployment rollback needed. Mentioned side notes are only context.", "label": "SW__DEPLOYMENT_ROLLBACK_NEEDED"}
+{"text": "中文工单：这是一个安全告警场景，核心现象接近可疑登录；英文摘要 says endpoint beaconing activity.", "label": "SEC__ENDPOINT_BEACONING_ACTIVITY"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says incorrect timezone rendering.", "label": "SW__INCORRECT_TIMEZONE_RENDERING"}
+{"text": "policy contract compliance risk ticket: the main issue is publicity rights restriction. Mentioned side notes are only context.", "label": "POL__PUBLICITY_RIGHTS_RESTRICTION"}
+{"text": "Route this case by its primary operational risk: manager conflict mediation. Do not classify by the reporter's emotion.", "label": "HR__MANAGER_CONFLICT_MEDIATION"}
+{"text": "logistics supply chain exception routing ticket: the main issue is late port clearance. Mentioned side notes are only context.", "label": "LOG__LATE_PORT_CLEARANCE"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says audit log gap.", "label": "SW__AUDIT_LOG_GAP"}
+{"text": "cybersecurity alert triage ticket: the main issue is impossible travel login. Mentioned side notes are only context.", "label": "SEC__IMPOSSIBLE_TRAVEL_LOGIN"}
+{"text": "中文工单：这是一个物流供应链场景，核心现象接近清关或配送延迟；英文摘要 says return authorization mismatch.", "label": "LOG__RETURN_AUTHORIZATION_MISMATCH"}
+{"text": "policy contract compliance risk ticket: the main issue is insurance coverage gap. Mentioned side notes are only context.", "label": "POL__INSURANCE_COVERAGE_GAP"}
+{"text": "software incident triage ticket: the main issue is tenant routing error. Mentioned side notes are only context.", "label": "SW__TENANT_ROUTING_ERROR"}
+{"text": "Route this case by its primary operational risk: last mile failed attempt. Do not classify by the reporter's emotion.", "label": "LOG__LAST_MILE_FAILED_ATTEMPT"}
+{"text": "中文工单：这是一个人力政策场景，核心现象接近假期薪酬；英文摘要 says contractor conversion request.", "label": "HR__CONTRACTOR_CONVERSION_REQUEST"}
+{"text": "software incident triage ticket: the main issue is audit log gap. Mentioned side notes are only context.", "label": "SW__AUDIT_LOG_GAP"}

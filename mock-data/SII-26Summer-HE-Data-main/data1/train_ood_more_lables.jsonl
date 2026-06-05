@@ -1,0 +1,480 @@
+{"text": "i need diy info about jump starting my dead car battery", "label": "jump_start"}
+{"text": "please tell me if there are meeting rooms available between 9:00 am and 11:00 am", "label": "schedule_meeting"}
+{"text": "please give me the expected arrival date for my next paycheck", "label": "payday"}
+{"text": "what's the point of life, anyways", "label": "meaning_of_life"}
+{"text": "what is your age, ai", "label": "how_old_are_you"}
+{"text": "would i need to get a visa to go to ireland", "label": "international_visa"}
+{"text": "how safe is it to travel to mongolia (how safe is mongolia)", "label": "travel_alert"}
+{"text": "What does the abbreviation IOC stand for ?", "label": "question_abbreviation"}
+{"text": "what do i need to do in order to redeem my credit card points", "label": "redeem_rewards"}
+{"text": "before i pay my walmart credit card did i make any purchases using it recently", "label": "transactions"}
+{"text": "can you book me a place to stay in pittsburgh from monday to friday", "label": "book_hotel"}
+{"text": "tell me what kind of gas this car uses", "label": "gas_type"}
+{"text": "worse stunt editing or cheaper action movie production values than in extreme ops", "label": "sentiment_negative"}
+{"text": "Copernic Updates Desktop Search Tool Copernic Updates Desktop Search Tool\\\\Copernic continues to challenge both Microsoft and Google in the battle for desktop search supremacy today by announcing the immediate availability of Copernic Desktop Search (CDS) 1.1, a new and improved version of its critically-acclaimed desktop search product. CDS enables users to instantly search their personal ...", "label": "news_sci_tech"}
+{"text": "Quattrone Asks Appeals Court To Seal Some Support Letters NEW YORK (Dow Jones)--Former star technology banker Frank Quattrone has asked a federal appeals court to seal some letters written in his support in order to protect his family #39;s privacy.", "label": "news_business"}
+{"text": "Sudan Security Foils New Sabotage Plot -- Agency Sudanese authorities said Friday they foiled another plot by an opposition Islamist party to kidnap and kill senior government officials and blow up sites in the capital", "label": "news_world"}
+{"text": "New boss for Martha Susan Lyne, once a hot-shot magazine editor and later president of ABC Entertainment, was tapped yesterday to head troubled Martha Stewart Living Omnimedia.", "label": "news_business"}
+{"text": "indeed", "label": "yes"}
+{"text": "if you ever wanted to be an astronaut , this is the ultimate movie experience", "label": "sentiment_positive"}
+{"text": "noodles need to cook for how long", "label": "cook_time"}
+{"text": "what kind of gas should i put into this car", "label": "gas_type"}
+{"text": "my credit card's apr, please", "label": "apr"}
+{"text": "fun facts about tigers", "label": "fun_fact"}
+{"text": "tell me now if you are a bot", "label": "are_you_a_bot"}
+{"text": "what do i do to request a vacation", "label": "pto_request"}
+{"text": "are you ai or a real person please", "label": "are_you_a_bot"}
+{"text": "what amount of miles are in a hundred kilometers", "label": "measurement_conversion"}
+{"text": "what is the exchange rate between usd and the euro", "label": "exchange_rate"}
+{"text": "Who is the fastest swimmer in the world ?", "label": "question_human"}
+{"text": "which shots do i need to get before i go to africa next week", "label": "vaccines"}
+{"text": "i would like an uber please", "label": "uber"}
+{"text": "send text message to", "label": "text"}
+{"text": "can you suggest meals from italy to me", "label": "meal_suggestion"}
+{"text": "can i use mayonnaise instead of miracle whip", "label": "ingredient_substitution"}
+{"text": "i want a pic of how to jump start", "label": "jump_start"}
+{"text": "how long have you been alive for", "label": "how_old_are_you"}
+{"text": "what's on my agenda for tomorrow", "label": "calendar"}
+{"text": "i would like to try and confirm that i have a reservation at the seven dwarves for peter", "label": "confirm_reservation"}
+{"text": "Call for curbs on discarded fish Newcastle scientists urge the EU to ban fishermen catching fish which are later thrown back into the sea.", "label": "news_sci_tech"}
+{"text": "help me learn something intriguing about turtles", "label": "fun_fact"}
+{"text": "What country imposed the Berlin Blockade in 1948 ?", "label": "question_location"}
+{"text": "i would like you to confirm my reservation for next saturday at 11 am", "label": "confirm_reservation"}
+{"text": "please lock every door", "label": "smart_home"}
+{"text": "how many miles until i get to the beach", "label": "distance"}
+{"text": "What is the best distance education university or college ?", "label": "question_human"}
+{"text": "Who holds the career record for the most major league home runs ?", "label": "question_human"}
+{"text": "what's the direction for foot traffic to get to the eiffel tower", "label": "directions"}
+{"text": "are you an ai or a real person", "label": "are_you_a_bot"}
+{"text": "can you find the date of my last oil change", "label": "last_maintenance"}
+{"text": "What star-faring race brought about the Inhumans on Marvel 's Earth ?", "label": "question_entity"}
+{"text": "can you tell me if germany issued any travel warnings", "label": "travel_alert"}
+{"text": "do you have any jokes to tell me", "label": "tell_joke"}
+{"text": "give me the status of flight dl123", "label": "flight_status"}
+{"text": "review of my card apr", "label": "apr"}
+{"text": "is such a blip on the year 's radar screen", "label": "sentiment_negative"}
+{"text": "my credit card got stolen and i need to know how long it will be before a new on arrives", "label": "replacement_card_duration"}
+{"text": "was reading the minds of the audience", "label": "sentiment_positive"}
+{"text": "what time is my flight supposed to be landing", "label": "flight_status"}
+{"text": "i gotta know what is currently on my calendar for friday the 1st", "label": "calendar"}
+{"text": "how many feet are in 50 yards", "label": "measurement_conversion"}
+{"text": "please set the temperature to 80", "label": "smart_home"}
+{"text": "share my location with brad and terry", "label": "share_location"}
+{"text": "please my car will not start battery dead", "label": "jump_start"}
+{"text": "please jump start a dead battery", "label": "jump_start"}
+{"text": "Find lodging for a trip", "label": "book_hotel"}
+{"text": "find lodging for a trip?", "label": "book_hotel"}
+{"text": "book me find lodging for a trip", "label": "book_hotel"}
+{"text": "how many bones are in the adult human body?", "label": "question_numeric"}
+{"text": "how long is the great wall of china?", "label": "question_numeric"}
+{"text": "hey, how long is the great wall of china", "label": "question_numeric"}
+{"text": "when was the internet invented", "label": "question_numeric"}
+{"text": "please help me make chris about put in a leave request", "label": "pto_request"}
+{"text": "please how do i ask for vacation days", "label": "pto_request"}
+{"text": "hey, put in a leave request for next month", "label": "pto_request"}
+{"text": "an annoying mess from beginning to end?", "label": "sentiment_negative"}
+{"text": "hey, clumsy, flat, and forgettable", "label": "sentiment_negative"}
+{"text": "hey, airline cabin bag rules before tonight", "label": "carry_on"}
+{"text": "carry on size for united?", "label": "carry_on"}
+{"text": "does boston carry on size for united", "label": "carry_on"}
+{"text": "Airline cabin bag rules before tonight", "label": "carry_on"}
+{"text": "please what instrument has 88 keys", "label": "question_entity"}
+{"text": "which organ pumps blood through the body", "label": "question_entity"}
+{"text": "hey, which planet is known as the red planet", "label": "question_entity"}
+{"text": "Book a room for a team sync", "label": "schedule_meeting"}
+{"text": "find a conference room at 2pm?", "label": "schedule_meeting"}
+{"text": "please set up sam about set up a meeting with alex tomorrow", "label": "schedule_meeting"}
+{"text": "hey, travel warnings for japan", "label": "travel_alert"}
+{"text": "travel warnings for japan before noon?", "label": "travel_alert"}
+{"text": "please when do i get paid next for next month", "label": "payday"}
+{"text": "hey, what day does payroll hit before friday", "label": "payday"}
+{"text": "hey, when is san diego when do i get paid next", "label": "payday"}
+{"text": "please why do people yawn", "label": "question_description"}
+{"text": "what causes tides in the ocean?", "label": "question_description"}
+{"text": "what causes tides in the ocean", "label": "question_description"}
+{"text": "please what causes tides in the ocean", "label": "question_description"}
+{"text": "please is delta 89 delayed for next tuesday", "label": "flight_status"}
+{"text": "please status of aa245", "label": "flight_status"}
+{"text": "please what is phoenix what is the meaning of life", "label": "meaning_of_life"}
+{"text": "why are maya about why are we here?", "label": "meaning_of_life"}
+{"text": "What is the point of existence for next month", "label": "meaning_of_life"}
+{"text": "hey, scientists map deep sea microbes with new sensor", "label": "news_sci_tech"}
+{"text": "hey, researchers unveil compact fusion prototype", "label": "news_sci_tech"}
+{"text": "hey, any congestion on i 15", "label": "traffic"}
+{"text": "how bad is traffic on how is traffic 2 downtown right now", "label": "traffic"}
+{"text": "how is traffic to downtown right now?", "label": "traffic"}
+{"text": "fastest route avoiding traffic", "label": "traffic"}
+{"text": "how old are you", "label": "how_old_are_you"}
+{"text": "what age are san diego when were you born", "label": "how_old_are_you"}
+{"text": "hey, do i need a visa for india", "label": "international_visa"}
+{"text": "Can i enter austin do i need a visa for india", "label": "international_visa"}
+{"text": "please do i need a visa for india for next tuesday", "label": "international_visa"}
+{"text": "redeem jordan about use my points for a gift card?", "label": "redeem_rewards"}
+{"text": "please how do i cash in rewards", "label": "redeem_rewards"}
+{"text": "please redeem miles for travel", "label": "redeem_rewards"}
+{"text": "book a ride downtown?", "label": "uber"}
+{"text": "please book a ride downtown", "label": "uber"}
+{"text": "get me denver book a ride downtown?", "label": "uber"}
+{"text": "please book an oil change next week for next monday", "label": "schedule_maintenance"}
+{"text": "hey, book an oil change next week for next monday", "label": "schedule_maintenance"}
+{"text": "hey, schedule san diego book an oil change next week", "label": "schedule_maintenance"}
+{"text": "hey, book an oil change next week before friday", "label": "schedule_maintenance"}
+{"text": "expand the abbreviation vpn", "label": "question_abbreviation"}
+{"text": "hey, what does cpu stand for", "label": "question_abbreviation"}
+{"text": "expand the abbreviation vpn?", "label": "question_abbreviation"}
+{"text": "route from home 2 ikea", "label": "directions"}
+{"text": "please route from home to ikea", "label": "directions"}
+{"text": "please best route to austin directions to union station", "label": "directions"}
+{"text": "is there a shot for do kids need measles shots?", "label": "vaccines"}
+{"text": "hey, which immunizations are required for phoenix is tetanus booster due every ten years", "label": "vaccines"}
+{"text": "Is there a shot for do kids need measles shots", "label": "vaccines"}
+{"text": "show my recent card transactions", "label": "transactions"}
+{"text": "show san diego did the coffee shop charge post?", "label": "transactions"}
+{"text": "Show my recent card transactions before friday", "label": "transactions"}
+{"text": "when are quarterly taxes due for next tuesday?", "label": "taxes"}
+{"text": "when are quarterly taxes due before my trip?", "label": "taxes"}
+{"text": "hey, when are taxes due austin can i deduct home office expenses", "label": "taxes"}
+{"text": "please when are quarterly taxes due before my trip", "label": "taxes"}
+{"text": "beautifully done and deeply satisfying", "label": "sentiment_positive"}
+{"text": "a total joy from start 2 finish", "label": "sentiment_positive"}
+{"text": "does this car take regular or premium for next tuesday", "label": "gas_type"}
+{"text": "What gas does chris about diesel or unleaded for this truck", "label": "gas_type"}
+{"text": "hey, is 19 percent apr high", "label": "apr"}
+{"text": "what is apr on a credit card?", "label": "apr"}
+{"text": "airline lowers forecast as fuel costs rise?", "label": "news_business"}
+{"text": "hey, investors weigh merger after earnings beat", "label": "news_business"}
+{"text": "Tips to build credit", "label": "improve_credit_score"}
+{"text": "please how can i raise my credit score fast", "label": "improve_credit_score"}
+{"text": "how can i raise my credit score fast?", "label": "improve_credit_score"}
+{"text": "tips 2 build credit before friday", "label": "improve_credit_score"}
+{"text": "hey, ceasefire talks continue after overnight clashes", "label": "news_world"}
+{"text": "border crossing reopens following weeklong closure?", "label": "news_world"}
+{"text": "border crossing reopens following weeklong closure", "label": "news_world"}
+{"text": "ok do it", "label": "yes"}
+{"text": "please do", "label": "yes"}
+{"text": "affirmative", "label": "yes"}
+{"text": "please how many minutes to boil eggs", "label": "cook_time"}
+{"text": "how many minutes to boil eggs?", "label": "cook_time"}
+{"text": "please how long do i cook morgan about how long do i bake salmon at 400", "label": "cook_time"}
+{"text": "please can you check my fico for next tuesday", "label": "credit_score"}
+{"text": "please can you check my fico before tonight", "label": "credit_score"}
+{"text": "show current credit score?", "label": "credit_score"}
+{"text": "please can you check my fico", "label": "credit_score"}
+{"text": "hey, what country is mount kilimanjaro in", "label": "question_location"}
+{"text": "where is the taj mahal located?", "label": "question_location"}
+{"text": "where in the cell is dna stored", "label": "question_location"}
+{"text": "hey, did my booking go through did my table reservation get confirmed", "label": "confirm_reservation"}
+{"text": "hey, did my table reservation get confirmed before friday", "label": "confirm_reservation"}
+{"text": "host city celebrates marathon record performance?", "label": "news_sports"}
+{"text": "please coach steps down after missing playoffs", "label": "news_sports"}
+{"text": "hey, coach steps down after missing playoffs", "label": "news_sports"}
+{"text": "hey, captain scores late winner in cup semifinal", "label": "news_sports"}
+{"text": "please send a text to atlanta send a message to mom", "label": "text"}
+{"text": "please send a message to mom before noon", "label": "text"}
+{"text": "hey, send a text to can you text my boss", "label": "text"}
+{"text": "what can i use instead of swap for fresh basil", "label": "ingredient_substitution"}
+{"text": "swap for fresh basil", "label": "ingredient_substitution"}
+{"text": "what can i use instead of buttermilk?", "label": "ingredient_substitution"}
+{"text": "please share something interesting before noon", "label": "fun_fact"}
+{"text": "give me a random trivia bit?", "label": "fun_fact"}
+{"text": "please is this portland are you human or ai", "label": "are_you_a_bot"}
+{"text": "hey, suggest a chicago easy lunch idea with chicken", "label": "meal_suggestion"}
+{"text": "please suggest a chicago easy lunch idea with chicken", "label": "meal_suggestion"}
+{"text": "hey, easy lunch idea with chicken", "label": "meal_suggestion"}
+{"text": "convert cups 2 tablespoons", "label": "measurement_conversion"}
+{"text": "convert 5 miles to kilometers", "label": "measurement_conversion"}
+{"text": "Date of my previous chicago when did i last service the ac", "label": "last_maintenance"}
+{"text": "Date of previous maintenance", "label": "last_maintenance"}
+{"text": "can you check the last time maya about date of previous maintenance?", "label": "last_maintenance"}
+{"text": "how long does a replacement debit card take", "label": "replacement_card_duration"}
+{"text": "What is the wait time for austin when will my new credit card arrive", "label": "replacement_card_duration"}
+{"text": "please replacement card shipping time before my trip", "label": "replacement_card_duration"}
+{"text": "hey, what is the exchange rate for chris about convert yen to dollars", "label": "exchange_rate"}
+{"text": "please what is the exchange rate for pounds", "label": "exchange_rate"}
+{"text": "what is the exchange rate for phoenix what is the exchange rate for pounds?", "label": "exchange_rate"}
+{"text": "please tell me a joke", "label": "tell_joke"}
+{"text": "say say something funny", "label": "tell_joke"}
+{"text": "please say say something funny", "label": "tell_joke"}
+{"text": "Who discovered penicillin", "label": "question_human"}
+{"text": "what is on my calendar miami what is on my calendar tomorrow", "label": "calendar"}
+{"text": "do i have anything friday afternoon before tonight", "label": "calendar"}
+{"text": "Distance from earth to mars before noon", "label": "distance"}
+{"text": "hey, distance from earth to mars", "label": "distance"}
+{"text": "please distance from earth to mars before noon", "label": "distance"}
+{"text": "can you let them know where i am?", "label": "share_location"}
+{"text": "please drop my location to morgan about share my location with jen", "label": "share_location"}
+{"text": "share my location with jen?", "label": "share_location"}
+{"text": "set thermostat to 70 for next tuesday?", "label": "smart_home"}
+{"text": "please lock the front door", "label": "smart_home"}
+{"text": "will it rain this weekend for next month?", "label": "weather_query"}
+{"text": "please will it rain this weekend for next month", "label": "weather_query"}
+{"text": "What is the weather in taylor about will it rain this weekend", "label": "weather_query"}
+{"text": "Will it rain this weekend", "label": "weather_query"}
+{"text": "Make a brunch reservation", "label": "restaurant_reservation"}
+{"text": "please book maya about make a brunch reservation", "label": "restaurant_reservation"}
+{"text": "please get miami make a brunch reservation", "label": "restaurant_reservation"}
+{"text": "make make a brunch reservation", "label": "restaurant_reservation"}
+{"text": "hey, order thai food to my apartment before friday", "label": "order_food_delivery"}
+{"text": "Order thai food to my apartment", "label": "order_food_delivery"}
+{"text": "arrange atlanta send tacos 2 the office", "label": "order_food_delivery"}
+{"text": "hey, order chris about get pizza delivered tonight", "label": "order_food_delivery"}
+{"text": "stop auto renewal for premium?", "label": "cancel_subscription"}
+{"text": "please stop end my membership this month", "label": "cancel_subscription"}
+{"text": "hey, cancel my streaming plan", "label": "cancel_subscription"}
+{"text": "please cancel jordan about end my membership this month?", "label": "cancel_subscription"}
+{"text": "help me reset my login", "label": "reset_password"}
+{"text": "send a password reset link", "label": "reset_password"}
+{"text": "i forgot my password?", "label": "reset_password"}
+{"text": "Help me reset my login before my trip", "label": "reset_password"}
+{"text": "has my delivery shipped yet?", "label": "track_package"}
+{"text": "hey, track order 12345 for next month", "label": "track_package"}
+{"text": "please track order 12345 before tonight", "label": "track_package"}
+{"text": "has my delivery shipped yet", "label": "track_package"}
+{"text": "update delivery address for my order", "label": "update_shipping_address"}
+{"text": "Change my shipping address to my office before noon", "label": "update_shipping_address"}
+{"text": "hey, edit jamie about update delivery address for my order", "label": "update_shipping_address"}
+{"text": "switch send the package to a new address", "label": "update_shipping_address"}
+{"text": "please i need to return these shoes", "label": "return_item"}
+{"text": "Send back maya about how do i send back my order", "label": "return_item"}
+{"text": "hey, how do i send back my order", "label": "return_item"}
+{"text": "Start a return for the blender before friday", "label": "return_item"}
+{"text": "hey, has the refund been issued for next weekend", "label": "refund_status"}
+{"text": "when will my money be back before my trip?", "label": "refund_status"}
+{"text": "when will when will my money be back?", "label": "refund_status"}
+{"text": "When will my money be back", "label": "refund_status"}
+{"text": "please make jordan about schedule a haircut for saturday", "label": "appointment_booking"}
+{"text": "hey, make an appointment with the doctor before friday", "label": "appointment_booking"}
+{"text": "make jordan about schedule a haircut for saturday", "label": "appointment_booking"}
+{"text": "hey, make an appointment with the doctor for next weekend", "label": "appointment_booking"}
+{"text": "please call off my appointment", "label": "appointment_cancel"}
+{"text": "hey, i need to reschedule my dental visit", "label": "appointment_cancel"}
+{"text": "hey, move portland cancel my haircut tomorrow", "label": "appointment_cancel"}
+{"text": "move i need 2 reschedule my dental visit", "label": "appointment_cancel"}
+{"text": "hey, find a dermatologist near me before friday", "label": "doctor_finder"}
+{"text": "i need a pediatrician accepting new patients for next monday?", "label": "doctor_finder"}
+{"text": "please look for jordan about recommend an eye doctor nearby", "label": "doctor_finder"}
+{"text": "Find a dermatologist near me", "label": "doctor_finder"}
+{"text": "please when does cvs pharmacy close before noon", "label": "pharmacy_hours"}
+{"text": "hey, when does cvs pharmacy close before noon", "label": "pharmacy_hours"}
+{"text": "please is the pharmacy open on sunday", "label": "pharmacy_hours"}
+{"text": "is the pharmacy open on sunday for next weekend?", "label": "pharmacy_hours"}
+{"text": "hey, show me how to make phoenix how do i make banana bread", "label": "recipe_request"}
+{"text": "Show me how to make jamie about easy pasta recipe with spinach", "label": "recipe_request"}
+{"text": "easy pasta recipe with spinach?", "label": "recipe_request"}
+{"text": "hey, how do i make banana bread", "label": "recipe_request"}
+{"text": "beginner strength routine for next monday", "label": "workout_plan"}
+{"text": "make chicago beginner strength routine?", "label": "workout_plan"}
+{"text": "please home workout schedule for fat loss", "label": "workout_plan"}
+{"text": "hey, beginner strength routine for next monday", "label": "workout_plan"}
+{"text": "Breathing exercise for anxiety", "label": "meditation_guidance"}
+{"text": "please help me relax before bed for next month", "label": "meditation_guidance"}
+{"text": "i need lead me through a five minute meditation", "label": "meditation_guidance"}
+{"text": "help me jamie about help me relax before bed", "label": "meditation_guidance"}
+{"text": "Translate this to spanish", "label": "language_translation"}
+{"text": "what is this in taylor about translate this to spanish?", "label": "language_translation"}
+{"text": "hey, how do you say thank you in japanese", "label": "language_translation"}
+{"text": "please what is this in how do you say thank you in japanese", "label": "language_translation"}
+{"text": "give me the gist of these notes before noon", "label": "summarize_text"}
+{"text": "can you condense chicago short summary of this email?", "label": "summarize_text"}
+{"text": "tl dr give me the gist of these notes", "label": "summarize_text"}
+{"text": "please summarize this article", "label": "summarize_text"}
+{"text": "help me phrase taylor about make this sound more formal", "label": "rewrite_professional"}
+{"text": "please make this sound more formal", "label": "rewrite_professional"}
+{"text": "please help me phrase taylor about make this sound more formal", "label": "rewrite_professional"}
+{"text": "Polish atlanta make this sound more formal", "label": "rewrite_professional"}
+{"text": "Proofread is this sentence correct", "label": "grammar_check"}
+{"text": "please proofread is this sentence correct", "label": "grammar_check"}
+{"text": "proofread jordan about check grammar in this paragraph?", "label": "grammar_check"}
+{"text": "hey, proofread my message", "label": "grammar_check"}
+{"text": "help me debug my sql query", "label": "code_debug"}
+{"text": "find the bug in this javascript before my trip?", "label": "code_debug"}
+{"text": "please why does this python function crash", "label": "code_debug"}
+{"text": "please find the bug in this javascript before my trip", "label": "code_debug"}
+{"text": "what does maya about what does this sql query mean?", "label": "code_explanation"}
+{"text": "Walk me through explain what this regex does", "label": "code_explanation"}
+{"text": "please what does maya about what does this sql query mean", "label": "code_explanation"}
+{"text": "explain what this regex does", "label": "code_explanation"}
+{"text": "write a sql query for top customers?", "label": "sql_query_help"}
+{"text": "hey, write a sql query for top customers", "label": "sql_query_help"}
+{"text": "hey, how do i morgan about how do i join these tables", "label": "sql_query_help"}
+{"text": "please how do i morgan about how do i join these tables", "label": "sql_query_help"}
+{"text": "please solve this algebra problem before noon", "label": "math_tutoring"}
+{"text": "help me with fractions", "label": "math_tutoring"}
+{"text": "walk me through jamie about help me with fractions", "label": "math_tutoring"}
+{"text": "hey, solve this algebra problem", "label": "math_tutoring"}
+{"text": "hey, book an english lesson before noon", "label": "tutoring_schedule"}
+{"text": "hey, schedule a math tutor for tuesday", "label": "tutoring_schedule"}
+{"text": "book jamie about find me a physics tutor this weekend?", "label": "tutoring_schedule"}
+{"text": "hey, find book an english lesson", "label": "tutoring_schedule"}
+{"text": "hey, save this password securely", "label": "password_manager"}
+{"text": "help me manage chicago save this password securely?", "label": "password_manager"}
+{"text": "generate a strong password?", "label": "password_manager"}
+{"text": "Where is my saved login", "label": "password_manager"}
+{"text": "please can you troubleshoot seattle internet says connected no access", "label": "wifi_troubleshooting"}
+{"text": "My wifi keeps dropping", "label": "wifi_troubleshooting"}
+{"text": "router is taylor about how do i reconnect the router?", "label": "wifi_troubleshooting"}
+{"text": "hey, my wifi keeps dropping for next monday", "label": "wifi_troubleshooting"}
+{"text": "please my connection is check my connection speed issue", "label": "internet_speed_issue"}
+{"text": "video calls keep buffering?", "label": "internet_speed_issue"}
+{"text": "please video calls keep buffering", "label": "internet_speed_issue"}
+{"text": "please why is my internet portland video calls keep buffering", "label": "internet_speed_issue"}
+{"text": "how do i install a new printer?", "label": "printer_setup"}
+{"text": "hey, connect my printer to wifi for next weekend", "label": "printer_setup"}
+{"text": "add connect my printer to wifi", "label": "printer_setup"}
+{"text": "add connect my printer to wifi?", "label": "printer_setup"}
+{"text": "please update my phone software before friday", "label": "software_update"}
+{"text": "please is there a new jordan about is there a new firmware version", "label": "software_update"}
+{"text": "is there a new jordan about is there a new firmware version?", "label": "software_update"}
+{"text": "how do i install the latest patch?", "label": "software_update"}
+{"text": "Iphone vs pixel camera", "label": "device_comparison"}
+{"text": "Iphone vs chicago compare kindle and ipad mini", "label": "device_comparison"}
+{"text": "compare kindle and ipad mini before noon?", "label": "device_comparison"}
+{"text": "hey, compare kindle and ipad mini before noon", "label": "device_comparison"}
+{"text": "please what blender should i buy for next weekend", "label": "product_recommendation"}
+{"text": "recommend noise cancelling headphones?", "label": "product_recommendation"}
+{"text": "suggest chicago recommend noise cancelling headphones", "label": "product_recommendation"}
+{"text": "what blender should i buy for next weekend?", "label": "product_recommendation"}
+{"text": "please create a budget for phoenix budget plan for rent and groceries", "label": "budget_planning"}
+{"text": "how should i split my paycheck for next weekend?", "label": "budget_planning"}
+{"text": "budget plan for how should i split my paycheck?", "label": "budget_planning"}
+{"text": "please how should i split my paycheck", "label": "budget_planning"}
+{"text": "ways 2 reach my emergency fund target", "label": "savings_goal"}
+{"text": "please plan a vacation savings goal for next tuesday", "label": "savings_goal"}
+{"text": "please how much should i save for a car before tonight", "label": "savings_goal"}
+{"text": "how much should i save for a car before tonight?", "label": "savings_goal"}
+{"text": "check my application for financing?", "label": "loan_status"}
+{"text": "check my application for financing", "label": "loan_status"}
+{"text": "hey, check my application for financing", "label": "loan_status"}
+{"text": "is my loan denver check my application for financing?", "label": "loan_status"}
+{"text": "hey, can you explain san diego is now a good mortgage rate", "label": "mortgage_rate"}
+{"text": "is now a good mortgage rate", "label": "mortgage_rate"}
+{"text": "is now a good mortgage rate for next monday?", "label": "mortgage_rate"}
+{"text": "hey, current 30 year mortgage rates", "label": "mortgage_rate"}
+{"text": "file an insurance claim for hail damage before my trip", "label": "insurance_claim"}
+{"text": "status of my auto claim", "label": "insurance_claim"}
+{"text": "please file an insurance claim for hail damage", "label": "insurance_claim"}
+{"text": "please start atlanta file an insurance claim for hail damage", "label": "insurance_claim"}
+{"text": "compare home insurance prices?", "label": "insurance_quote"}
+{"text": "hey, quote for phoenix estimate renters insurance cost", "label": "insurance_quote"}
+{"text": "hey, get me a car insurance quote", "label": "insurance_quote"}
+{"text": "hey, compare home insurance prices", "label": "insurance_quote"}
+{"text": "please what is small claims court for next monday", "label": "legal_info"}
+{"text": "what is small claims court for next monday", "label": "legal_info"}
+{"text": "What is what is small claims court", "label": "legal_info"}
+{"text": "how do I make a will", "label": "legal_info"}
+{"text": "hey, email landlord about broken sink for next tuesday", "label": "landlord_complaint"}
+{"text": "please email landlord about broken sink for next tuesday", "label": "landlord_complaint"}
+{"text": "draft sam about email landlord about broken sink?", "label": "landlord_complaint"}
+{"text": "hey, write a complaint to my landlord about mold before noon", "label": "landlord_complaint"}
+{"text": "hey, is there a power outage in my area", "label": "utility_outage"}
+{"text": "why is my gas service off?", "label": "utility_outage"}
+{"text": "please is there a power outage in my area before friday", "label": "utility_outage"}
+{"text": "do we have alex about water service interruption downtown", "label": "utility_outage"}
+{"text": "Make a payment on my credit card", "label": "bill_payment"}
+{"text": "make a payment on my credit card?", "label": "bill_payment"}
+{"text": "Make a payment on my credit card for next tuesday", "label": "bill_payment"}
+{"text": "hey, can you pay the water bill", "label": "bill_payment"}
+{"text": "please i got locked out of jordan about my account is locked", "label": "account_unlock"}
+{"text": "hey, my account is austin too many login attempts help", "label": "account_unlock"}
+{"text": "hey, unlock my profile please for next monday", "label": "account_unlock"}
+{"text": "please too many login attempts help", "label": "account_unlock"}
+{"text": "switch my plan to family before friday?", "label": "subscription_upgrade"}
+{"text": "please move me to the pro tier", "label": "subscription_upgrade"}
+{"text": "switch atlanta upgrade me to premium?", "label": "subscription_upgrade"}
+{"text": "please upgrade me to premium", "label": "subscription_upgrade"}
+{"text": "please book tickets to the museum", "label": "event_ticket_booking"}
+{"text": "book tickets to the museum before friday?", "label": "event_ticket_booking"}
+{"text": "buy two tickets for the concert for next month", "label": "event_ticket_booking"}
+{"text": "find jordan about book tickets 2 the museum", "label": "event_ticket_booking"}
+{"text": "when does the next screening start?", "label": "movie_showtimes"}
+{"text": "when does the next screening start for next weekend?", "label": "movie_showtimes"}
+{"text": "what time is dune playing tonight before my trip?", "label": "movie_showtimes"}
+{"text": "showtimes for the theater near me", "label": "movie_showtimes"}
+{"text": "hey, what should i listen to while studying", "label": "music_recommendation"}
+{"text": "please artists like austin recommend chill indie songs", "label": "music_recommendation"}
+{"text": "Artists like phoebe bridgers", "label": "music_recommendation"}
+{"text": "recommend chill indie songs before tonight", "label": "music_recommendation"}
+{"text": "best tech podcasts right now?", "label": "podcast_recommendation"}
+{"text": "hey, good recommend a funny podcast for commuting", "label": "podcast_recommendation"}
+{"text": "recommend a funny podcast for commuting?", "label": "podcast_recommendation"}
+{"text": "recommend alex about good history podcasts?", "label": "podcast_recommendation"}
+{"text": "hey, i need a book about portland what book should i read after dune", "label": "book_recommendation"}
+{"text": "recommend maya about recommend a short mystery book?", "label": "book_recommendation"}
+{"text": "suggest what book should i read after dune?", "label": "book_recommendation"}
+{"text": "please recommend a short mystery book", "label": "book_recommendation"}
+{"text": "hey, gift idea for atlanta present for a 10 year old who likes space", "label": "gift_recommendation"}
+{"text": "please gift idea for my dad's birthday", "label": "gift_recommendation"}
+{"text": "what should I buy for a coworker baby shower for next tuesday", "label": "gift_recommendation"}
+{"text": "what should i buy for a coworker baby shower?", "label": "gift_recommendation"}
+{"text": "what size am i in does this jacket run small?", "label": "clothing_size"}
+{"text": "convert us women's size 8 to uk?", "label": "clothing_size"}
+{"text": "please does this jacket run small before tonight", "label": "clothing_size"}
+{"text": "please what size am i in miami does this jacket run small", "label": "clothing_size"}
+{"text": "missing backpack on the train", "label": "lost_and_found"}
+{"text": "hey, i left my wallet in a taxi", "label": "lost_and_found"}
+{"text": "please can you help me find missing backpack on the train", "label": "lost_and_found"}
+{"text": "hey, how do i report lost keys at the airport for next weekend", "label": "lost_and_found"}
+{"text": "is it normal for my pet 2 why is my cat not eating", "label": "pet_advice"}
+{"text": "hey, why is my cat portland tips for crate training a puppy", "label": "pet_advice"}
+{"text": "please my dog keeps scratching his ears for next weekend", "label": "pet_advice"}
+{"text": "hey, my dog keeps scratching his ears", "label": "pet_advice"}
+{"text": "book a vet visit for my cat for next monday", "label": "vet_appointment"}
+{"text": "Find an emergency vet appointment before friday", "label": "vet_appointment"}
+{"text": "set up schedule shots for my puppy", "label": "vet_appointment"}
+{"text": "please book a vet visit for my cat for next monday", "label": "vet_appointment"}
+{"text": "hey, how often should i water basil", "label": "plant_care"}
+{"text": "best light for succulents?", "label": "plant_care"}
+{"text": "please how often should i water basil", "label": "plant_care"}
+{"text": "help me with my best light for succulents", "label": "plant_care"}
+{"text": "please when can ups collect a return for next monday", "label": "package_pickup"}
+{"text": "schedule a package pickup?", "label": "package_pickup"}
+{"text": "hey, when can ups collect a return before tonight", "label": "package_pickup"}
+{"text": "please when can ups collect a return", "label": "package_pickup"}
+{"text": "schedule a furniture donation pickup?", "label": "donate_items"}
+{"text": "please schedule best place to donate books", "label": "donate_items"}
+{"text": "schedule best place to donate books", "label": "donate_items"}
+{"text": "please where can i donate old clothes for next monday", "label": "donate_items"}
+{"text": "please register for community service this weekend", "label": "volunteer_signup"}
+{"text": "how do i join a beach cleanup?", "label": "volunteer_signup"}
+{"text": "how do i join sign me up 2 volunteer at the shelter", "label": "volunteer_signup"}
+{"text": "register for community service this weekend before my trip?", "label": "volunteer_signup"}
+{"text": "what plastics go in the blue bin", "label": "recycling_rules"}
+{"text": "hey, what plastics go in the blue bin for next tuesday", "label": "recycling_rules"}
+{"text": "hey, can pizza boxes be recycled", "label": "recycling_rules"}
+{"text": "what plastics go in the blue bin for next tuesday?", "label": "recycling_rules"}
+{"text": "hey, is there free parking portland where can i park downtown", "label": "parking_info"}
+{"text": "is there free parking portland where can I park downtown", "label": "parking_info"}
+{"text": "please is there free parking portland where can i park downtown", "label": "parking_info"}
+{"text": "parking rules near the stadium?", "label": "parking_info"}
+{"text": "hey, what time is jamie about track train 214", "label": "train_status"}
+{"text": "When does the next train arrive", "label": "train_status"}
+{"text": "Track train 214 for next month", "label": "train_status"}
+{"text": "is is amtrak 6 on time?", "label": "train_status"}
+{"text": "please when is the last bus downtown for next tuesday", "label": "bus_schedule"}
+{"text": "hey, when is the last bus downtown before tonight", "label": "bus_schedule"}
+{"text": "please what time is the next 220 bus", "label": "bus_schedule"}
+{"text": "hey, when is the last bus downtown for next tuesday", "label": "bus_schedule"}
+{"text": "please arrange chris about i need a taxi to the airport", "label": "taxi_booking"}
+{"text": "book a cab 2 the station", "label": "taxi_booking"}
+{"text": "please arrange seattle call me a taxi for 5 am", "label": "taxi_booking"}
+{"text": "hey, arrange chris about i need a taxi to the airport", "label": "taxi_booking"}
+{"text": "cheap compact car rental near lax for next monday", "label": "car_rental"}
+{"text": "reserve alex about cheap compact car rental near lax?", "label": "car_rental"}
+{"text": "please cheap compact car rental near lax", "label": "car_rental"}
+{"text": "please cheap compact car rental near lax for next monday", "label": "car_rental"}
+{"text": "can you call a tow truck?", "label": "towing_service"}
+{"text": "tow can you call a tow truck", "label": "towing_service"}
+{"text": "send a tow truck 2 chris about tow my vehicle 2 the shop", "label": "towing_service"}
+{"text": "please can you call a tow truck", "label": "towing_service"}
+{"text": "please i locked miami i locked my keys in the car", "label": "roadside_assistance"}
+{"text": "hey, i locked miami i locked my keys in the car", "label": "roadside_assistance"}
+{"text": "i locked my keys in the car?", "label": "roadside_assistance"}
+{"text": "hey, flat tire on the highway help", "label": "roadside_assistance"}
+{"text": "i need to confirm my identity for alex about upload my id for verification?", "label": "identity_verification"}
+{"text": "i need to confirm my identity for alex about upload my id for verification", "label": "identity_verification"}
+{"text": "upload my id for verification for next weekend?", "label": "identity_verification"}
+{"text": "upload chicago how do i verify my identity?", "label": "identity_verification"}
+{"text": "help me write a follow up email?", "label": "email_drafting"}
+{"text": "please help me write austin compose a polite email asking for an update", "label": "email_drafting"}
+{"text": "draft an email 2 my manager", "label": "email_drafting"}
+{"text": "help me write a follow up email", "label": "email_drafting"}

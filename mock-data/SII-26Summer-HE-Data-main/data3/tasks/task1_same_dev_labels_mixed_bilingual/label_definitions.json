@@ -1,0 +1,310 @@
+{
+  "Refund_not_showing_up": {
+    "meaning_hint": "Refund not showing up",
+    "chinese_hint": "退款 / 没有 / showing / 入金"
+  },
+  "activate_my_card": {
+    "meaning_hint": "activate my card",
+    "chinese_hint": "activate / my / 银行卡"
+  },
+  "age_limit": {
+    "meaning_hint": "age limit",
+    "chinese_hint": "年龄 / 限制"
+  },
+  "apple_pay_or_google_pay": {
+    "meaning_hint": "apple pay or google pay",
+    "chinese_hint": "Apple Pay / pay / or / Google Pay / pay"
+  },
+  "atm_support": {
+    "meaning_hint": "atm support",
+    "chinese_hint": "ATM / 支持范围"
+  },
+  "automatic_top_up": {
+    "meaning_hint": "automatic top up",
+    "chinese_hint": "automatic / 充值 / 入金"
+  },
+  "balance_not_updated_after_bank_transfer": {
+    "meaning_hint": "balance not updated after bank transfer",
+    "chinese_hint": "balance / 没有 / updated / after / bank"
+  },
+  "balance_not_updated_after_cheque_or_cash_deposit": {
+    "meaning_hint": "balance not updated after cheque or cash deposit",
+    "chinese_hint": "balance / 没有 / updated / after / 支票"
+  },
+  "beneficiary_not_allowed": {
+    "meaning_hint": "beneficiary not allowed",
+    "chinese_hint": "收款人 / 没有 / allowed"
+  },
+  "cancel_transfer": {
+    "meaning_hint": "cancel transfer",
+    "chinese_hint": "cancel / 转账"
+  },
+  "card_about_to_expire": {
+    "meaning_hint": "card about to expire",
+    "chinese_hint": "银行卡 / about / to / expire"
+  },
+  "card_acceptance": {
+    "meaning_hint": "card acceptance",
+    "chinese_hint": "银行卡 / acceptance"
+  },
+  "card_arrival": {
+    "meaning_hint": "card arrival",
+    "chinese_hint": "银行卡 / 到达"
+  },
+  "card_delivery_estimate": {
+    "meaning_hint": "card delivery estimate",
+    "chinese_hint": "银行卡 / 配送 / 预计时间"
+  },
+  "card_linking": {
+    "meaning_hint": "card linking",
+    "chinese_hint": "银行卡 / linking"
+  },
+  "card_not_working": {
+    "meaning_hint": "card not working",
+    "chinese_hint": "银行卡 / 没有 / working"
+  },
+  "card_payment_fee_charged": {
+    "meaning_hint": "card payment fee charged",
+    "chinese_hint": "银行卡 / 付款 / 手续费 / charged"
+  },
+  "card_payment_not_recognised": {
+    "meaning_hint": "card payment not recognised",
+    "chinese_hint": "银行卡 / 付款 / 没有 / recognised"
+  },
+  "card_payment_wrong_exchange_rate": {
+    "meaning_hint": "card payment wrong exchange rate",
+    "chinese_hint": "银行卡 / 付款 / wrong / 汇率/换汇 / 汇率"
+  },
+  "card_swallowed": {
+    "meaning_hint": "card swallowed",
+    "chinese_hint": "银行卡 / swallowed"
+  },
+  "cash_withdrawal_charge": {
+    "meaning_hint": "cash withdrawal charge",
+    "chinese_hint": "现金 / 取款 / 收费"
+  },
+  "cash_withdrawal_not_recognised": {
+    "meaning_hint": "cash withdrawal not recognised",
+    "chinese_hint": "现金 / 取款 / 没有 / recognised"
+  },
+  "change_pin": {
+    "meaning_hint": "change pin",
+    "chinese_hint": "change / PIN码"
+  },
+  "compromised_card": {
+    "meaning_hint": "compromised card",
+    "chinese_hint": "compromised / 银行卡"
+  },
+  "contactless_not_working": {
+    "meaning_hint": "contactless not working",
+    "chinese_hint": "免密/非接触支付 / 没有 / working"
+  },
+  "country_support": {
+    "meaning_hint": "country support",
+    "chinese_hint": "国家/地区 / 支持范围"
+  },
+  "declined_card_payment": {
+    "meaning_hint": "declined card payment",
+    "chinese_hint": "被拒绝 / 银行卡 / 付款"
+  },
+  "declined_cash_withdrawal": {
+    "meaning_hint": "declined cash withdrawal",
+    "chinese_hint": "被拒绝 / 现金 / 取款"
+  },
+  "declined_transfer": {
+    "meaning_hint": "declined transfer",
+    "chinese_hint": "被拒绝 / 转账"
+  },
+  "direct_debit_payment_not_recognised": {
+    "meaning_hint": "direct debit payment not recognised",
+    "chinese_hint": "direct / debit / 付款 / 没有 / recognised"
+  },
+  "disposable_card_limits": {
+    "meaning_hint": "disposable card limits",
+    "chinese_hint": "disposable / 银行卡 / 限制"
+  },
+  "edit_personal_details": {
+    "meaning_hint": "edit personal details",
+    "chinese_hint": "edit / personal / details"
+  },
+  "exchange_charge": {
+    "meaning_hint": "exchange charge",
+    "chinese_hint": "汇率/换汇 / 收费"
+  },
+  "exchange_rate": {
+    "meaning_hint": "exchange rate",
+    "chinese_hint": "汇率/换汇 / 汇率"
+  },
+  "exchange_via_app": {
+    "meaning_hint": "exchange via app",
+    "chinese_hint": "汇率/换汇 / via / app"
+  },
+  "extra_charge_on_statement": {
+    "meaning_hint": "extra charge on statement",
+    "chinese_hint": "extra / 收费 / on / 账单"
+  },
+  "failed_transfer": {
+    "meaning_hint": "failed transfer",
+    "chinese_hint": "failed / 转账"
+  },
+  "fiat_currency_support": {
+    "meaning_hint": "fiat currency support",
+    "chinese_hint": "fiat / 币种 / 支持范围"
+  },
+  "get_disposable_virtual_card": {
+    "meaning_hint": "get disposable virtual card",
+    "chinese_hint": "get / disposable / 虚拟卡 / 银行卡"
+  },
+  "get_physical_card": {
+    "meaning_hint": "get physical card",
+    "chinese_hint": "get / 实体卡 / 银行卡"
+  },
+  "getting_spare_card": {
+    "meaning_hint": "getting spare card",
+    "chinese_hint": "getting / spare / 银行卡"
+  },
+  "getting_virtual_card": {
+    "meaning_hint": "getting virtual card",
+    "chinese_hint": "getting / 虚拟卡 / 银行卡"
+  },
+  "lost_or_stolen_card": {
+    "meaning_hint": "lost or stolen card",
+    "chinese_hint": "丢失 / or / 被盗 / 银行卡"
+  },
+  "lost_or_stolen_phone": {
+    "meaning_hint": "lost or stolen phone",
+    "chinese_hint": "丢失 / or / 被盗 / 手机"
+  },
+  "order_physical_card": {
+    "meaning_hint": "order physical card",
+    "chinese_hint": "order / 实体卡 / 银行卡"
+  },
+  "passcode_forgotten": {
+    "meaning_hint": "passcode forgotten",
+    "chinese_hint": "登录密码 / forgotten"
+  },
+  "pending_card_payment": {
+    "meaning_hint": "pending card payment",
+    "chinese_hint": "处理中 / 银行卡 / 付款"
+  },
+  "pending_cash_withdrawal": {
+    "meaning_hint": "pending cash withdrawal",
+    "chinese_hint": "处理中 / 现金 / 取款"
+  },
+  "pending_top_up": {
+    "meaning_hint": "pending top up",
+    "chinese_hint": "处理中 / 充值 / 入金"
+  },
+  "pending_transfer": {
+    "meaning_hint": "pending transfer",
+    "chinese_hint": "处理中 / 转账"
+  },
+  "pin_blocked": {
+    "meaning_hint": "pin blocked",
+    "chinese_hint": "PIN码 / blocked"
+  },
+  "receiving_money": {
+    "meaning_hint": "receiving money",
+    "chinese_hint": "receiving / money"
+  },
+  "request_refund": {
+    "meaning_hint": "request refund",
+    "chinese_hint": "request / 退款"
+  },
+  "reverted_card_payment?": {
+    "meaning_hint": "reverted card payment",
+    "chinese_hint": "被退回 / 银行卡 / 付款"
+  },
+  "supported_cards_and_currencies": {
+    "meaning_hint": "supported cards and currencies",
+    "chinese_hint": "supported / cards / and / 币种"
+  },
+  "terminate_account": {
+    "meaning_hint": "terminate account",
+    "chinese_hint": "terminate / 账户"
+  },
+  "top_up_by_bank_transfer_charge": {
+    "meaning_hint": "top up by bank transfer charge",
+    "chinese_hint": "充值 / 入金 / by / bank / 转账"
+  },
+  "top_up_by_card_charge": {
+    "meaning_hint": "top up by card charge",
+    "chinese_hint": "充值 / 入金 / by / 银行卡 / 收费"
+  },
+  "top_up_by_cash_or_cheque": {
+    "meaning_hint": "top up by cash or cheque",
+    "chinese_hint": "充值 / 入金 / by / 现金 / or"
+  },
+  "top_up_failed": {
+    "meaning_hint": "top up failed",
+    "chinese_hint": "充值 / 入金 / failed"
+  },
+  "top_up_limits": {
+    "meaning_hint": "top up limits",
+    "chinese_hint": "充值 / 入金 / 限制"
+  },
+  "top_up_reverted": {
+    "meaning_hint": "top up reverted",
+    "chinese_hint": "充值 / 入金 / 被退回"
+  },
+  "topping_up_by_card": {
+    "meaning_hint": "topping up by card",
+    "chinese_hint": "topping / 入金 / by / 银行卡"
+  },
+  "transaction_charged_twice": {
+    "meaning_hint": "transaction charged twice",
+    "chinese_hint": "transaction / charged / twice"
+  },
+  "transfer_fee_charged": {
+    "meaning_hint": "transfer fee charged",
+    "chinese_hint": "转账 / 手续费 / charged"
+  },
+  "transfer_into_account": {
+    "meaning_hint": "transfer into account",
+    "chinese_hint": "转账 / into / 账户"
+  },
+  "transfer_not_received_by_recipient": {
+    "meaning_hint": "transfer not received by recipient",
+    "chinese_hint": "转账 / 没有 / received / by / recipient"
+  },
+  "transfer_timing": {
+    "meaning_hint": "transfer timing",
+    "chinese_hint": "转账 / timing"
+  },
+  "unable_to_verify_identity": {
+    "meaning_hint": "unable to verify identity",
+    "chinese_hint": "unable / to / 验证 / 身份验证"
+  },
+  "verify_my_identity": {
+    "meaning_hint": "verify my identity",
+    "chinese_hint": "验证 / my / 身份验证"
+  },
+  "verify_source_of_funds": {
+    "meaning_hint": "verify source of funds",
+    "chinese_hint": "验证 / 资金来源 / of / 资金"
+  },
+  "verify_top_up": {
+    "meaning_hint": "verify top up",
+    "chinese_hint": "验证 / 充值 / 入金"
+  },
+  "virtual_card_not_working": {
+    "meaning_hint": "virtual card not working",
+    "chinese_hint": "虚拟卡 / 银行卡 / 没有 / working"
+  },
+  "visa_or_mastercard": {
+    "meaning_hint": "visa or mastercard",
+    "chinese_hint": "Visa / or / Mastercard"
+  },
+  "why_verify_identity": {
+    "meaning_hint": "why verify identity",
+    "chinese_hint": "why / 验证 / 身份验证"
+  },
+  "wrong_amount_of_cash_received": {
+    "meaning_hint": "wrong amount of cash received",
+    "chinese_hint": "wrong / amount / of / 现金 / received"
+  },
+  "wrong_exchange_rate_for_cash_withdrawal": {
+    "meaning_hint": "wrong exchange rate for cash withdrawal",
+    "chinese_hint": "wrong / 汇率/换汇 / 汇率 / for / 现金"
+  }
+}

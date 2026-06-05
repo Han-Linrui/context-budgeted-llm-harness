@@ -1,0 +1,722 @@
+{
+  "SW__API_LATENCY_SPIKE": {
+    "domain": "software incident triage",
+    "meaning": "api latency spike"
+  },
+  "SW__DATABASE_DEADLOCK": {
+    "domain": "software incident triage",
+    "meaning": "database deadlock"
+  },
+  "SW__CACHE_STALE_READ": {
+    "domain": "software incident triage",
+    "meaning": "cache stale read"
+  },
+  "SW__MESSAGE_QUEUE_BACKLOG": {
+    "domain": "software incident triage",
+    "meaning": "message queue backlog"
+  },
+  "SW__DEPLOYMENT_ROLLBACK_NEEDED": {
+    "domain": "software incident triage",
+    "meaning": "deployment rollback needed"
+  },
+  "SW__FEATURE_FLAG_MISROUTE": {
+    "domain": "software incident triage",
+    "meaning": "feature flag misroute"
+  },
+  "SW__SEARCH_INDEX_CORRUPTION": {
+    "domain": "software incident triage",
+    "meaning": "search index corruption"
+  },
+  "SW__FILE_UPLOAD_TIMEOUT": {
+    "domain": "software incident triage",
+    "meaning": "file upload timeout"
+  },
+  "SW__AUTHENTICATION_REDIRECT_LOOP": {
+    "domain": "software incident triage",
+    "meaning": "authentication redirect loop"
+  },
+  "SW__BACKGROUND_JOB_RETRY_STORM": {
+    "domain": "software incident triage",
+    "meaning": "background job retry storm"
+  },
+  "SW__BILLING_WEBHOOK_FAILURE": {
+    "domain": "software incident triage",
+    "meaning": "billing webhook failure"
+  },
+  "SW__REPORT_EXPORT_FAILURE": {
+    "domain": "software incident triage",
+    "meaning": "report export failure"
+  },
+  "SW__MOBILE_CRASH_REGRESSION": {
+    "domain": "software incident triage",
+    "meaning": "mobile crash regression"
+  },
+  "SW__PERMISSION_SYNC_DELAY": {
+    "domain": "software incident triage",
+    "meaning": "permission sync delay"
+  },
+  "SW__RATE_LIMIT_MISCONFIGURATION": {
+    "domain": "software incident triage",
+    "meaning": "rate limit misconfiguration"
+  },
+  "SW__SCHEMA_MIGRATION_MISMATCH": {
+    "domain": "software incident triage",
+    "meaning": "schema migration mismatch"
+  },
+  "SW__EMAIL_DELIVERY_OUTAGE": {
+    "domain": "software incident triage",
+    "meaning": "email delivery outage"
+  },
+  "SW__CDN_CACHE_PURGE_ISSUE": {
+    "domain": "software incident triage",
+    "meaning": "cdn cache purge issue"
+  },
+  "SW__SESSION_INVALIDATION_BUG": {
+    "domain": "software incident triage",
+    "meaning": "session invalidation bug"
+  },
+  "SW__THIRD_PARTY_API_DEGRADATION": {
+    "domain": "software incident triage",
+    "meaning": "third party api degradation"
+  },
+  "SW__MEMORY_LEAK_IN_WORKER": {
+    "domain": "software incident triage",
+    "meaning": "memory leak in worker"
+  },
+  "SW__INCORRECT_TIMEZONE_RENDERING": {
+    "domain": "software incident triage",
+    "meaning": "incorrect timezone rendering"
+  },
+  "SW__AUDIT_LOG_GAP": {
+    "domain": "software incident triage",
+    "meaning": "audit log gap"
+  },
+  "SW__IDEMPOTENCY_KEY_COLLISION": {
+    "domain": "software incident triage",
+    "meaning": "idempotency key collision"
+  },
+  "SW__TENANT_ROUTING_ERROR": {
+    "domain": "software incident triage",
+    "meaning": "tenant routing error"
+  },
+  "SW__DATABASE_READ_REPLICA_LAG": {
+    "domain": "software incident triage",
+    "meaning": "database read replica lag"
+  },
+  "SW__PAYMENT_STATUS_DESYNC": {
+    "domain": "software incident triage",
+    "meaning": "payment status desync"
+  },
+  "SW__NOTIFICATION_DUPLICATION": {
+    "domain": "software incident triage",
+    "meaning": "notification duplication"
+  },
+  "SW__CONFIGURATION_DRIFT": {
+    "domain": "software incident triage",
+    "meaning": "configuration drift"
+  },
+  "SW__SERVICE_DISCOVERY_FAILURE": {
+    "domain": "software incident triage",
+    "meaning": "service discovery failure"
+  },
+  "SEC__CREDENTIAL_STUFFING_ATTEMPT": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "credential stuffing attempt"
+  },
+  "SEC__PHISHING_LINK_REPORT": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "phishing link report"
+  },
+  "SEC__MALWARE_QUARANTINE_EVENT": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "malware quarantine event"
+  },
+  "SEC__IMPOSSIBLE_TRAVEL_LOGIN": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "impossible travel login"
+  },
+  "SEC__SUSPICIOUS_OAUTH_CONSENT": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "suspicious oauth consent"
+  },
+  "SEC__PRIVILEGE_ESCALATION_SIGNAL": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "privilege escalation signal"
+  },
+  "SEC__DATA_EXFILTRATION_SUSPICION": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "data exfiltration suspicion"
+  },
+  "SEC__RANSOMWARE_BEHAVIOR_PATTERN": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "ransomware behavior pattern"
+  },
+  "SEC__BRUTE_FORCE_SSH_ATTACK": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "brute force ssh attack"
+  },
+  "SEC__UNUSUAL_ADMIN_TOKEN_USE": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "unusual admin token use"
+  },
+  "SEC__SECRETS_EXPOSED_IN_REPO": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "secrets exposed in repo"
+  },
+  "SEC__PUBLIC_BUCKET_EXPOSURE": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "public bucket exposure"
+  },
+  "SEC__DNS_TUNNELING_INDICATOR": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "dns tunneling indicator"
+  },
+  "SEC__ENDPOINT_BEACONING_ACTIVITY": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "endpoint beaconing activity"
+  },
+  "SEC__WAF_SQL_INJECTION_BLOCK": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "waf sql injection block"
+  },
+  "SEC__MFA_FATIGUE_ATTACK": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "mfa fatigue attack"
+  },
+  "SEC__TYPOSQUATTING_DOMAIN_ALERT": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "typosquatting domain alert"
+  },
+  "SEC__SUPPLY_CHAIN_PACKAGE_RISK": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "supply chain package risk"
+  },
+  "SEC__VPN_LOGIN_ANOMALY": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "vpn login anomaly"
+  },
+  "SEC__SHADOW_IT_APP_DISCOVERY": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "shadow it app discovery"
+  },
+  "SEC__INSIDER_DATA_ACCESS_SPIKE": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "insider data access spike"
+  },
+  "SEC__CERTIFICATE_PRIVATE_KEY_LEAK": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "certificate private key leak"
+  },
+  "SEC__CONTAINER_ESCAPE_INDICATOR": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "container escape indicator"
+  },
+  "SEC__CLOUD_ROLE_OVERPERMISSIONED": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "cloud role overpermissioned"
+  },
+  "SEC__BLOCKED_COMMAND_AND_CONTROL": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "blocked command and control"
+  },
+  "SEC__SUSPICIOUS_INBOX_FORWARDING": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "suspicious inbox forwarding"
+  },
+  "SEC__CREDENTIAL_PASTE_SITE_HIT": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "credential paste site hit"
+  },
+  "SEC__UNAUTHORIZED_FIREWALL_CHANGE": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "unauthorized firewall change"
+  },
+  "SEC__EDR_SENSOR_DISABLED": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "edr sensor disabled"
+  },
+  "SEC__NEW_RISKY_SERVICE_ACCOUNT": {
+    "domain": "cybersecurity alert triage",
+    "meaning": "new risky service account"
+  },
+  "POL__DATA_RETENTION_EXCEPTION": {
+    "domain": "policy contract compliance risk",
+    "meaning": "data retention exception"
+  },
+  "POL__CROSS_BORDER_DATA_TRANSFER": {
+    "domain": "policy contract compliance risk",
+    "meaning": "cross border data transfer"
+  },
+  "POL__VENDOR_DPA_MISSING": {
+    "domain": "policy contract compliance risk",
+    "meaning": "vendor dpa missing"
+  },
+  "POL__NDA_SCOPE_CONFLICT": {
+    "domain": "policy contract compliance risk",
+    "meaning": "nda scope conflict"
+  },
+  "POL__AUDIT_RIGHTS_DISPUTE": {
+    "domain": "policy contract compliance risk",
+    "meaning": "audit rights dispute"
+  },
+  "POL__SUBPROCESSOR_APPROVAL_NEEDED": {
+    "domain": "policy contract compliance risk",
+    "meaning": "subprocessor approval needed"
+  },
+  "POL__INDEMNITY_CLAUSE_ESCALATION": {
+    "domain": "policy contract compliance risk",
+    "meaning": "indemnity clause escalation"
+  },
+  "POL__AUTO_RENEWAL_NOTICE_RISK": {
+    "domain": "policy contract compliance risk",
+    "meaning": "auto renewal notice risk"
+  },
+  "POL__LIMITATION_OF_LIABILITY_CAP": {
+    "domain": "policy contract compliance risk",
+    "meaning": "limitation of liability cap"
+  },
+  "POL__EXPORT_CONTROL_CONCERN": {
+    "domain": "policy contract compliance risk",
+    "meaning": "export control concern"
+  },
+  "POL__MINOR_USER_CONSENT_GAP": {
+    "domain": "policy contract compliance risk",
+    "meaning": "minor user consent gap"
+  },
+  "POL__MARKETING_CONSENT_AMBIGUITY": {
+    "domain": "policy contract compliance risk",
+    "meaning": "marketing consent ambiguity"
+  },
+  "POL__RECORDS_DELETION_REQUEST": {
+    "domain": "policy contract compliance risk",
+    "meaning": "records deletion request"
+  },
+  "POL__CONFIDENTIAL_INFORMATION_CARVEOUT": {
+    "domain": "policy contract compliance risk",
+    "meaning": "confidential information carveout"
+  },
+  "POL__OPEN_SOURCE_LICENSE_CONFLICT": {
+    "domain": "policy contract compliance risk",
+    "meaning": "open source license conflict"
+  },
+  "POL__SECURITY_ADDENDUM_DEVIATION": {
+    "domain": "policy contract compliance risk",
+    "meaning": "security addendum deviation"
+  },
+  "POL__PAYMENT_TERMS_EXCEPTION": {
+    "domain": "policy contract compliance risk",
+    "meaning": "payment terms exception"
+  },
+  "POL__JURISDICTION_CLAUSE_MISMATCH": {
+    "domain": "policy contract compliance risk",
+    "meaning": "jurisdiction clause mismatch"
+  },
+  "POL__FORCE_MAJEURE_INTERPRETATION": {
+    "domain": "policy contract compliance risk",
+    "meaning": "force majeure interpretation"
+  },
+  "POL__IP_OWNERSHIP_AMBIGUITY": {
+    "domain": "policy contract compliance risk",
+    "meaning": "ip ownership ambiguity"
+  },
+  "POL__SERVICE_LEVEL_CREDIT_CLAIM": {
+    "domain": "policy contract compliance risk",
+    "meaning": "service level credit claim"
+  },
+  "POL__TERMINATION_FOR_CONVENIENCE": {
+    "domain": "policy contract compliance risk",
+    "meaning": "termination for convenience"
+  },
+  "POL__INSURANCE_COVERAGE_GAP": {
+    "domain": "policy contract compliance risk",
+    "meaning": "insurance coverage gap"
+  },
+  "POL__ACCESSIBILITY_COMPLIANCE_REVIEW": {
+    "domain": "policy contract compliance risk",
+    "meaning": "accessibility compliance review"
+  },
+  "POL__BIOMETRIC_DATA_APPROVAL": {
+    "domain": "policy contract compliance risk",
+    "meaning": "biometric data approval"
+  },
+  "POL__AI_USE_DISCLOSURE_REQUIREMENT": {
+    "domain": "policy contract compliance risk",
+    "meaning": "ai use disclosure requirement"
+  },
+  "POL__PUBLICITY_RIGHTS_RESTRICTION": {
+    "domain": "policy contract compliance risk",
+    "meaning": "publicity rights restriction"
+  },
+  "POL__EMPLOYEE_DATA_TRANSFER": {
+    "domain": "policy contract compliance risk",
+    "meaning": "employee data transfer"
+  },
+  "POL__RETENTION_HOLD_NOTICE": {
+    "domain": "policy contract compliance risk",
+    "meaning": "retention hold notice"
+  },
+  "POL__REGULATORY_REPORTING_TRIGGER": {
+    "domain": "policy contract compliance risk",
+    "meaning": "regulatory reporting trigger"
+  },
+  "LOG__COLD_CHAIN_TEMPERATURE_BREACH": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "cold chain temperature breach"
+  },
+  "LOG__CUSTOMS_DOCUMENT_MISSING": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "customs document missing"
+  },
+  "LOG__CARRIER_NO_SCAN": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "carrier no scan"
+  },
+  "LOG__DAMAGED_GOODS_REPORT": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "damaged goods report"
+  },
+  "LOG__WRONG_WAREHOUSE_DISPATCH": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "wrong warehouse dispatch"
+  },
+  "LOG__LATE_PORT_CLEARANCE": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "late port clearance"
+  },
+  "LOG__ADDRESS_VALIDATION_FAILURE": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "address validation failure"
+  },
+  "LOG__PARTIAL_SHIPMENT_SHORTFALL": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "partial shipment shortfall"
+  },
+  "LOG__HAZMAT_LABEL_MISSING": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "hazmat label missing"
+  },
+  "LOG__RETURN_AUTHORIZATION_MISMATCH": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "return authorization mismatch"
+  },
+  "LOG__INVENTORY_CYCLE_COUNT_VARIANCE": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "inventory cycle count variance"
+  },
+  "LOG__SUPPLIER_CAPACITY_SHORTAGE": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "supplier capacity shortage"
+  },
+  "LOG__TRUCK_APPOINTMENT_MISSED": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "truck appointment missed"
+  },
+  "LOG__CONTAINER_SEAL_DISCREPANCY": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "container seal discrepancy"
+  },
+  "LOG__PROOF_OF_DELIVERY_DISPUTE": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "proof of delivery dispute"
+  },
+  "LOG__PACKAGE_DIMENSION_MISMATCH": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "package dimension mismatch"
+  },
+  "LOG__BACKORDER_PRIORITY_CONFLICT": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "backorder priority conflict"
+  },
+  "LOG__ROUTE_WEATHER_DELAY": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "route weather delay"
+  },
+  "LOG__CROSS_DOCK_SORTING_ERROR": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "cross dock sorting error"
+  },
+  "LOG__LAST_MILE_FAILED_ATTEMPT": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "last mile failed attempt"
+  },
+  "LOG__PALLET_OVERAGE_DISCOVERED": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "pallet overage discovered"
+  },
+  "LOG__FREIGHT_INVOICE_DISCREPANCY": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "freight invoice discrepancy"
+  },
+  "LOG__DOCK_DOOR_CONGESTION": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "dock door congestion"
+  },
+  "LOG__LOT_TRACEABILITY_GAP": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "lot traceability gap"
+  },
+  "LOG__RECALL_HOLD_REQUIRED": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "recall hold required"
+  },
+  "LOG__TEMPERATURE_LOGGER_MISSING": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "temperature logger missing"
+  },
+  "LOG__INTERNATIONAL_DUTY_DISPUTE": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "international duty dispute"
+  },
+  "LOG__SPLIT_SHIPMENT_RECONCILIATION": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "split shipment reconciliation"
+  },
+  "LOG__EXPEDITED_SHIPPING_REQUEST": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "expedited shipping request"
+  },
+  "LOG__WAREHOUSE_SYSTEM_OUTAGE": {
+    "domain": "logistics supply chain exception routing",
+    "meaning": "warehouse system outage"
+  },
+  "FIN__DUPLICATE_INVOICE_DETECTED": {
+    "domain": "financial operations exception routing",
+    "meaning": "duplicate invoice detected"
+  },
+  "FIN__PAYMENT_REVERSAL_REQUEST": {
+    "domain": "financial operations exception routing",
+    "meaning": "payment reversal request"
+  },
+  "FIN__UNAPPROVED_DISCOUNT_APPLIED": {
+    "domain": "financial operations exception routing",
+    "meaning": "unapproved discount applied"
+  },
+  "FIN__REVENUE_RECOGNITION_HOLD": {
+    "domain": "financial operations exception routing",
+    "meaning": "revenue recognition hold"
+  },
+  "FIN__TAX_CODE_MISMATCH": {
+    "domain": "financial operations exception routing",
+    "meaning": "tax code mismatch"
+  },
+  "FIN__VENDOR_BANK_CHANGE_REVIEW": {
+    "domain": "financial operations exception routing",
+    "meaning": "vendor bank change review"
+  },
+  "FIN__EXPENSE_POLICY_VIOLATION": {
+    "domain": "financial operations exception routing",
+    "meaning": "expense policy violation"
+  },
+  "FIN__PURCHASE_ORDER_OVERRUN": {
+    "domain": "financial operations exception routing",
+    "meaning": "purchase order overrun"
+  },
+  "FIN__CREDIT_MEMO_MISSING": {
+    "domain": "financial operations exception routing",
+    "meaning": "credit memo missing"
+  },
+  "FIN__CASH_APPLICATION_SUSPENSE": {
+    "domain": "financial operations exception routing",
+    "meaning": "cash application suspense"
+  },
+  "FIN__CHARGEBACK_EVIDENCE_NEEDED": {
+    "domain": "financial operations exception routing",
+    "meaning": "chargeback evidence needed"
+  },
+  "FIN__LATE_PAYMENT_PENALTY_DISPUTE": {
+    "domain": "financial operations exception routing",
+    "meaning": "late payment penalty dispute"
+  },
+  "FIN__FX_SETTLEMENT_VARIANCE": {
+    "domain": "financial operations exception routing",
+    "meaning": "fx settlement variance"
+  },
+  "FIN__REFUND_APPROVAL_THRESHOLD": {
+    "domain": "financial operations exception routing",
+    "meaning": "refund approval threshold"
+  },
+  "FIN__SUBSCRIPTION_PRORATION_ERROR": {
+    "domain": "financial operations exception routing",
+    "meaning": "subscription proration error"
+  },
+  "FIN__MANUAL_JOURNAL_REVIEW": {
+    "domain": "financial operations exception routing",
+    "meaning": "manual journal review"
+  },
+  "FIN__INTERCOMPANY_MISMATCH": {
+    "domain": "financial operations exception routing",
+    "meaning": "intercompany mismatch"
+  },
+  "FIN__WITHHOLDING_TAX_EXCEPTION": {
+    "domain": "financial operations exception routing",
+    "meaning": "withholding tax exception"
+  },
+  "FIN__AGED_RECEIVABLE_ESCALATION": {
+    "domain": "financial operations exception routing",
+    "meaning": "aged receivable escalation"
+  },
+  "FIN__PROCUREMENT_CARD_MISUSE": {
+    "domain": "financial operations exception routing",
+    "meaning": "procurement card misuse"
+  },
+  "FIN__BUDGET_OWNER_MISSING": {
+    "domain": "financial operations exception routing",
+    "meaning": "budget owner missing"
+  },
+  "FIN__INVOICE_APPROVER_CONFLICT": {
+    "domain": "financial operations exception routing",
+    "meaning": "invoice approver conflict"
+  },
+  "FIN__SANCTIONS_SCREENING_HIT": {
+    "domain": "financial operations exception routing",
+    "meaning": "sanctions screening hit"
+  },
+  "FIN__REFUND_DUPLICATE_RISK": {
+    "domain": "financial operations exception routing",
+    "meaning": "refund duplicate risk"
+  },
+  "FIN__FAILED_ACH_PAYMENT": {
+    "domain": "financial operations exception routing",
+    "meaning": "failed ach payment"
+  },
+  "FIN__REMITTANCE_ADVICE_MISSING": {
+    "domain": "financial operations exception routing",
+    "meaning": "remittance advice missing"
+  },
+  "FIN__PAYMENT_BATCH_CUT_OFF": {
+    "domain": "financial operations exception routing",
+    "meaning": "payment batch cut off"
+  },
+  "FIN__INCORRECT_LEGAL_ENTITY": {
+    "domain": "financial operations exception routing",
+    "meaning": "incorrect legal entity"
+  },
+  "FIN__BILLING_ADDRESS_MISMATCH": {
+    "domain": "financial operations exception routing",
+    "meaning": "billing address mismatch"
+  },
+  "FIN__ROYALTY_CALCULATION_DISPUTE": {
+    "domain": "financial operations exception routing",
+    "meaning": "royalty calculation dispute"
+  },
+  "HR__HARASSMENT_COMPLAINT_INTAKE": {
+    "domain": "workplace policy case routing",
+    "meaning": "harassment complaint intake"
+  },
+  "HR__LEAVE_POLICY_EXCEPTION": {
+    "domain": "workplace policy case routing",
+    "meaning": "leave policy exception"
+  },
+  "HR__PAYROLL_UNDERPAYMENT_CLAIM": {
+    "domain": "workplace policy case routing",
+    "meaning": "payroll underpayment claim"
+  },
+  "HR__VISA_SPONSORSHIP_QUESTION": {
+    "domain": "workplace policy case routing",
+    "meaning": "visa sponsorship question"
+  },
+  "HR__REMOTE_WORK_ACCOMMODATION": {
+    "domain": "workplace policy case routing",
+    "meaning": "remote work accommodation"
+  },
+  "HR__PERFORMANCE_REVIEW_DISPUTE": {
+    "domain": "workplace policy case routing",
+    "meaning": "performance review dispute"
+  },
+  "HR__BENEFITS_ENROLLMENT_CORRECTION": {
+    "domain": "workplace policy case routing",
+    "meaning": "benefits enrollment correction"
+  },
+  "HR__MANAGER_CONFLICT_MEDIATION": {
+    "domain": "workplace policy case routing",
+    "meaning": "manager conflict mediation"
+  },
+  "HR__OVERTIME_APPROVAL_ISSUE": {
+    "domain": "workplace policy case routing",
+    "meaning": "overtime approval issue"
+  },
+  "HR__EQUIPMENT_RETURN_MISSING": {
+    "domain": "workplace policy case routing",
+    "meaning": "equipment return missing"
+  },
+  "HR__BACKGROUND_CHECK_DELAY": {
+    "domain": "workplace policy case routing",
+    "meaning": "background check delay"
+  },
+  "HR__TRAINING_COMPLETION_WAIVER": {
+    "domain": "workplace policy case routing",
+    "meaning": "training completion waiver"
+  },
+  "HR__PROMOTION_PROCESS_APPEAL": {
+    "domain": "workplace policy case routing",
+    "meaning": "promotion process appeal"
+  },
+  "HR__INTERNAL_TRANSFER_ELIGIBILITY": {
+    "domain": "workplace policy case routing",
+    "meaning": "internal transfer eligibility"
+  },
+  "HR__PROBATION_EXTENSION_REQUEST": {
+    "domain": "workplace policy case routing",
+    "meaning": "probation extension request"
+  },
+  "HR__EMPLOYEE_DATA_CORRECTION": {
+    "domain": "workplace policy case routing",
+    "meaning": "employee data correction"
+  },
+  "HR__WORKPLACE_SAFETY_REPORT": {
+    "domain": "workplace policy case routing",
+    "meaning": "workplace safety report"
+  },
+  "HR__CONFLICT_OF_INTEREST_DISCLOSURE": {
+    "domain": "workplace policy case routing",
+    "meaning": "conflict of interest disclosure"
+  },
+  "HR__DISCIPLINARY_WARNING_RESPONSE": {
+    "domain": "workplace policy case routing",
+    "meaning": "disciplinary warning response"
+  },
+  "HR__MENTAL_HEALTH_ACCOMMODATION": {
+    "domain": "workplace policy case routing",
+    "meaning": "mental health accommodation"
+  },
+  "HR__PARENTAL_LEAVE_PLANNING": {
+    "domain": "workplace policy case routing",
+    "meaning": "parental leave planning"
+  },
+  "HR__CONTRACTOR_CONVERSION_REQUEST": {
+    "domain": "workplace policy case routing",
+    "meaning": "contractor conversion request"
+  },
+  "HR__SALARY_BAND_EXCEPTION": {
+    "domain": "workplace policy case routing",
+    "meaning": "salary band exception"
+  },
+  "HR__TERMINATION_DOCUMENTATION_REVIEW": {
+    "domain": "workplace policy case routing",
+    "meaning": "termination documentation review"
+  },
+  "HR__RELOCATION_PACKAGE_EXCEPTION": {
+    "domain": "workplace policy case routing",
+    "meaning": "relocation package exception"
+  },
+  "HR__ATTENDANCE_RECORD_CORRECTION": {
+    "domain": "workplace policy case routing",
+    "meaning": "attendance record correction"
+  },
+  "HR__LEARNING_BUDGET_REIMBURSEMENT": {
+    "domain": "workplace policy case routing",
+    "meaning": "learning budget reimbursement"
+  },
+  "HR__HOLIDAY_SCHEDULING_CONFLICT": {
+    "domain": "workplace policy case routing",
+    "meaning": "holiday scheduling conflict"
+  },
+  "HR__CODE_OF_CONDUCT_ALLEGATION": {
+    "domain": "workplace policy case routing",
+    "meaning": "code of conduct allegation"
+  },
+  "HR__ACCESS_BADGE_DEACTIVATION": {
+    "domain": "workplace policy case routing",
+    "meaning": "access badge deactivation"
+  }
+}

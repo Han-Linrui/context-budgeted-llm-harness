@@ -1,0 +1,90 @@
+{"text": "policy contract compliance risk ticket: the main issue is regulatory reporting trigger. Mentioned side notes are only context.", "label": "POL__REGULATORY_REPORTING_TRIGGER"}
+{"text": "Route this case by its primary operational risk: regulatory reporting trigger. Do not classify by the reporter's emotion.", "label": "POL__REGULATORY_REPORTING_TRIGGER"}
+{"text": "policy contract compliance risk ticket: the main issue is vendor dpa missing. Mentioned side notes are only context.", "label": "POL__VENDOR_DPA_MISSING"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says publicity rights restriction.", "label": "POL__PUBLICITY_RIGHTS_RESTRICTION"}
+{"text": "Route this case by its primary operational risk: export control concern. Do not classify by the reporter's emotion.", "label": "POL__EXPORT_CONTROL_CONCERN"}
+{"text": "Route this case by its primary operational risk: ai use disclosure requirement. Do not classify by the reporter's emotion.", "label": "POL__AI_USE_DISCLOSURE_REQUIREMENT"}
+{"text": "Route this case by its primary operational risk: insurance coverage gap. Do not classify by the reporter's emotion.", "label": "POL__INSURANCE_COVERAGE_GAP"}
+{"text": "policy contract compliance risk ticket: the main issue is retention hold notice. Mentioned side notes are only context.", "label": "POL__RETENTION_HOLD_NOTICE"}
+{"text": "policy contract compliance risk ticket: the main issue is cross border data transfer. Mentioned side notes are only context.", "label": "POL__CROSS_BORDER_DATA_TRANSFER"}
+{"text": "Route this case by its primary operational risk: accessibility compliance review. Do not classify by the reporter's emotion.", "label": "POL__ACCESSIBILITY_COMPLIANCE_REVIEW"}
+{"text": "policy contract compliance risk ticket: the main issue is limitation of liability cap. Mentioned side notes are only context.", "label": "POL__LIMITATION_OF_LIABILITY_CAP"}
+{"text": "Route this case by its primary operational risk: force majeure interpretation. Do not classify by the reporter's emotion.", "label": "POL__FORCE_MAJEURE_INTERPRETATION"}
+{"text": "policy contract compliance risk ticket: the main issue is ip ownership ambiguity. Mentioned side notes are only context.", "label": "POL__IP_OWNERSHIP_AMBIGUITY"}
+{"text": "policy contract compliance risk ticket: the main issue is auto renewal notice risk. Mentioned side notes are only context.", "label": "POL__AUTO_RENEWAL_NOTICE_RISK"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says indemnity clause escalation.", "label": "POL__INDEMNITY_CLAUSE_ESCALATION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合同条款；英文摘要 says accessibility compliance review.", "label": "POL__ACCESSIBILITY_COMPLIANCE_REVIEW"}
+{"text": "Route this case by its primary operational risk: biometric data approval. Do not classify by the reporter's emotion.", "label": "POL__BIOMETRIC_DATA_APPROVAL"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合同条款；英文摘要 says records deletion request.", "label": "POL__RECORDS_DELETION_REQUEST"}
+{"text": "policy contract compliance risk ticket: the main issue is termination for convenience. Mentioned side notes are only context.", "label": "POL__TERMINATION_FOR_CONVENIENCE"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says security addendum deviation.", "label": "POL__SECURITY_ADDENDUM_DEVIATION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says confidential information carveout.", "label": "POL__CONFIDENTIAL_INFORMATION_CARVEOUT"}
+{"text": "policy contract compliance risk ticket: the main issue is service level credit claim. Mentioned side notes are only context.", "label": "POL__SERVICE_LEVEL_CREDIT_CLAIM"}
+{"text": "Route this case by its primary operational risk: employee data transfer. Do not classify by the reporter's emotion.", "label": "POL__EMPLOYEE_DATA_TRANSFER"}
+{"text": "policy contract compliance risk ticket: the main issue is minor user consent gap. Mentioned side notes are only context.", "label": "POL__MINOR_USER_CONSENT_GAP"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says subprocessor approval needed.", "label": "POL__SUBPROCESSOR_APPROVAL_NEEDED"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says auto renewal notice risk.", "label": "POL__AUTO_RENEWAL_NOTICE_RISK"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says service level credit claim.", "label": "POL__SERVICE_LEVEL_CREDIT_CLAIM"}
+{"text": "Route this case by its primary operational risk: minor user consent gap. Do not classify by the reporter's emotion.", "label": "POL__MINOR_USER_CONSENT_GAP"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近审批例外；英文摘要 says ip ownership ambiguity.", "label": "POL__IP_OWNERSHIP_AMBIGUITY"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says cross border data transfer.", "label": "POL__CROSS_BORDER_DATA_TRANSFER"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says ai use disclosure requirement.", "label": "POL__AI_USE_DISCLOSURE_REQUIREMENT"}
+{"text": "policy contract compliance risk ticket: the main issue is jurisdiction clause mismatch. Mentioned side notes are only context.", "label": "POL__JURISDICTION_CLAUSE_MISMATCH"}
+{"text": "policy contract compliance risk ticket: the main issue is force majeure interpretation. Mentioned side notes are only context.", "label": "POL__FORCE_MAJEURE_INTERPRETATION"}
+{"text": "Route this case by its primary operational risk: subprocessor approval needed. Do not classify by the reporter's emotion.", "label": "POL__SUBPROCESSOR_APPROVAL_NEEDED"}
+{"text": "policy contract compliance risk ticket: the main issue is nda scope conflict. Mentioned side notes are only context.", "label": "POL__NDA_SCOPE_CONFLICT"}
+{"text": "Route this case by its primary operational risk: termination for convenience. Do not classify by the reporter's emotion.", "label": "POL__TERMINATION_FOR_CONVENIENCE"}
+{"text": "policy contract compliance risk ticket: the main issue is biometric data approval. Mentioned side notes are only context.", "label": "POL__BIOMETRIC_DATA_APPROVAL"}
+{"text": "Route this case by its primary operational risk: vendor dpa missing. Do not classify by the reporter's emotion.", "label": "POL__VENDOR_DPA_MISSING"}
+{"text": "Route this case by its primary operational risk: audit rights dispute. Do not classify by the reporter's emotion.", "label": "POL__AUDIT_RIGHTS_DISPUTE"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近审批例外；英文摘要 says biometric data approval.", "label": "POL__BIOMETRIC_DATA_APPROVAL"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合同条款；英文摘要 says jurisdiction clause mismatch.", "label": "POL__JURISDICTION_CLAUSE_MISMATCH"}
+{"text": "Route this case by its primary operational risk: security addendum deviation. Do not classify by the reporter's emotion.", "label": "POL__SECURITY_ADDENDUM_DEVIATION"}
+{"text": "policy contract compliance risk ticket: the main issue is ai use disclosure requirement. Mentioned side notes are only context.", "label": "POL__AI_USE_DISCLOSURE_REQUIREMENT"}
+{"text": "Route this case by its primary operational risk: jurisdiction clause mismatch. Do not classify by the reporter's emotion.", "label": "POL__JURISDICTION_CLAUSE_MISMATCH"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says marketing consent ambiguity.", "label": "POL__MARKETING_CONSENT_AMBIGUITY"}
+{"text": "Route this case by its primary operational risk: indemnity clause escalation. Do not classify by the reporter's emotion.", "label": "POL__INDEMNITY_CLAUSE_ESCALATION"}
+{"text": "policy contract compliance risk ticket: the main issue is data retention exception. Mentioned side notes are only context.", "label": "POL__DATA_RETENTION_EXCEPTION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says vendor dpa missing.", "label": "POL__VENDOR_DPA_MISSING"}
+{"text": "Route this case by its primary operational risk: open source license conflict. Do not classify by the reporter's emotion.", "label": "POL__OPEN_SOURCE_LICENSE_CONFLICT"}
+{"text": "policy contract compliance risk ticket: the main issue is confidential information carveout. Mentioned side notes are only context.", "label": "POL__CONFIDENTIAL_INFORMATION_CARVEOUT"}
+{"text": "Route this case by its primary operational risk: nda scope conflict. Do not classify by the reporter's emotion.", "label": "POL__NDA_SCOPE_CONFLICT"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合同条款；英文摘要 says minor user consent gap.", "label": "POL__MINOR_USER_CONSENT_GAP"}
+{"text": "policy contract compliance risk ticket: the main issue is indemnity clause escalation. Mentioned side notes are only context.", "label": "POL__INDEMNITY_CLAUSE_ESCALATION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says retention hold notice.", "label": "POL__RETENTION_HOLD_NOTICE"}
+{"text": "Route this case by its primary operational risk: confidential information carveout. Do not classify by the reporter's emotion.", "label": "POL__CONFIDENTIAL_INFORMATION_CARVEOUT"}
+{"text": "Route this case by its primary operational risk: limitation of liability cap. Do not classify by the reporter's emotion.", "label": "POL__LIMITATION_OF_LIABILITY_CAP"}
+{"text": "policy contract compliance risk ticket: the main issue is accessibility compliance review. Mentioned side notes are only context.", "label": "POL__ACCESSIBILITY_COMPLIANCE_REVIEW"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says payment terms exception.", "label": "POL__PAYMENT_TERMS_EXCEPTION"}
+{"text": "policy contract compliance risk ticket: the main issue is records deletion request. Mentioned side notes are only context.", "label": "POL__RECORDS_DELETION_REQUEST"}
+{"text": "Route this case by its primary operational risk: auto renewal notice risk. Do not classify by the reporter's emotion.", "label": "POL__AUTO_RENEWAL_NOTICE_RISK"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近审批例外；英文摘要 says limitation of liability cap.", "label": "POL__LIMITATION_OF_LIABILITY_CAP"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says force majeure interpretation.", "label": "POL__FORCE_MAJEURE_INTERPRETATION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says termination for convenience.", "label": "POL__TERMINATION_FOR_CONVENIENCE"}
+{"text": "Route this case by its primary operational risk: data retention exception. Do not classify by the reporter's emotion.", "label": "POL__DATA_RETENTION_EXCEPTION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says insurance coverage gap.", "label": "POL__INSURANCE_COVERAGE_GAP"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近审批例外；英文摘要 says audit rights dispute.", "label": "POL__AUDIT_RIGHTS_DISPUTE"}
+{"text": "Route this case by its primary operational risk: payment terms exception. Do not classify by the reporter's emotion.", "label": "POL__PAYMENT_TERMS_EXCEPTION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says nda scope conflict.", "label": "POL__NDA_SCOPE_CONFLICT"}
+{"text": "policy contract compliance risk ticket: the main issue is subprocessor approval needed. Mentioned side notes are only context.", "label": "POL__SUBPROCESSOR_APPROVAL_NEEDED"}
+{"text": "Route this case by its primary operational risk: publicity rights restriction. Do not classify by the reporter's emotion.", "label": "POL__PUBLICITY_RIGHTS_RESTRICTION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says export control concern.", "label": "POL__EXPORT_CONTROL_CONCERN"}
+{"text": "Route this case by its primary operational risk: marketing consent ambiguity. Do not classify by the reporter's emotion.", "label": "POL__MARKETING_CONSENT_AMBIGUITY"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says data retention exception.", "label": "POL__DATA_RETENTION_EXCEPTION"}
+{"text": "Route this case by its primary operational risk: cross border data transfer. Do not classify by the reporter's emotion.", "label": "POL__CROSS_BORDER_DATA_TRANSFER"}
+{"text": "Route this case by its primary operational risk: retention hold notice. Do not classify by the reporter's emotion.", "label": "POL__RETENTION_HOLD_NOTICE"}
+{"text": "policy contract compliance risk ticket: the main issue is audit rights dispute. Mentioned side notes are only context.", "label": "POL__AUDIT_RIGHTS_DISPUTE"}
+{"text": "policy contract compliance risk ticket: the main issue is export control concern. Mentioned side notes are only context.", "label": "POL__EXPORT_CONTROL_CONCERN"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近合规风险；英文摘要 says regulatory reporting trigger.", "label": "POL__REGULATORY_REPORTING_TRIGGER"}
+{"text": "policy contract compliance risk ticket: the main issue is open source license conflict. Mentioned side notes are only context.", "label": "POL__OPEN_SOURCE_LICENSE_CONFLICT"}
+{"text": "Route this case by its primary operational risk: records deletion request. Do not classify by the reporter's emotion.", "label": "POL__RECORDS_DELETION_REQUEST"}
+{"text": "policy contract compliance risk ticket: the main issue is marketing consent ambiguity. Mentioned side notes are only context.", "label": "POL__MARKETING_CONSENT_AMBIGUITY"}
+{"text": "policy contract compliance risk ticket: the main issue is payment terms exception. Mentioned side notes are only context.", "label": "POL__PAYMENT_TERMS_EXCEPTION"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近法律升级；英文摘要 says open source license conflict.", "label": "POL__OPEN_SOURCE_LICENSE_CONFLICT"}
+{"text": "Route this case by its primary operational risk: service level credit claim. Do not classify by the reporter's emotion.", "label": "POL__SERVICE_LEVEL_CREDIT_CLAIM"}
+{"text": "中文工单：这是一个合规合同场景，核心现象接近审批例外；英文摘要 says employee data transfer.", "label": "POL__EMPLOYEE_DATA_TRANSFER"}
+{"text": "policy contract compliance risk ticket: the main issue is security addendum deviation. Mentioned side notes are only context.", "label": "POL__SECURITY_ADDENDUM_DEVIATION"}
+{"text": "policy contract compliance risk ticket: the main issue is employee data transfer. Mentioned side notes are only context.", "label": "POL__EMPLOYEE_DATA_TRANSFER"}
+{"text": "Route this case by its primary operational risk: ip ownership ambiguity. Do not classify by the reporter's emotion.", "label": "POL__IP_OWNERSHIP_AMBIGUITY"}
+{"text": "policy contract compliance risk ticket: the main issue is publicity rights restriction. Mentioned side notes are only context.", "label": "POL__PUBLICITY_RIGHTS_RESTRICTION"}
+{"text": "policy contract compliance risk ticket: the main issue is insurance coverage gap. Mentioned side notes are only context.", "label": "POL__INSURANCE_COVERAGE_GAP"}

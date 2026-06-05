@@ -1,0 +1,90 @@
+{"text": "software incident triage ticket: the main issue is incorrect timezone rendering. Mentioned side notes are only context.", "label": "SW__INCORRECT_TIMEZONE_RENDERING"}
+{"text": "software incident triage ticket: the main issue is feature flag misroute. Mentioned side notes are only context.", "label": "SW__FEATURE_FLAG_MISROUTE"}
+{"text": "Route this case by its primary operational risk: database read replica lag. Do not classify by the reporter's emotion.", "label": "SW__DATABASE_READ_REPLICA_LAG"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says report export failure.", "label": "SW__REPORT_EXPORT_FAILURE"}
+{"text": "Route this case by its primary operational risk: memory leak in worker. Do not classify by the reporter's emotion.", "label": "SW__MEMORY_LEAK_IN_WORKER"}
+{"text": "Route this case by its primary operational risk: search index corruption. Do not classify by the reporter's emotion.", "label": "SW__SEARCH_INDEX_CORRUPTION"}
+{"text": "software incident triage ticket: the main issue is permission sync delay. Mentioned side notes are only context.", "label": "SW__PERMISSION_SYNC_DELAY"}
+{"text": "software incident triage ticket: the main issue is service discovery failure. Mentioned side notes are only context.", "label": "SW__SERVICE_DISCOVERY_FAILURE"}
+{"text": "software incident triage ticket: the main issue is message queue backlog. Mentioned side notes are only context.", "label": "SW__MESSAGE_QUEUE_BACKLOG"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says memory leak in worker.", "label": "SW__MEMORY_LEAK_IN_WORKER"}
+{"text": "software incident triage ticket: the main issue is search index corruption. Mentioned side notes are only context.", "label": "SW__SEARCH_INDEX_CORRUPTION"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says database read replica lag.", "label": "SW__DATABASE_READ_REPLICA_LAG"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近接口变慢；英文摘要 says cdn cache purge issue.", "label": "SW__CDN_CACHE_PURGE_ISSUE"}
+{"text": "Route this case by its primary operational risk: feature flag misroute. Do not classify by the reporter's emotion.", "label": "SW__FEATURE_FLAG_MISROUTE"}
+{"text": "Route this case by its primary operational risk: session invalidation bug. Do not classify by the reporter's emotion.", "label": "SW__SESSION_INVALIDATION_BUG"}
+{"text": "software incident triage ticket: the main issue is memory leak in worker. Mentioned side notes are only context.", "label": "SW__MEMORY_LEAK_IN_WORKER"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says database deadlock.", "label": "SW__DATABASE_DEADLOCK"}
+{"text": "Route this case by its primary operational risk: cache stale read. Do not classify by the reporter's emotion.", "label": "SW__CACHE_STALE_READ"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says session invalidation bug.", "label": "SW__SESSION_INVALIDATION_BUG"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says service discovery failure.", "label": "SW__SERVICE_DISCOVERY_FAILURE"}
+{"text": "Route this case by its primary operational risk: configuration drift. Do not classify by the reporter's emotion.", "label": "SW__CONFIGURATION_DRIFT"}
+{"text": "Route this case by its primary operational risk: report export failure. Do not classify by the reporter's emotion.", "label": "SW__REPORT_EXPORT_FAILURE"}
+{"text": "Route this case by its primary operational risk: file upload timeout. Do not classify by the reporter's emotion.", "label": "SW__FILE_UPLOAD_TIMEOUT"}
+{"text": "Route this case by its primary operational risk: audit log gap. Do not classify by the reporter's emotion.", "label": "SW__AUDIT_LOG_GAP"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says billing webhook failure.", "label": "SW__BILLING_WEBHOOK_FAILURE"}
+{"text": "Route this case by its primary operational risk: third party api degradation. Do not classify by the reporter's emotion.", "label": "SW__THIRD_PARTY_API_DEGRADATION"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says file upload timeout.", "label": "SW__FILE_UPLOAD_TIMEOUT"}
+{"text": "Route this case by its primary operational risk: cdn cache purge issue. Do not classify by the reporter's emotion.", "label": "SW__CDN_CACHE_PURGE_ISSUE"}
+{"text": "Route this case by its primary operational risk: authentication redirect loop. Do not classify by the reporter's emotion.", "label": "SW__AUTHENTICATION_REDIRECT_LOOP"}
+{"text": "Route this case by its primary operational risk: billing webhook failure. Do not classify by the reporter's emotion.", "label": "SW__BILLING_WEBHOOK_FAILURE"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says background job retry storm.", "label": "SW__BACKGROUND_JOB_RETRY_STORM"}
+{"text": "software incident triage ticket: the main issue is file upload timeout. Mentioned side notes are only context.", "label": "SW__FILE_UPLOAD_TIMEOUT"}
+{"text": "software incident triage ticket: the main issue is cdn cache purge issue. Mentioned side notes are only context.", "label": "SW__CDN_CACHE_PURGE_ISSUE"}
+{"text": "Route this case by its primary operational risk: background job retry storm. Do not classify by the reporter's emotion.", "label": "SW__BACKGROUND_JOB_RETRY_STORM"}
+{"text": "software incident triage ticket: the main issue is database deadlock. Mentioned side notes are only context.", "label": "SW__DATABASE_DEADLOCK"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says deployment rollback needed.", "label": "SW__DEPLOYMENT_ROLLBACK_NEEDED"}
+{"text": "software incident triage ticket: the main issue is mobile crash regression. Mentioned side notes are only context.", "label": "SW__MOBILE_CRASH_REGRESSION"}
+{"text": "software incident triage ticket: the main issue is cache stale read. Mentioned side notes are only context.", "label": "SW__CACHE_STALE_READ"}
+{"text": "software incident triage ticket: the main issue is notification duplication. Mentioned side notes are only context.", "label": "SW__NOTIFICATION_DUPLICATION"}
+{"text": "software incident triage ticket: the main issue is authentication redirect loop. Mentioned side notes are only context.", "label": "SW__AUTHENTICATION_REDIRECT_LOOP"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says tenant routing error.", "label": "SW__TENANT_ROUTING_ERROR"}
+{"text": "software incident triage ticket: the main issue is rate limit misconfiguration. Mentioned side notes are only context.", "label": "SW__RATE_LIMIT_MISCONFIGURATION"}
+{"text": "Route this case by its primary operational risk: mobile crash regression. Do not classify by the reporter's emotion.", "label": "SW__MOBILE_CRASH_REGRESSION"}
+{"text": "software incident triage ticket: the main issue is api latency spike. Mentioned side notes are only context.", "label": "SW__API_LATENCY_SPIKE"}
+{"text": "Route this case by its primary operational risk: email delivery outage. Do not classify by the reporter's emotion.", "label": "SW__EMAIL_DELIVERY_OUTAGE"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says authentication redirect loop.", "label": "SW__AUTHENTICATION_REDIRECT_LOOP"}
+{"text": "software incident triage ticket: the main issue is billing webhook failure. Mentioned side notes are only context.", "label": "SW__BILLING_WEBHOOK_FAILURE"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says payment status desync.", "label": "SW__PAYMENT_STATUS_DESYNC"}
+{"text": "Route this case by its primary operational risk: database deadlock. Do not classify by the reporter's emotion.", "label": "SW__DATABASE_DEADLOCK"}
+{"text": "software incident triage ticket: the main issue is database read replica lag. Mentioned side notes are only context.", "label": "SW__DATABASE_READ_REPLICA_LAG"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says message queue backlog.", "label": "SW__MESSAGE_QUEUE_BACKLOG"}
+{"text": "Route this case by its primary operational risk: payment status desync. Do not classify by the reporter's emotion.", "label": "SW__PAYMENT_STATUS_DESYNC"}
+{"text": "software incident triage ticket: the main issue is payment status desync. Mentioned side notes are only context.", "label": "SW__PAYMENT_STATUS_DESYNC"}
+{"text": "Route this case by its primary operational risk: rate limit misconfiguration. Do not classify by the reporter's emotion.", "label": "SW__RATE_LIMIT_MISCONFIGURATION"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says schema migration mismatch.", "label": "SW__SCHEMA_MIGRATION_MISMATCH"}
+{"text": "Route this case by its primary operational risk: idempotency key collision. Do not classify by the reporter's emotion.", "label": "SW__IDEMPOTENCY_KEY_COLLISION"}
+{"text": "Route this case by its primary operational risk: permission sync delay. Do not classify by the reporter's emotion.", "label": "SW__PERMISSION_SYNC_DELAY"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says mobile crash regression.", "label": "SW__MOBILE_CRASH_REGRESSION"}
+{"text": "software incident triage ticket: the main issue is schema migration mismatch. Mentioned side notes are only context.", "label": "SW__SCHEMA_MIGRATION_MISMATCH"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says feature flag misroute.", "label": "SW__FEATURE_FLAG_MISROUTE"}
+{"text": "Route this case by its primary operational risk: service discovery failure. Do not classify by the reporter's emotion.", "label": "SW__SERVICE_DISCOVERY_FAILURE"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says idempotency key collision.", "label": "SW__IDEMPOTENCY_KEY_COLLISION"}
+{"text": "Route this case by its primary operational risk: api latency spike. Do not classify by the reporter's emotion.", "label": "SW__API_LATENCY_SPIKE"}
+{"text": "software incident triage ticket: the main issue is email delivery outage. Mentioned side notes are only context.", "label": "SW__EMAIL_DELIVERY_OUTAGE"}
+{"text": "Route this case by its primary operational risk: deployment rollback needed. Do not classify by the reporter's emotion.", "label": "SW__DEPLOYMENT_ROLLBACK_NEEDED"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says third party api degradation.", "label": "SW__THIRD_PARTY_API_DEGRADATION"}
+{"text": "Route this case by its primary operational risk: incorrect timezone rendering. Do not classify by the reporter's emotion.", "label": "SW__INCORRECT_TIMEZONE_RENDERING"}
+{"text": "software incident triage ticket: the main issue is background job retry storm. Mentioned side notes are only context.", "label": "SW__BACKGROUND_JOB_RETRY_STORM"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says email delivery outage.", "label": "SW__EMAIL_DELIVERY_OUTAGE"}
+{"text": "Route this case by its primary operational risk: notification duplication. Do not classify by the reporter's emotion.", "label": "SW__NOTIFICATION_DUPLICATION"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says configuration drift.", "label": "SW__CONFIGURATION_DRIFT"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近后台任务异常；英文摘要 says search index corruption.", "label": "SW__SEARCH_INDEX_CORRUPTION"}
+{"text": "software incident triage ticket: the main issue is configuration drift. Mentioned side notes are only context.", "label": "SW__CONFIGURATION_DRIFT"}
+{"text": "software incident triage ticket: the main issue is third party api degradation. Mentioned side notes are only context.", "label": "SW__THIRD_PARTY_API_DEGRADATION"}
+{"text": "Route this case by its primary operational risk: schema migration mismatch. Do not classify by the reporter's emotion.", "label": "SW__SCHEMA_MIGRATION_MISMATCH"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says cache stale read.", "label": "SW__CACHE_STALE_READ"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says rate limit misconfiguration.", "label": "SW__RATE_LIMIT_MISCONFIGURATION"}
+{"text": "software incident triage ticket: the main issue is session invalidation bug. Mentioned side notes are only context.", "label": "SW__SESSION_INVALIDATION_BUG"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says permission sync delay.", "label": "SW__PERMISSION_SYNC_DELAY"}
+{"text": "software incident triage ticket: the main issue is idempotency key collision. Mentioned side notes are only context.", "label": "SW__IDEMPOTENCY_KEY_COLLISION"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近配置或同步问题；英文摘要 says notification duplication.", "label": "SW__NOTIFICATION_DUPLICATION"}
+{"text": "Route this case by its primary operational risk: tenant routing error. Do not classify by the reporter's emotion.", "label": "SW__TENANT_ROUTING_ERROR"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近接口变慢；英文摘要 says api latency spike.", "label": "SW__API_LATENCY_SPIKE"}
+{"text": "Route this case by its primary operational risk: message queue backlog. Do not classify by the reporter's emotion.", "label": "SW__MESSAGE_QUEUE_BACKLOG"}
+{"text": "software incident triage ticket: the main issue is report export failure. Mentioned side notes are only context.", "label": "SW__REPORT_EXPORT_FAILURE"}
+{"text": "software incident triage ticket: the main issue is deployment rollback needed. Mentioned side notes are only context.", "label": "SW__DEPLOYMENT_ROLLBACK_NEEDED"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says incorrect timezone rendering.", "label": "SW__INCORRECT_TIMEZONE_RENDERING"}
+{"text": "中文工单：这是一个软件系统场景，核心现象接近发布后问题；英文摘要 says audit log gap.", "label": "SW__AUDIT_LOG_GAP"}
+{"text": "software incident triage ticket: the main issue is tenant routing error. Mentioned side notes are only context.", "label": "SW__TENANT_ROUTING_ERROR"}
+{"text": "software incident triage ticket: the main issue is audit log gap. Mentioned side notes are only context.", "label": "SW__AUDIT_LOG_GAP"}

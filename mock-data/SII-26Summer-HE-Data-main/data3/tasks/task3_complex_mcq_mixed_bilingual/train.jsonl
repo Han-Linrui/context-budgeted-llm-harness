@@ -1,0 +1,180 @@
+{"text": "Case 112: 题目 / Question: 一份报告共有 18 项，通过 4 项，失败 2 项，其余待处理。待处理多少项？ Options: A. 12 B. 13 C. 11 D. 2", "label": "A"}
+{"text": "Case 91: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=5, urgent=1, blocked=0. What is the score? Options: A. 9 B. 5 C. 8 D. 7", "label": "D"}
+{"text": "Case 43: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=11, urgent=1, blocked=2. What is the score? Options: A. 13 B. 9 C. 14 D. 11", "label": "D"}
+{"text": "Case 30: 题目 / Question: 一个队列收到 16 批，每批 10 个工单，随后取消 1 个。剩下多少个？ Options: A. 160 B. 158 C. 159 D. 175", "label": "C"}
+{"text": "Case 137: Question: Claim: the shipment arrived on time. Evidence: the carrier log says it arrived two days late. What is the relation? Options: A. Supported B. Contradicted C. Partly supported D. Not enough info", "label": "B"}
+{"text": "Case 173: Question: Claim: the shipment arrived on time. Evidence: the carrier log says it arrived two days late. What is the relation? Options: A. Supported B. Contradicted C. Partly supported D. Not enough info", "label": "B"}
+{"text": "Case 77: Question: Claim: the shipment arrived on time. Evidence: the carrier log says it arrived two days late. What is the relation? Options: A. Supported B. Contradicted C. Partly supported D. Not enough info", "label": "B"}
+{"text": "Case 148: 题目 / Question: 一份报告共有 15 项，通过 5 项，失败 1 项，其余待处理。待处理多少项？ Options: A. 9 B. 10 C. 8 D. 1", "label": "A"}
+{"text": "Case 179: Question: Claim: the invoice was approved. Evidence: the approver marked the invoice as approved yesterday. What is the relation? Options: A. Contradicted B. Partly supported C. Not enough info D. Supported", "label": "D"}
+{"text": "Case 82: 题目 / Question: 一份报告共有 14 项，通过 9 项，失败 0 项，其余待处理。待处理多少项？ Options: A. 6 B. 4 C. 5 D. 0", "label": "C"}
+{"text": "Case 57: Question: If today is Tuesday and the review is due in 4 days, what weekday is the due date? Options: A. Tuesday B. Saturday C. Sunday D. Monday", "label": "B"}
+{"text": "Case 24: 题目 / Question: 一个队列收到 10 批，每批 4 个工单，随后取消 5 个。剩下多少个？ Options: A. 35 B. 36 C. 34 D. 45", "label": "A"}
+{"text": "Case 38: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 21: Question: If today is Monday and the review is due in 4 days, what weekday is the due date? Options: A. Monday B. Friday C. Saturday D. Sunday", "label": "B"}
+{"text": "Case 86: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 152: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 168: 题目 / Question: 一个队列收到 18 批，每批 5 个工单，随后取消 4 个。剩下多少个？ Options: A. 86 B. 87 C. 85 D. 104", "label": "A"}
+{"text": "Case 50: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 37: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=5, urgent=1, blocked=0. What is the score? Options: A. 9 B. 7 C. 5 D. 8", "label": "B"}
+{"text": "Case 133: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=11, urgent=1, blocked=2. What is the score? Options: A. 13 B. 11 C. 9 D. 14", "label": "B"}
+{"text": "Case 14: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 104: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 17: Question: Claim: the shipment arrived on time. Evidence: the carrier log says it arrived two days late. What is the relation? Options: A. Supported B. Contradicted C. Partly supported D. Not enough info", "label": "B"}
+{"text": "Case 153: Question: If today is Sunday and the review is due in 4 days, what weekday is the due date? Options: A. Sunday B. Thursday C. Friday D. Saturday", "label": "B"}
+{"text": "Case 94: 题目 / Question: 一份报告共有 13 项，通过 7 项，失败 2 项，其余待处理。待处理多少项？ Options: A. 5 B. 3 C. 4 D. 2", "label": "C"}
+{"text": "Case 63: Question: If today is Monday and the review is due in 4 days, what weekday is the due date? Options: A. Monday B. Saturday C. Sunday D. Friday", "label": "D"}
+{"text": "Case 6: 题目 / Question: 一个队列收到 9 批，每批 8 个工单，随后取消 2 个。剩下多少个？ Options: A. 71 B. 69 C. 70 D. 79", "label": "C"}
+{"text": "Case 136: 题目 / Question: 一份报告共有 16 项，通过 7 项，失败 3 项，其余待处理。待处理多少项？ Options: A. 6 B. 7 C. 5 D. 3", "label": "A"}
+{"text": "Case 151: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=11, urgent=1, blocked=2. What is the score? Options: A. 13 B. 9 C. 14 D. 11", "label": "D"}
+{"text": "Case 105: Question: If today is Monday and the review is due in 4 days, what weekday is the due date? Options: A. Monday B. Friday C. Saturday D. Sunday", "label": "B"}
+{"text": "Case 147: Question: If today is Monday and the review is due in 4 days, what weekday is the due date? Options: A. Monday B. Saturday C. Sunday D. Friday", "label": "D"}
+{"text": "Case 98: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 4: 题目 / Question: 一份报告共有 14 项，通过 8 项，失败 0 项，其余待处理。待处理多少项？ Options: A. 6 B. 7 C. 5 D. 0", "label": "A"}
+{"text": "Case 2: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 172: 题目 / Question: 一份报告共有 13 项，通过 8 项，失败 2 项，其余待处理。待处理多少项？ Options: A. 3 B. 4 C. 2 D. 2", "label": "A"}
+{"text": "Case 96: 题目 / Question: 一个队列收到 14 批，每批 10 个工单，随后取消 2 个。剩下多少个？ Options: A. 138 B. 139 C. 137 D. 152", "label": "A"}
+{"text": "Case 69: Question: If today is Sunday and the review is due in 4 days, what weekday is the due date? Options: A. Sunday B. Thursday C. Friday D. Saturday", "label": "B"}
+{"text": "Case 70: 题目 / Question: 一份报告共有 15 项，通过 4 项，失败 2 项，其余待处理。待处理多少项？ Options: A. 10 B. 8 C. 9 D. 2", "label": "C"}
+{"text": "Case 88: 题目 / Question: 一份报告共有 20 项，通过 8 项，失败 1 项，其余待处理。待处理多少项？ Options: A. 11 B. 12 C. 10 D. 1", "label": "A"}
+{"text": "Case 122: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 15: Question: If today is Tuesday and the review is due in 4 days, what weekday is the due date? Options: A. Tuesday B. Sunday C. Monday D. Saturday", "label": "D"}
+{"text": "Case 140: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 174: 题目 / Question: 一个队列收到 7 批，每批 11 个工单，随后取消 5 个。剩下多少个？ Options: A. 73 B. 71 C. 72 D. 79", "label": "C"}
+{"text": "Case 78: 题目 / Question: 一个队列收到 13 批，每批 3 个工单，随后取消 4 个。剩下多少个？ Options: A. 36 B. 34 C. 35 D. 48", "label": "C"}
+{"text": "Case 33: Question: If today is Saturday and the review is due in 4 days, what weekday is the due date? Options: A. Saturday B. Wednesday C. Thursday D. Friday", "label": "B"}
+{"text": "Case 84: 题目 / Question: 一个队列收到 19 批，每批 9 个工单，随后取消 5 个。剩下多少个？ Options: A. 166 B. 167 C. 165 D. 185", "label": "A"}
+{"text": "Case 118: 题目 / Question: 一份报告共有 11 项，通过 10 项，失败 3 项，其余待处理。待处理多少项？ Options: A. -1 B. -3 C. -2 D. 3", "label": "C"}
+{"text": "Case 87: Question: If today is Thursday and the review is due in 4 days, what weekday is the due date? Options: A. Thursday B. Tuesday C. Wednesday D. Monday", "label": "D"}
+{"text": "Case 157: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=8, urgent=1, blocked=1. What is the score? Options: A. 11 B. 9 C. 7 D. 11", "label": "B"}
+{"text": "Case 178: 题目 / Question: 一份报告共有 19 项，通过 7 项，失败 3 项，其余待处理。待处理多少项？ Options: A. 10 B. 8 C. 9 D. 3", "label": "C"}
+{"text": "Case 113: Question: Claim: the shipment arrived on time. Evidence: the carrier log says it arrived two days late. What is the relation? Options: A. Supported B. Contradicted C. Partly supported D. Not enough info", "label": "B"}
+{"text": "Case 116: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 117: Question: If today is Saturday and the review is due in 4 days, what weekday is the due date? Options: A. Saturday B. Wednesday C. Thursday D. Friday", "label": "B"}
+{"text": "Case 10: 题目 / Question: 一份报告共有 20 项，通过 7 项，失败 2 项，其余待处理。待处理多少项？ Options: A. 12 B. 10 C. 11 D. 2", "label": "C"}
+{"text": "Case 47: Question: Claim: the invoice was approved. Evidence: the approver marked the invoice as approved yesterday. What is the relation? Options: A. Contradicted B. Partly supported C. Not enough info D. Supported", "label": "D"}
+{"text": "Case 67: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=8, urgent=1, blocked=1. What is the score? Options: A. 11 B. 7 C. 11 D. 9", "label": "D"}
+{"text": "Case 48: 题目 / Question: 一个队列收到 17 批，每批 6 个工单，随后取消 4 个。剩下多少个？ Options: A. 98 B. 99 C. 97 D. 115", "label": "A"}
+{"text": "Case 97: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=11, urgent=1, blocked=2. What is the score? Options: A. 13 B. 11 C. 9 D. 14", "label": "B"}
+{"text": "Case 109: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=5, urgent=1, blocked=0. What is the score? Options: A. 9 B. 7 C. 5 D. 8", "label": "B"}
+{"text": "Case 26: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 25: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=11, urgent=1, blocked=2. What is the score? Options: A. 13 B. 11 C. 9 D. 14", "label": "B"}
+{"text": "Case 19: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=5, urgent=1, blocked=0. What is the score? Options: A. 9 B. 5 C. 8 D. 7", "label": "D"}
+{"text": "Case 149: Question: Claim: the shipment arrived on time. Evidence: the carrier log says it arrived two days late. What is the relation? Options: A. Supported B. Contradicted C. Partly supported D. Not enough info", "label": "B"}
+{"text": "Case 121: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=8, urgent=1, blocked=1. What is the score? Options: A. 11 B. 9 C. 7 D. 11", "label": "B"}
+{"text": "Case 72: 题目 / Question: 一个队列收到 7 批，每批 8 个工单，随后取消 3 个。剩下多少个？ Options: A. 53 B. 54 C. 52 D. 60", "label": "A"}
+{"text": "Case 175: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=8, urgent=1, blocked=1. What is the score? Options: A. 11 B. 7 C. 11 D. 9", "label": "D"}
+{"text": "Case 159: Question: If today is Saturday and the review is due in 4 days, what weekday is the due date? Options: A. Saturday B. Thursday C. Friday D. Wednesday", "label": "D"}
+{"text": "Case 111: Question: If today is Sunday and the review is due in 4 days, what weekday is the due date? Options: A. Sunday B. Friday C. Saturday D. Thursday", "label": "D"}
+{"text": "Case 166: 题目 / Question: 一份报告共有 20 项，通过 9 项，失败 1 项，其余待处理。待处理多少项？ Options: A. 11 B. 9 C. 10 D. 1", "label": "C"}
+{"text": "Case 74: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 20: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 110: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 71: Question: Claim: the invoice was approved. Evidence: the approver marked the invoice as approved yesterday. What is the relation? Options: A. Contradicted B. Partly supported C. Not enough info D. Supported", "label": "D"}
+{"text": "Case 8: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 156: 题目 / Question: 一个队列收到 6 批，每批 4 个工单，随后取消 2 个。剩下多少个？ Options: A. 22 B. 23 C. 21 D. 28", "label": "A"}
+{"text": "Case 135: Question: If today is Wednesday and the review is due in 4 days, what weekday is the due date? Options: A. Wednesday B. Monday C. Tuesday D. Sunday", "label": "D"}
+{"text": "Case 16: 题目 / Question: 一份报告共有 13 项，通过 6 项，失败 3 项，其余待处理。待处理多少项？ Options: A. 4 B. 5 C. 3 D. 3", "label": "A"}
+{"text": "Case 161: Question: Claim: the shipment arrived on time. Evidence: the carrier log says it arrived two days late. What is the relation? Options: A. Supported B. Contradicted C. Partly supported D. Not enough info", "label": "B"}
+{"text": "Case 107: Question: Claim: the invoice was approved. Evidence: the approver marked the invoice as approved yesterday. What is the relation? Options: A. Contradicted B. Partly supported C. Not enough info D. Supported", "label": "D"}
+{"text": "Case 55: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=5, urgent=1, blocked=0. What is the score? Options: A. 9 B. 5 C. 8 D. 7", "label": "D"}
+{"text": "Case 0: 题目 / Question: 一个队列收到 3 批，每批 2 个工单，随后取消 1 个。剩下多少个？ Options: A. 5 B. 6 C. 4 D. 8", "label": "A"}
+{"text": "Case 28: 题目 / Question: 一份报告共有 12 项，通过 4 项，失败 1 项，其余待处理。待处理多少项？ Options: A. 7 B. 8 C. 6 D. 1", "label": "A"}
+{"text": "Case 132: 题目 / Question: 一个队列收到 16 批，每批 2 个工单，随后取消 3 个。剩下多少个？ Options: A. 29 B. 30 C. 28 D. 45", "label": "A"}
+{"text": "Case 176: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 177: Question: If today is Wednesday and the review is due in 4 days, what weekday is the due date? Options: A. Wednesday B. Sunday C. Monday D. Tuesday", "label": "B"}
+{"text": "Case 171: Question: If today is Thursday and the review is due in 4 days, what weekday is the due date? Options: A. Thursday B. Tuesday C. Wednesday D. Monday", "label": "D"}
+{"text": "Case 18: 题目 / Question: 一个队列收到 4 批，每批 9 个工单，随后取消 4 个。剩下多少个？ Options: A. 33 B. 31 C. 32 D. 36", "label": "C"}
+{"text": "Case 102: 题目 / Question: 一个队列收到 3 批，每批 5 个工单，随后取消 3 个。剩下多少个？ Options: A. 13 B. 11 C. 12 D. 15", "label": "C"}
+{"text": "Case 115: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=11, urgent=1, blocked=2. What is the score? Options: A. 13 B. 9 C. 14 D. 11", "label": "D"}
+{"text": "Case 40: 题目 / Question: 一份报告共有 11 项，通过 9 项，失败 0 项，其余待处理。待处理多少项？ Options: A. 2 B. 3 C. 1 D. 0", "label": "A"}
+{"text": "Case 75: Question: If today is Saturday and the review is due in 4 days, what weekday is the due date? Options: A. Saturday B. Thursday C. Friday D. Wednesday", "label": "D"}
+{"text": "Case 80: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 42: 题目 / Question: 一个队列收到 11 批，每批 11 个工单，随后取消 3 个。剩下多少个？ Options: A. 119 B. 117 C. 118 D. 129", "label": "C"}
+{"text": "Case 85: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=8, urgent=1, blocked=1. What is the score? Options: A. 11 B. 9 C. 7 D. 11", "label": "B"}
+{"text": "Case 141: Question: If today is Tuesday and the review is due in 4 days, what weekday is the due date? Options: A. Tuesday B. Saturday C. Sunday D. Monday", "label": "B"}
+{"text": "Case 23: Question: Claim: the invoice was approved. Evidence: the approver marked the invoice as approved yesterday. What is the relation? Options: A. Contradicted B. Partly supported C. Not enough info D. Supported", "label": "D"}
+{"text": "Case 143: Question: Claim: the invoice was approved. Evidence: the approver marked the invoice as approved yesterday. What is the relation? Options: A. Contradicted B. Partly supported C. Not enough info D. Supported", "label": "D"}
+{"text": "Case 164: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 139: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=8, urgent=1, blocked=1. What is the score? Options: A. 11 B. 7 C. 11 D. 9", "label": "D"}
+{"text": "Case 51: Question: If today is Wednesday and the review is due in 4 days, what weekday is the due date? Options: A. Wednesday B. Monday C. Tuesday D. Sunday", "label": "D"}
+{"text": "Case 101: Question: Claim: the shipment arrived on time. Evidence: the carrier log says it arrived two days late. What is the relation? Options: A. Supported B. Contradicted C. Partly supported D. Not enough info", "label": "B"}
+{"text": "Case 73: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=5, urgent=1, blocked=0. What is the score? Options: A. 9 B. 7 C. 5 D. 8", "label": "B"}
+{"text": "Case 169: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=11, urgent=1, blocked=2. What is the score? Options: A. 13 B. 11 C. 9 D. 14", "label": "B"}
+{"text": "Case 34: 题目 / Question: 一份报告共有 18 项，通过 10 项，失败 2 项，其余待处理。待处理多少项？ Options: A. 7 B. 5 C. 6 D. 2", "label": "C"}
+{"text": "Case 31: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=8, urgent=1, blocked=1. What is the score? Options: A. 11 B. 7 C. 11 D. 9", "label": "D"}
+{"text": "Case 9: Question: If today is Wednesday and the review is due in 4 days, what weekday is the due date? Options: A. Wednesday B. Sunday C. Monday D. Tuesday", "label": "B"}
+{"text": "Case 89: Question: Claim: the shipment arrived on time. Evidence: the carrier log says it arrived two days late. What is the relation? Options: A. Supported B. Contradicted C. Partly supported D. Not enough info", "label": "B"}
+{"text": "Case 5: Question: Claim: all regions launched. Evidence: Asia and Europe launched, but America is still pending. What is the relation? Options: A. Supported B. Partly supported C. Contradicted D. Not enough info", "label": "B"}
+{"text": "Case 100: 题目 / Question: 一份报告共有 19 项，通过 6 项，失败 0 项，其余待处理。待处理多少项？ Options: A. 13 B. 14 C. 12 D. 0", "label": "A"}
+{"text": "Case 83: Question: Claim: the invoice was approved. Evidence: the approver marked the invoice as approved yesterday. What is the relation? Options: A. Contradicted B. Partly supported C. Not enough info D. Supported", "label": "D"}
+{"text": "Case 162: 题目 / Question: 一个队列收到 12 批，每批 10 个工单，随后取消 3 个。剩下多少个？ Options: A. 118 B. 116 C. 117 D. 129", "label": "C"}
+{"text": "Case 45: Question: If today is Thursday and the review is due in 4 days, what weekday is the due date? Options: A. Thursday B. Monday C. Tuesday D. Wednesday", "label": "B"}
+{"text": "Case 129: Question: If today is Thursday and the review is due in 4 days, what weekday is the due date? Options: A. Thursday B. Monday C. Tuesday D. Wednesday", "label": "B"}
+{"text": "Case 158: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 68: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 142: 题目 / Question: 一份报告共有 22 项，通过 6 项，失败 0 项，其余待处理。待处理多少项？ Options: A. 17 B. 15 C. 16 D. 0", "label": "C"}
+{"text": "Case 126: 题目 / Question: 一个队列收到 10 批，每批 7 个工单，随后取消 2 个。剩下多少个？ Options: A. 69 B. 67 C. 68 D. 78", "label": "C"}
+{"text": "Case 29: Question: Claim: the shipment arrived on time. Evidence: the carrier log says it arrived two days late. What is the relation? Options: A. Supported B. Contradicted C. Partly supported D. Not enough info", "label": "B"}
+{"text": "Case 53: Question: Claim: the shipment arrived on time. Evidence: the carrier log says it arrived two days late. What is the relation? Options: A. Supported B. Contradicted C. Partly supported D. Not enough info", "label": "B"}
+{"text": "Case 123: Question: If today is Friday and the review is due in 4 days, what weekday is the due date? Options: A. Friday B. Wednesday C. Thursday D. Tuesday", "label": "D"}
+{"text": "Case 154: 题目 / Question: 一份报告共有 21 项，通过 4 项，失败 2 项，其余待处理。待处理多少项？ Options: A. 16 B. 14 C. 15 D. 2", "label": "C"}
+{"text": "Case 160: 题目 / Question: 一份报告共有 14 项，通过 10 项，失败 0 项，其余待处理。待处理多少项？ Options: A. 4 B. 5 C. 3 D. 0", "label": "A"}
+{"text": "Case 58: 题目 / Question: 一份报告共有 16 项，通过 6 项，失败 3 项，其余待处理。待处理多少项？ Options: A. 8 B. 6 C. 7 D. 3", "label": "C"}
+{"text": "Case 93: Question: If today is Wednesday and the review is due in 4 days, what weekday is the due date? Options: A. Wednesday B. Sunday C. Monday D. Tuesday", "label": "B"}
+{"text": "Case 163: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=5, urgent=1, blocked=0. What is the score? Options: A. 9 B. 5 C. 8 D. 7", "label": "D"}
+{"text": "Case 64: 题目 / Question: 一份报告共有 22 项，通过 5 项，失败 0 项，其余待处理。待处理多少项？ Options: A. 17 B. 18 C. 16 D. 0", "label": "A"}
+{"text": "Case 144: 题目 / Question: 一个队列收到 11 批，每批 3 个工单，随后取消 5 个。剩下多少个？ Options: A. 28 B. 29 C. 27 D. 39", "label": "A"}
+{"text": "Case 124: 题目 / Question: 一份报告共有 17 项，通过 9 项，失败 0 项，其余待处理。待处理多少项？ Options: A. 8 B. 9 C. 7 D. 0", "label": "A"}
+{"text": "Case 131: Question: Claim: the invoice was approved. Evidence: the approver marked the invoice as approved yesterday. What is the relation? Options: A. Contradicted B. Partly supported C. Not enough info D. Supported", "label": "D"}
+{"text": "Case 1: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=5, urgent=1, blocked=0. What is the score? Options: A. 9 B. 7 C. 5 D. 8", "label": "B"}
+{"text": "Case 165: Question: If today is Friday and the review is due in 4 days, what weekday is the due date? Options: A. Friday B. Tuesday C. Wednesday D. Thursday", "label": "B"}
+{"text": "Case 65: Question: Claim: all regions launched. Evidence: Asia and Europe launched, but America is still pending. What is the relation? Options: A. Supported B. Partly supported C. Contradicted D. Not enough info", "label": "B"}
+{"text": "Case 81: Question: If today is Friday and the review is due in 4 days, what weekday is the due date? Options: A. Friday B. Tuesday C. Wednesday D. Thursday", "label": "B"}
+{"text": "Case 49: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=8, urgent=1, blocked=1. What is the score? Options: A. 11 B. 9 C. 7 D. 11", "label": "B"}
+{"text": "Case 56: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 79: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=11, urgent=1, blocked=2. What is the score? Options: A. 13 B. 9 C. 14 D. 11", "label": "D"}
+{"text": "Case 150: 题目 / Question: 一个队列收到 17 批，每批 9 个工单，随后取消 1 个。剩下多少个？ Options: A. 153 B. 151 C. 152 D. 169", "label": "C"}
+{"text": "Case 155: Question: Claim: all regions launched. Evidence: Asia and Europe launched, but America is still pending. What is the relation? Options: A. Supported B. Contradicted C. Not enough info D. Partly supported", "label": "D"}
+{"text": "Case 12: 题目 / Question: 一个队列收到 15 批，每批 3 个工单，随后取消 3 个。剩下多少个？ Options: A. 42 B. 43 C. 41 D. 57", "label": "A"}
+{"text": "Case 46: 题目 / Question: 一份报告共有 17 项，通过 8 项，失败 1 项，其余待处理。待处理多少项？ Options: A. 9 B. 7 C. 8 D. 1", "label": "C"}
+{"text": "Case 167: Question: Claim: the invoice was approved. Evidence: the approver marked the invoice as approved yesterday. What is the relation? Options: A. Contradicted B. Partly supported C. Not enough info D. Supported", "label": "D"}
+{"text": "Case 27: Question: If today is Sunday and the review is due in 4 days, what weekday is the due date? Options: A. Sunday B. Friday C. Saturday D. Thursday", "label": "D"}
+{"text": "Case 92: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 13: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=8, urgent=1, blocked=1. What is the score? Options: A. 11 B. 9 C. 7 D. 11", "label": "B"}
+{"text": "Case 11: Question: Claim: the invoice was approved. Evidence: the approver marked the invoice as approved yesterday. What is the relation? Options: A. Contradicted B. Partly supported C. Not enough info D. Supported", "label": "D"}
+{"text": "Case 59: Question: Claim: the invoice was approved. Evidence: the approver marked the invoice as approved yesterday. What is the relation? Options: A. Contradicted B. Partly supported C. Not enough info D. Supported", "label": "D"}
+{"text": "Case 130: 题目 / Question: 一份报告共有 10 项，通过 8 项，失败 2 项，其余待处理。待处理多少项？ Options: A. 1 B. -1 C. 0 D. 2", "label": "C"}
+{"text": "Case 138: 题目 / Question: 一个队列收到 5 批，每批 8 个工单，随后取消 4 个。剩下多少个？ Options: A. 37 B. 35 C. 36 D. 41", "label": "C"}
+{"text": "Case 127: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=5, urgent=1, blocked=0. What is the score? Options: A. 9 B. 5 C. 8 D. 7", "label": "D"}
+{"text": "Case 106: 题目 / Question: 一份报告共有 12 项，通过 5 项，失败 1 项，其余待处理。待处理多少项？ Options: A. 7 B. 5 C. 6 D. 1", "label": "C"}
+{"text": "Case 54: 题目 / Question: 一个队列收到 6 批，每批 12 个工单，随后取消 5 个。剩下多少个？ Options: A. 68 B. 66 C. 67 D. 73", "label": "C"}
+{"text": "Case 134: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 44: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 128: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 22: 题目 / Question: 一份报告共有 19 项，通过 5 项，失败 0 项，其余待处理。待处理多少项？ Options: A. 15 B. 13 C. 14 D. 0", "label": "C"}
+{"text": "Case 99: Question: If today is Tuesday and the review is due in 4 days, what weekday is the due date? Options: A. Tuesday B. Sunday C. Monday D. Saturday", "label": "D"}
+{"text": "Case 35: Question: Claim: all regions launched. Evidence: Asia and Europe launched, but America is still pending. What is the relation? Options: A. Supported B. Contradicted C. Not enough info D. Partly supported", "label": "D"}
+{"text": "Case 120: 题目 / Question: 一个队列收到 4 批，每批 12 个工单，随后取消 1 个。剩下多少个？ Options: A. 47 B. 48 C. 46 D. 51", "label": "A"}
+{"text": "Case 103: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=8, urgent=1, blocked=1. What is the score? Options: A. 11 B. 7 C. 11 D. 9", "label": "D"}
+{"text": "Case 60: 题目 / Question: 一个队列收到 12 批，每批 7 个工单，随后取消 1 个。剩下多少个？ Options: A. 83 B. 84 C. 82 D. 95", "label": "A"}
+{"text": "Case 62: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 39: Question: If today is Friday and the review is due in 4 days, what weekday is the due date? Options: A. Friday B. Wednesday C. Thursday D. Tuesday", "label": "D"}
+{"text": "Case 32: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=True。 Options: A. Escalate B. Approve C. Review D. Reject", "label": "A"}
+{"text": "Case 90: 题目 / Question: 一个队列收到 8 批，每批 4 个工单，随后取消 1 个。剩下多少个？ Options: A. 32 B. 30 C. 31 D. 39", "label": "C"}
+{"text": "Case 76: 题目 / Question: 一份报告共有 21 项，通过 10 项，失败 3 项，其余待处理。待处理多少项？ Options: A. 8 B. 9 C. 7 D. 3", "label": "A"}
+{"text": "Case 108: 题目 / Question: 一个队列收到 9 批，每批 11 个工单，随后取消 4 个。剩下多少个？ Options: A. 95 B. 96 C. 94 D. 104", "label": "A"}
+{"text": "Case 170: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 52: 题目 / Question: 一份报告共有 10 项，通过 7 项，失败 2 项，其余待处理。待处理多少项？ Options: A. 1 B. 2 C. 0 D. 2", "label": "A"}
+{"text": "Case 66: 题目 / Question: 一个队列收到 18 批，每批 2 个工单，随后取消 2 个。剩下多少个？ Options: A. 35 B. 33 C. 34 D. 52", "label": "C"}
+{"text": "Case 61: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=11, urgent=1, blocked=2. What is the score? Options: A. 13 B. 11 C. 9 D. 14", "label": "B"}
+{"text": "Case 7: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=11, urgent=1, blocked=2. What is the score? Options: A. 13 B. 9 C. 14 D. 11", "label": "D"}
+{"text": "Case 3: Question: If today is Thursday and the review is due in 4 days, what weekday is the due date? Options: A. Thursday B. Tuesday C. Wednesday D. Monday", "label": "D"}
+{"text": "Case 146: 题目 / Question: 规则：高风险要升级；中风险且没有签批要复审；其他批准。案例：risk=high, sign-off=False。 Options: A. Approve B. Review C. Escalate D. Reject", "label": "C"}
+{"text": "Case 36: 题目 / Question: 一个队列收到 5 批，每批 5 个工单，随后取消 2 个。剩下多少个？ Options: A. 23 B. 24 C. 22 D. 28", "label": "A"}
+{"text": "Case 125: Question: Claim: all regions launched. Evidence: Asia and Europe launched, but America is still pending. What is the relation? Options: A. Supported B. Partly supported C. Contradicted D. Not enough info", "label": "B"}
+{"text": "Case 41: Question: Claim: the shipment arrived on time. Evidence: the carrier log says it arrived two days late. What is the relation? Options: A. Supported B. Contradicted C. Partly supported D. Not enough info", "label": "B"}
+{"text": "Case 145: Question: Score = normal cases + 2*urgent cases - blocked cases. normal=5, urgent=1, blocked=0. What is the score? Options: A. 9 B. 7 C. 5 D. 8", "label": "B"}
+{"text": "Case 95: Question: Claim: all regions launched. Evidence: Asia and Europe launched, but America is still pending. What is the relation? Options: A. Supported B. Contradicted C. Not enough info D. Partly supported", "label": "D"}
+{"text": "Case 114: 题目 / Question: 一个队列收到 15 批，每批 6 个工单，随后取消 5 个。剩下多少个？ Options: A. 86 B. 84 C. 85 D. 100", "label": "C"}
+{"text": "Case 119: Question: Claim: the invoice was approved. Evidence: the approver marked the invoice as approved yesterday. What is the relation? Options: A. Contradicted B. Partly supported C. Not enough info D. Supported", "label": "D"}

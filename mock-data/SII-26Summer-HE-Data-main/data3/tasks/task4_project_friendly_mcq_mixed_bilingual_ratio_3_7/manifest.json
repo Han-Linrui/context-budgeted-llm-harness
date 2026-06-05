@@ -1,0 +1,29 @@
+{
+  "dataset_name": "project_friendly_mcq_mixed_bilingual_ratio_3_7",
+  "description": "Standalone project-friendly MCQ task for Harness classification/routing evaluation.",
+  "train": 180,
+  "test": 420,
+  "labels": 4,
+  "ratio": "3:7",
+  "train_label_counts": {
+    "A": 45,
+    "B": 45,
+    "C": 45,
+    "D": 45
+  },
+  "test_label_counts": {
+    "A": 105,
+    "B": 105,
+    "C": 105,
+    "D": 105
+  },
+  "question_families": [
+    "banking_intent",
+    "software_triage",
+    "prompt_injection",
+    "policy_decision",
+    "evidence_claim",
+    "workflow_routing"
+  ],
+  "max_whitespace_tokens_text": 87
+}
