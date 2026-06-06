@@ -1,49 +1,68 @@
-# Lightweight LLM Harness for Robust Few-Shot Classification
+<h1 align="center">Context-Budgeted LLM Harness for Robust Classification</h1>
 
-[English](README.md) | [中文](README.zh-CN.md)
+<h3 align="center">Dynamic retrieval, task routing, and structured output control around a frozen LLM</h3>
 
-This repository presents a lightweight LLM harness for robust few-shot classification under a constrained context window. The project was originally developed on top of the 2026 SII Harness Engineering assessment scaffold, where the official interface requires a frozen LLM to infer labels from a streaming set of labeled examples. The main contribution of this repository is the design and implementation of `MyHarness` in `solution.py`, together with a cleaned public configuration, extended benchmarks, and reproducible documentation.
+<p align="center">
+  <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
+</p>
 
-## Research Motivation
+<p align="center">
+  LLM harness · Context engineering · Dynamic retrieval · Robust parsing · OOD evaluation
+</p>
 
-Modern LLM applications often rely less on parameter updates and more on the external harness surrounding the model: prompt construction, memory retrieval, context budgeting, output parsing, fallback control, and injection resistance. This project studies a compact but representative setting:
+---
 
-> Given a frozen Qwen3-8B model and a prompt budget of 2048 tokens, how can an external harness perform reliable exact-match classification from a small labeled training stream?
+This repository implements a compact LLM harness for classification-style tasks under a strict prompt budget. Given a stream of labeled examples, the harness builds an external memory, retrieves task-relevant demonstrations, routes between intent classification and multiple-choice reasoning, constrains the model output format, and returns an exact-match label.
 
-The problem is closely related to test-time adaptation, LLM evaluation, and agent/harness engineering. The model remains fixed; all task-specific adaptation occurs through external memory and deterministic control logic.
+The project focuses on a practical systems question: when the base model is frozen, how much reliability can be gained from the surrounding control layer? The answer is studied through retrieval policy, prompt-budget management, structured generation, deterministic parsing, and extended robustness benchmarks.
 
-## Method Overview
+## Why This Project
 
-`MyHarness` combines four mechanisms:
+Large language model applications are often limited not by a single API call, but by the harness around the model: how context is selected, how prompts are assembled, how outputs are validated, and how failures are handled. This project isolates that layer in a small, auditable setting.
 
-1. **Hybrid dynamic retrieval**: ranks stored training examples using multiset Jaccard similarity over word-level tokens and character 3-grams, improving robustness on short and noisy texts.
-2. **Label-space task routing**: detects whether the current task is standard intent classification or multiple-choice reasoning by inspecting the runtime label space.
-3. **Structured LLM generation**: asks the model to produce a compact XML-like response with `<thought>` and `<label>` fields, then extracts the final label deterministically.
-4. **Token-budgeted context assembly**: removes lower-ranked demonstrations until the prompt fits the budget, with exact-match, cleaned-match, substring-match, and nearest-neighbor fallback paths.
+The setting is deliberately constrained:
 
-The solution intentionally avoids heavyweight external dependencies such as sklearn, torch, or embedding indexes, matching the original assessment constraints while keeping the design transparent and auditable.
+- the model is used only through an OpenAI-compatible chat API;
+- no model weights are updated;
+- each prompt must fit within a fixed token budget;
+- the final answer must exactly match one label from the observed label space;
+- the same implementation must handle short intent queries, OOD label spaces, and natural-language multiple-choice questions.
 
-## Repository Structure
+This makes the project a concrete engineering study of inference-time control for LLM systems, rather than a generic prompt collection or a trained classifier.
 
-```text
-.
-├── solution.py                 # Main contribution: retrieval, routing, prompting, and parsing logic
-├── harness_base.py             # Official harness base class
-├── run.py                      # Official local evaluation entrypoint
-├── llm_client.py               # OpenAI-compatible client configured through environment variables
-├── requirements.txt
-├── data/                       # Official DEV data: train_dev / test_dev
-├── tokenizer/                  # Local tokenizer for prompt-budget accounting
-├── mock-data/                  # Community/mock datasets for extended evaluation
-├── scripts/
-│   └── benchmark.py            # Extended benchmark runner
-├── docs/
-│   ├── assignment-spec-2026-summer.pdf
-│   └── exploration_report.md
-└── assets/
-    ├── benchmark-results.png
-    └── benchmark-results-repeat.png
-```
+## System Design
+
+The core implementation is `MyHarness` in `solution.py`.
+
+1. **External memory**
+   The harness receives labeled examples through `update(text, label)` and stores them as a lightweight memory bank.
+
+2. **Hybrid dynamic retrieval**
+   For each test input, the harness computes a similarity score between the query and every stored example. The feature set combines word-level tokens with character 3-grams, which improves tolerance to short texts, abbreviations, and noisy surface forms.
+
+3. **Runtime task routing**
+   The harness inspects the current label space. Short option-like labels trigger a multiple-choice prompt; otherwise the system uses an intent-classification prompt. This keeps the same code path usable across heterogeneous task formats.
+
+4. **Token-budgeted prompt assembly**
+   Retrieved examples are added as few-shot demonstrations only while the prompt remains within the configured token budget. Lower-ranked examples are removed first to avoid uncontrolled truncation.
+
+5. **Structured output and fallback parsing**
+   The model is asked to emit a compact XML-like response containing a final `<label>`. The parser then applies exact match, cleaned match, substring match, and nearest-neighbor fallback so that `predict()` remains robust to minor output-format drift.
+
+## Results
+
+On the local DEV split, the harness reaches approximately 83% accuracy with Qwen3-8B in non-thinking mode. The extended benchmark further evaluates same-distribution classification, OOD labels, multiple-choice tasks, bilingual inputs, and selected vertical domains.
+
+![Extended benchmark results](assets/benchmark-results.png)
+
+The main empirical observations are:
+
+- hybrid word + 3-gram retrieval is more stable than purely lexical matching on short and noisy inputs;
+- prompt-budget control prevents long examples from silently damaging later instructions through truncation;
+- structured output constraints reduce exact-match failures caused by verbose LLM responses;
+- low performance on one corrupted Chinese MCQ subset is best interpreted as a data-quality failure case, not as a clean reasoning benchmark.
+
+More detailed analysis is available in [docs/exploration_report.md](docs/exploration_report.md).
 
 ## Quick Start
 
@@ -53,7 +72,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Configure an OpenAI-compatible endpoint. Copy `.env.example` locally if desired, but do not commit real credentials.
+Configure an OpenAI-compatible endpoint. Do not commit real credentials.
 
 PowerShell:
 
@@ -73,38 +92,53 @@ export LLM_MODEL="qwen3-8b"
 export LLM_ENABLE_THINKING="false"
 ```
 
-Run the official DEV evaluation:
+Run the local evaluation:
 
 ```bash
 python run.py --runs 1
 ```
 
-Run the extended benchmark suite:
+Run the extended benchmark:
 
 ```bash
 python scripts/benchmark.py
 ```
 
-## Results
+## Repository Structure
 
-The official DEV split contains 231 training examples, 539 test examples, and 77 labels. Under the Qwen3-8B non-thinking setting, this harness obtains approximately 83% accuracy on the local DEV split. The extended benchmark covers same-distribution classification, out-of-domain labels, multiple-choice tasks, bilingual inputs, and selected vertical domains.
+```text
+.
+├── solution.py                 # Core harness implementation
+├── harness_base.py             # Minimal harness interface used by the evaluator
+├── run.py                      # Local evaluation runner
+├── llm_client.py               # OpenAI-compatible client configured by environment variables
+├── requirements.txt
+├── data/                       # Local DEV split
+├── tokenizer/                  # Tokenizer used for prompt-budget accounting
+├── mock-data/                  # Extended benchmark datasets
+├── scripts/
+│   └── benchmark.py            # Extended benchmark runner
+├── docs/
+│   ├── assignment-spec-2026-summer.pdf
+│   └── exploration_report.md
+└── assets/
+    ├── benchmark-results.png
+    └── benchmark-results-repeat.png
+```
 
-![Extended benchmark results](assets/benchmark-results.png)
+## Scope and Provenance
 
-See [docs/exploration_report.md](docs/exploration_report.md) for design details, ablation observations, and data-quality analysis.
+This project grew from a constrained harness-engineering evaluation setting. The repository keeps the original root-level evaluation entrypoints and local DEV assets so that the implementation remains directly runnable and comparable to the evaluated environment.
 
-## Attribution and Contribution Boundary
+The project-specific work is concentrated in:
 
-The repository deliberately preserves the original evaluation layout so that the assessment contract remains reproducible and the contribution boundary is clear.
+- `solution.py`: retrieval, task routing, prompt construction, output parsing, and fallback logic;
+- `llm_client.py`: public-safe API configuration through environment variables;
+- `scripts/benchmark.py`: extended robustness evaluation across additional datasets;
+- `docs/` and this README: experiment organization and technical analysis.
 
-- Provided by the original assessment scaffold: `harness_base.py`, `run.py`, `data/`, `tokenizer/`, and the assignment specification.
-- Implemented or organized in this repository: the harness strategy in `solution.py`, environment-based API configuration in `llm_client.py`, the extended benchmark runner, experiment documentation, and repository-level README files.
-- Extended data: `mock-data/` contains public community datasets, mock assessment data, and partially self-constructed examples. See [mock-data/SII-26Summer-HE-Data-main/README.md](mock-data/SII-26Summer-HE-Data-main/README.md) for source notes.
+The goal is not to hide the benchmark origin, but to present the engineering contribution at the right level: a small, reproducible LLM harness that demonstrates context management, runtime control, evaluation discipline, and failure analysis.
 
-## Engineering Rationale
+## Notes on Safety
 
-The project is not refactored into a large Python package because the official evaluation environment is defined around root-level `solution.py` and `run.py`. For a research-facing demonstration, preserving that contract improves reproducibility and makes the official scaffold versus personal implementation boundary explicit. The engineering work is therefore focused on safe configuration, clean documentation, reproducible scripts, and experimental traceability rather than superficial restructuring.
-
-## Safety and Privacy
-
-The public repository should not contain private application materials, real API keys, or personal correspondence. API configuration is read from environment variables, and `.gitignore` excludes local `.env` files and private application documents. If a real key has appeared in Git history, rotate the key and clean the history before publishing the repository.
+API keys and private application materials should not be committed. The client reads credentials from environment variables, and `.gitignore` excludes `.env` files and local private documents. If a real key has appeared in Git history, rotate it before publishing the repository.

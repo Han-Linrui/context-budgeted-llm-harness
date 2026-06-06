@@ -1,49 +1,68 @@
-# Lightweight LLM Harness for Robust Few-Shot Classification
+<h1 align="center">Context-Budgeted LLM Harness for Robust Classification</h1>
 
-[English](README.md) | [中文](README.zh-CN.md)
+<h3 align="center">围绕冻结大模型的动态检索、任务路由与结构化输出控制</h3>
 
-本项目实现了一个面向受限上下文窗口的轻量级 LLM Harness，用于研究冻结大模型在少样本文本分类、分布外任务和自然语言选择题中的测试时适应能力。项目最初基于 2026 创智学院 Harness Engineering 考核框架完成，核心实现集中在 `solution.py` 中；本仓库在保留官方评测接口的基础上，补充了更清晰的工程结构、公开配置方式、扩展 benchmark 与实验报告。
+<p align="center">
+  <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
+</p>
+
+<p align="center">
+  LLM harness · Context engineering · Dynamic retrieval · Robust parsing · OOD evaluation
+</p>
+
+---
+
+本项目实现了一个面向分类任务的轻量级 LLM Harness。系统接收带标签样本流，在外部维护记忆；预测时根据输入动态检索示例、区分普通意图分类与自然语言选择题、控制 prompt token 预算，并通过结构化解析返回可 exact-match 的标签。
+
+项目关注的问题很具体：当底层大模型保持冻结时，外部控制层还能在多大程度上提升推理可靠性？这里的控制层包括检索策略、上下文预算管理、结构化输出约束、确定性解析与扩展鲁棒性评测。
 
 ## 项目动机
 
-在许多 LLM 应用中，模型权重并不会在每个新任务上重新训练，系统能力主要来自外部 Harness：如何组织 prompt、检索记忆、控制上下文、解析输出、处理异常与注入攻击。本项目关注一个较小但完整的问题：
+很多 LLM 应用的可靠性并不只取决于一次模型调用，而取决于模型外围的 Harness：上下文如何选择，prompt 如何组织，输出如何验证，异常如何兜底。这个项目把这一层单独抽出来，在一个小而完整的任务设定中做工程实现和评估。
 
-> 在单次 prompt 不超过 2048 token 的限制下，如何让冻结的 Qwen3-8B 模型从训练流中的少量带标签样本中完成高鲁棒性的 exact-match 分类？
+该设定具备几个明确约束：
 
-这个问题与 Test-Time Adaptation、LLM 鲁棒性评测、Agent/Harness Engineering 等方向直接相关：模型本身保持冻结，所有任务适应都发生在外部记忆与确定性控制逻辑中。
+- 模型只通过 OpenAI-compatible chat API 调用；
+- 不更新模型权重；
+- 每次 prompt 必须处在固定 token 预算内；
+- 最终输出必须严格匹配已观测标签空间中的某个标签；
+- 同一套实现需要同时处理短文本意图分类、分布外标签空间和自然语言选择题。
 
-## 核心设计
+因此，这不是一个简单 prompt demo，也不是训练分类器，而是一个围绕冻结 LLM 的推理时控制系统。
 
-`MyHarness` 由四个部分构成：
+## 系统设计
 
-1. **混合特征动态检索**：使用 word-level token 与 character 3-gram 的多重集合 Jaccard 相似度，从历史样本中选择最相关的 few-shot 示例。
-2. **标签空间任务路由**：根据训练标签的形态自动区分普通意图分类与选择题任务，并切换对应 prompt。
-3. **结构化推理输出**：约束模型输出 `<thought>` 与 `<label>`，再用确定性解析逻辑提取最终 label。
-4. **预算控制与容错兜底**：在调用 LLM 前主动检查 token 数，必要时减少示例数量；当模型输出不规范时，使用 exact match、清洗匹配、子串匹配与最近邻标签兜底。
+核心实现位于 `solution.py` 中的 `MyHarness`。
 
-该设计刻意保持轻量，不依赖 sklearn、torch 或外部索引库，符合原评测对 `solution.py` 的导入限制，也便于读者审计每一步工程决策。
+1. **外部记忆**
+   系统通过 `update(text, label)` 接收训练样本，并将其存入轻量级 memory bank。
 
-## 仓库结构
+2. **混合特征动态检索**
+   对每个测试输入，系统计算它与历史样本的相似度。特征同时包含 word-level token 和 character 3-gram，使检索对短文本、缩写和噪声表述更稳定。
 
-```text
-.
-├── solution.py                 # 主要贡献：MyHarness 的检索、路由、prompt 与解析逻辑
-├── harness_base.py             # 官方 Harness 基类接口
-├── run.py                      # 官方本地评测入口
-├── llm_client.py               # OpenAI-compatible LLM 客户端，使用环境变量配置
-├── requirements.txt
-├── data/                       # 官方 DEV 数据：train_dev / test_dev
-├── tokenizer/                  # 本地 tokenizer，用于精确 token 计数
-├── mock-data/                  # 社区/自造扩展评测数据
-├── scripts/
-│   └── benchmark.py            # 扩展 benchmark 运行脚本
-├── docs/
-│   ├── assignment-spec-2026-summer.pdf
-│   └── exploration_report.md
-└── assets/
-    ├── benchmark-results.png
-    └── benchmark-results-repeat.png
-```
+3. **运行时任务路由**
+   系统根据当前标签空间判断任务形态。若标签呈现短选项形式，则切换到选择题 prompt；否则使用意图分类 prompt。这样同一套代码可以覆盖不同任务格式。
+
+4. **受预算约束的 prompt 组装**
+   检索到的样本只会在 token 预算允许的情况下进入 few-shot prompt。若超出预算，系统优先移除低相关示例，避免评测运行时发生不可控截断。
+
+5. **结构化输出与容错解析**
+   模型被要求输出包含最终 `<label>` 的紧凑 XML-like 格式。解析阶段依次使用精确匹配、清洗匹配、子串匹配和最近邻标签兜底，从而降低模型输出格式漂移带来的 exact-match 失败。
+
+## 实验结果
+
+在本地 DEV split 上，使用 Qwen3-8B 非思考模式时，该 Harness 约达到 83% accuracy。扩展 benchmark 进一步覆盖同分布分类、OOD 标签空间、自然语言选择题、双语输入和部分垂直领域任务。
+
+![Extended benchmark results](assets/benchmark-results.png)
+
+主要观察包括：
+
+- word + 3-gram 混合检索比纯词面匹配更适合短文本和噪声输入；
+- prompt 预算控制可以降低长样本导致关键指令被截断的风险；
+- 结构化输出约束能减少大模型冗长回答造成的 exact-match 解析失败；
+- 某个中文 MCQ 子集的异常低分更接近数据质量问题，而不是一个干净的推理能力评测结论。
+
+更详细的实验记录和误差分析见 [docs/exploration_report.md](docs/exploration_report.md)。
 
 ## 快速开始
 
@@ -53,7 +72,7 @@
 pip install -r requirements.txt
 ```
 
-配置 OpenAI-compatible API。推荐在本地复制 `.env.example` 后自行加载环境变量，不要提交真实密钥。
+配置 OpenAI-compatible API。不要提交真实密钥。
 
 PowerShell 示例：
 
@@ -73,7 +92,7 @@ export LLM_MODEL="qwen3-8b"
 export LLM_ENABLE_THINKING="false"
 ```
 
-运行官方 DEV 评测：
+运行本地评测：
 
 ```bash
 python run.py --runs 1
@@ -85,26 +104,41 @@ python run.py --runs 1
 python scripts/benchmark.py
 ```
 
-## 实验结果
+## 仓库结构
 
-官方 DEV 集包含 231 条训练样本、539 条测试样本和 77 个标签。在 Qwen3-8B 非思考模式下，本方案在本地 DEV split 上约达到 83% accuracy。扩展 benchmark 覆盖同分布分类、OOD 标签空间、自然语言选择题、中文/双语输入和部分垂直领域任务。
+```text
+.
+├── solution.py                 # 核心 Harness 实现
+├── harness_base.py             # 评测使用的最小 Harness 接口
+├── run.py                      # 本地评测入口
+├── llm_client.py               # 通过环境变量配置的 OpenAI-compatible 客户端
+├── requirements.txt
+├── data/                       # 本地 DEV split
+├── tokenizer/                  # 用于 prompt token 预算统计的 tokenizer
+├── mock-data/                  # 扩展 benchmark 数据
+├── scripts/
+│   └── benchmark.py            # 扩展 benchmark 运行脚本
+├── docs/
+│   ├── assignment-spec-2026-summer.pdf
+│   └── exploration_report.md
+└── assets/
+    ├── benchmark-results.png
+    └── benchmark-results-repeat.png
+```
 
-![Extended benchmark results](assets/benchmark-results.png)
+## 范围与来源说明
 
-更详细的方法说明、消融观察和异常数据分析见 [docs/exploration_report.md](docs/exploration_report.md)。
+这个项目起源于一个受限 Harness Engineering 评测场景。仓库保留了原有根目录评测入口和本地 DEV 资产，目的是让实现可以直接运行，并与原评测环境保持可比性。
 
-## 来源与贡献边界
+本项目的主要工作集中在：
 
-为保证可复现性，本仓库保留了原评测的核心文件布局。这样做不是为了弱化项目独立性，而是为了让评测契约、实现边界和实验入口足够清楚。
+- `solution.py`：检索、任务路由、prompt 构造、输出解析和兜底逻辑；
+- `llm_client.py`：面向公开仓库的环境变量配置方式；
+- `scripts/benchmark.py`：基于扩展数据集的鲁棒性评测脚本；
+- `docs/` 与 README：实验整理、方法说明和误差分析。
 
-- 官方/考核框架提供：`harness_base.py`、`run.py`、`data/`、`tokenizer/` 以及原始任务说明。
-- 本项目主要实现：`solution.py` 中的 Harness 策略、`llm_client.py` 的公开配置整理、`scripts/benchmark.py` 扩展评测脚本、实验报告与仓库文档。
-- 扩展数据：`mock-data/` 来自公开社区数据、考核模拟数据和部分自造数据，具体来源见 [mock-data/SII-26Summer-HE-Data-main/README.md](mock-data/SII-26Summer-HE-Data-main/README.md)。
+这里不回避项目的评测来源，但也不把来源当作项目主叙事。更准确的定位是：这是一个小规模、可复现的 LLM Harness 工程项目，用于展示上下文管理、推理时控制、评测组织和失败案例分析能力。
 
-## 工程取舍
+## 安全说明
 
-本项目没有重构成复杂 Python package，原因是官方评测环境以根目录下的 `solution.py` / `run.py` 为契约。对于展示项目而言，保留这一结构能让读者直接复现实验，也能清楚地区分官方 scaffold 与个人实现。整理重点放在配置安全、文档可读性、实验脚本和结果归档上，而不是为了形式上的“工程化”牺牲可验证性。
-
-## 安全与隐私
-
-公开仓库中不应包含个人申请材料、真实 API Key 或私有通信内容。本项目通过环境变量读取 API 配置，并用 `.gitignore` 排除本地 `.env` 与个人申请材料。如果真实 API Key 曾经出现在 Git 历史中，建议在推送公开仓库前撤销该密钥并清理提交历史。
+公开仓库不应包含真实 API Key、个人申请材料或私有通信内容。当前客户端通过环境变量读取凭据，`.gitignore` 也排除了 `.env` 和本地私有文档。如果真实密钥曾经进入 Git 历史，发布前应先轮换密钥。
