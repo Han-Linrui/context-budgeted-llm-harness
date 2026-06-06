@@ -58,11 +58,11 @@ Several design observations came from this process:
 
 - Hybrid word + 3-gram retrieval was more robust than a hand-written BM25 variant on short texts in the observed DEV setting.
 - Increasing the number of few-shot examples could slightly improve local DEV accuracy, but it also raised truncation and latency risk. A moderate top-15 retrieval setting offered a better robustness trade-off.
-- The Chinese MCQ subset performed near random baseline. Manual inspection suggested that this subset contained severe machine-translation artifacts and weak semantic consistency, so it should be treated as a data-quality stress case rather than a clean reasoning benchmark.
+- Error cases should be interpreted through multiple factors, including label ambiguity, prompt interference, reasoning drift, and data-quality stress cases. In particular, the low-scoring Chinese MCQ subset is better treated as a stress case with translation and semantic-consistency artifacts than as a clean reasoning benchmark.
 
 ## 4. Limitations
 
-This harness is not a general-purpose agent framework. It is a compact evaluation harness for classification-style tasks under a fixed API and token budget. Its main limitations are:
+This is a compact evaluation harness for classification-style tasks under a fixed API and token budget. Its main limitations are:
 
 - dependence on the stability and instruction-following behavior of the underlying LLM;
 - a heuristic MCQ detector based on label length;
@@ -71,4 +71,4 @@ This harness is not a general-purpose agent framework. It is a compact evaluatio
 
 ## 5. Takeaway
 
-The project demonstrates a practical engineering pattern for test-time LLM adaptation: keep the model frozen, move task-specific learning into controlled external memory, retrieve compact evidence under a token budget, constrain the output schema, and use deterministic post-processing to recover exact-match labels. This is a small but complete example of harness-level design for robustness and reproducibility.
+The project demonstrates a practical engineering pattern for context-budgeted LLM evaluation: keep the model frozen, move task-specific evidence into controlled external memory, retrieve compact examples under a token budget, route prompts by label-space structure, constrain the output schema, and use deterministic post-processing to recover exact-match labels. The result is a small but complete example of harness-level reliability analysis.

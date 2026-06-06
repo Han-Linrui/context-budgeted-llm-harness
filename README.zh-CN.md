@@ -1,73 +1,68 @@
 <h1 align="center">Context-Budgeted LLM Harness for Robust Classification</h1>
 
-<h3 align="center">面向分类任务的动态检索、上下文预算控制、任务路由与结构化解析</h3>
+<h3 align="center">围绕冻结大模型的动态检索、任务路由与结构化输出控制</h3>
 
 <p align="center">
   <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
 </p>
 
 <p align="center">
-  LLM Harness | Context Engineering | Dynamic Retrieval | Structured Output | Robust Evaluation
+  LLM harness · Context engineering · Dynamic retrieval · Robust parsing · OOD evaluation
 </p>
 
 ---
 
-本仓库将分类任务视作一个小型的 LLM 推理时适配问题。系统通过 OpenAI-compatible API 调用冻结大模型，在模型调用外层完成样本记忆、动态检索、prompt 预算控制、任务路由和结构化输出解析，使 `predict(text)` 能稳定返回已知标签空间中的精确匹配标签。
+本项目实现了一个面向分类任务的轻量级 LLM Harness。系统接收带标签样本流，在外部维护记忆；预测时根据输入动态检索示例、区分普通意图分类与自然语言选择题、控制 prompt token 预算，并通过结构化解析返回可 exact-match 的标签。
 
-项目按一个轻量级 AI 系统实验来组织：可控变量包括检索策略、prompt 预算管理、任务表述和输出校验；评测部分除了本地准确率，也关注分布外标签、选择题格式、双语输入和领域迁移下的表现。
+项目关注的问题很具体：当底层大模型保持冻结时，外部控制层还能在多大程度上提升评测可靠性？这里的控制层包括检索策略、上下文预算管理、动态任务路由、结构化输出约束、确定性解析与扩展错误分析。
 
-## 技术定位
+## 项目动机
 
-这个设计围绕三个具体问题展开：
+很多 LLM 应用的可靠性不只取决于一次模型调用，更取决于模型外围的 Harness：上下文如何选择，prompt 如何组织，输出如何验证，异常如何兜底。这个项目把这一层单独抽出来，在一个小而完整的任务设定中做工程实现和评估。
 
-- 在不更新模型权重的前提下，外部记忆和动态检索能否提供有效的任务适配；
-- 将 prompt token 预算作为显式约束后，输出是否更稳定、评测是否更可复现；
-- 如何约束并解析生成式回答，使聊天模型满足 exact-match 分类评测。
+该设定具备几个明确约束：
 
-这些组件共同构成了一个紧凑但完整的流程，覆盖方法设计、工程实现、评测复现和误差分析。
+- 模型只通过 OpenAI-compatible chat API 调用；
+- 不更新模型权重；
+- 每次 prompt 必须处在固定 token 预算内；
+- 最终输出必须严格匹配已观测标签空间中的某个标签；
+- 同一套实现需要同时处理短文本意图分类、分布外标签空间和自然语言选择题。
 
-## 工程亮点
+这些约束使项目聚焦于冻结 LLM 外围的推理时控制层：系统需要选择上下文、组织任务提示、约束输出格式，并把生成结果稳定映射回标签空间。
 
-- **外部样本记忆**：通过 `update(text, label)` 接收带标签样本，并维护当前可用的标签空间。
-- **混合特征检索**：结合 word-level token 与 character 3-gram，为短文本、噪声表述和中英文混合输入检索更相关的 few-shot 示例。
-- **运行时任务路由**：根据标签形态区分普通意图分类和选择题任务，复用同一套 Harness 处理不同输入格式。
-- **prompt 预算控制**：检索示例只在 token 预算允许时加入 prompt，避免长样本挤占关键指令或触发运行时截断。
-- **结构化输出解析**：要求模型输出紧凑的 XML-like 格式，并用精确匹配、清洗匹配、子串匹配和最近邻兜底保证返回合法标签。
-- **可复现实验脚本**：根目录评测入口覆盖本地 DEV split，`scripts/benchmark.py` 进一步运行扩展鲁棒性评测。
-
-## 核心流程
+## 系统设计
 
 核心实现位于 `solution.py` 中的 `MyHarness`。
 
-```text
-update(text, label)
-    -> 存储样本
-    -> 更新标签统计
+1. **外部记忆**
+   系统通过 `update(text, label)` 接收训练样本，并将其存入轻量级 memory bank。
 
-predict(text)
-    -> 检查标签空间
-    -> 检索相似示例
-    -> 组装受 token 预算约束的 prompt
-    -> 调用配置好的 LLM
-    -> 解析并校验返回标签
-```
+2. **混合特征动态检索**
+   对每个测试输入，系统计算它与历史样本的相似度。特征同时包含 word-level token 和 character 3-gram，使检索对短文本、缩写和噪声表述更稳定。
 
-这种结构把模型后端和 Harness 控制逻辑分开，便于替换模型、复现实验和定位错误。
+3. **运行时任务路由**
+   系统根据当前标签空间判断任务形态。若标签呈现短选项形式，则切换到选择题 prompt；否则使用意图分类 prompt。这样同一套代码可以覆盖不同任务格式。
+
+4. **受预算约束的 prompt 组装**
+   检索到的样本只会在 token 预算允许的情况下进入 few-shot prompt。若超出预算，系统优先移除低相关示例，避免评测运行时发生不可控截断。
+
+5. **结构化输出与容错解析**
+   模型被要求输出包含最终 `<label>` 的紧凑 XML-like 格式。解析阶段依次使用精确匹配、清洗匹配、子串匹配和最近邻标签兜底，从而降低模型输出格式漂移带来的 exact-match 失败。
 
 ## 实验结果
 
-在 Qwen3-8B 非思考模式下，该 Harness 在本地 DEV split 上达到约 **83% accuracy**。扩展 benchmark 覆盖同分布分类、分布外标签空间、选择题任务、双语输入和部分垂直领域数据。
+在本地 DEV split 上，使用 Qwen3-8B 非思考模式时，该 Harness 约达到 83% accuracy。扩展 benchmark 进一步覆盖同分布分类、OOD 标签空间、自然语言选择题、双语输入和部分垂直领域任务，用于观察不同任务格式下的鲁棒性并定位错误来源。
 
 ![Extended benchmark results](assets/benchmark-results.png)
 
-实验中的主要观察包括：
+主要观察包括：
 
-- word + 3-gram 混合检索在短文本和噪声输入上比纯词面匹配更稳定；
-- 显式 prompt 预算控制可以减少长示例挤占关键指令带来的失败；
-- 结构化响应和确定性解析能降低冗长输出造成的 exact-match 错误；
-- 某个中文 MCQ 子集的异常低分更适合作为数据质量压力测试来看待。
+- word + 3-gram 混合检索比纯词面匹配更适合短文本和噪声输入；
+- prompt 预算控制可以降低长样本导致关键指令被截断的风险；
+- 结构化输出约束能减少大模型冗长回答造成的 exact-match 解析失败；
+- 扩展评测中的错误样例可从标签歧义、提示干扰、推理偏移和数据质量 stress case 等角度分析，从而让模型能力结论保留在更干净的评测子集上。
 
-更详细的实验记录见 [docs/exploration_report.md](docs/exploration_report.md)。
+更详细的实验记录和误差分析见 [docs/exploration_report.md](docs/exploration_report.md)。
 
 ## 快速开始
 
@@ -77,9 +72,9 @@ predict(text)
 pip install -r requirements.txt
 ```
 
-配置 OpenAI-compatible API。项目从环境变量读取凭据，请不要提交真实密钥。
+配置 OpenAI-compatible API。不要提交真实密钥。
 
-PowerShell：
+PowerShell 示例：
 
 ```powershell
 $env:LLM_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
@@ -88,7 +83,7 @@ $env:LLM_MODEL="qwen3-8b"
 $env:LLM_ENABLE_THINKING="false"
 ```
 
-Bash：
+Bash 示例：
 
 ```bash
 export LLM_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
@@ -113,27 +108,36 @@ python scripts/benchmark.py
 
 ```text
 .
-|-- solution.py          # 核心 Harness 实现
-|-- harness_base.py      # Harness 实现的基础接口
-|-- run.py               # 本地评测入口
-|-- llm_client.py        # 通过环境变量配置的 OpenAI-compatible 客户端
-|-- requirements.txt
-|-- data/                # 本地开发集
-|-- tokenizer/           # 用于 prompt token 预算统计的 tokenizer
-|-- mock-data/           # 扩展 benchmark 数据
-|-- scripts/
-|   `-- benchmark.py     # 扩展 benchmark 运行脚本
-|-- docs/
-|   `-- exploration_report.md
-`-- assets/
-    |-- benchmark-results.png
-    `-- benchmark-results-repeat.png
+├── solution.py                 # 核心 Harness 实现
+├── harness_base.py             # 评测使用的最小 Harness 接口
+├── run.py                      # 本地评测入口
+├── llm_client.py               # 通过环境变量配置的 OpenAI-compatible 客户端
+├── requirements.txt
+├── data/                       # 本地 DEV split
+├── tokenizer/                  # 用于 prompt token 预算统计的 tokenizer
+├── mock-data/                  # 扩展 benchmark 数据
+├── scripts/
+│   └── benchmark.py            # 扩展 benchmark 运行脚本
+├── docs/
+│   └── exploration_report.md
+└── assets/
+    ├── benchmark-results.png
+    └── benchmark-results-repeat.png
 ```
 
-## 限制
+## 范围与来源说明
 
-这是一个聚焦分类和选择题场景的推理 Harness，不是通用 Agent 框架。实际效果仍依赖底层模型的指令跟随能力；当前选择题路由使用的是较简单的标签形态启发式规则；项目也没有引入训练好的 embedding 模型或任务专用分类器，而是把适配能力集中在检索、prompt 组织和解析逻辑上。
+这个项目起源于一个受限 Harness Engineering 评测场景。仓库保留了原有根目录评测入口和本地 DEV 资产，目的是让实现可以直接运行，并与原评测环境保持可比性。
+
+本项目的主要工作集中在：
+
+- `solution.py`：检索、任务路由、prompt 构造、输出解析和兜底逻辑；
+- `llm_client.py`：面向公开仓库的环境变量配置方式；
+- `scripts/benchmark.py`：基于扩展数据集的鲁棒性评测脚本；
+- `docs/` 与 README：实验整理、方法说明和错误分析。
+
+本仓库保留评测来源和本地 DEV 资产，以便实现可以直接运行并与原评测环境保持可比性。项目主线是受限上下文下的评测架构、动态任务路由、结构化约束和错误分析。
 
 ## 安全说明
 
-API Key 应通过环境变量配置。仓库默认忽略 `.env` 文件，`.env.example` 中列出了可用的配置项名称。
+公开仓库不应包含真实 API Key、个人申请材料或私有通信内容。当前客户端通过环境变量读取凭据，`.gitignore` 也排除了 `.env` 和本地私有文档。如果真实密钥曾经进入 Git 历史，发布前应先轮换密钥。
