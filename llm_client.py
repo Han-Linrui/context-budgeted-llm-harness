@@ -98,7 +98,7 @@ def count_tokens(text: str) -> int:
 
 
 def count_messages_tokens(messages: list[dict]) -> int:
-    """计算 messages 列表的总 token 数（仅计算content，与评分系统一致）。
+    """计算 messages 列表的总 token 数（仅计算 content，与本地 runner 一致）。
     可在调用 call_llm 前用于检查是否超出 max_prompt_tokens。
     """
     return count_tokens(" ".join(m.get("content", "") for m in messages))

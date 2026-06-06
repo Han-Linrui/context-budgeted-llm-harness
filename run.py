@@ -1,19 +1,18 @@
-"""
-run.py — 本地调试脚本
+"""Local evaluation runner.
 
-使用 data/train_dev.jsonl 作为训练流，data/test_dev.jsonl 作为本地验证集，
-测试你的 MyHarness 实现。
+Uses `data/train_dev.jsonl` as the labeled example stream and
+`data/test_dev.jsonl` as the local validation split.
 
-用法
-----
-  python run.py                         # 默认评测
-  python run.py --workers 100           # 调整向 LLM 发消息的并发数，防止因超时等导致错误
+Usage
+-----
+  python run.py                         # default evaluation
+  python run.py --workers 100           # adjust LLM request concurrency
 
-注意
-----
-- 最终评分使用的训练集与测试集与此不同，请勿过拟合 DEV 集。
-- 每次 call_llm 的 prompt token 超过 max_prompt_tokens 会被截断；
-  正式评分系统行为相同。
+Notes
+-----
+- Treat the local DEV split as a development set, not as a final benchmark.
+- If a prompt exceeds `max_prompt_tokens`, the runner truncates it before
+  sending the request. The harness should still budget prompts explicitly.
 """
 
 import argparse

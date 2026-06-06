@@ -1,10 +1,10 @@
 # Exploration Report: Lightweight LLM Harness under a Token Budget
 
-This report summarizes the design choices behind `solution.py`, which was originally developed for the 2026 SII Harness Engineering assessment. The implementation studies how a frozen LLM can be guided by an external harness to perform few-shot text classification and natural-language multiple-choice prediction under a strict prompt budget.
+This report summarizes the design choices behind `solution.py`. The implementation studies how a frozen LLM can be guided by an external harness to perform few-shot text classification and natural-language multiple-choice prediction under a strict prompt budget.
 
 ## 1. Problem Setting
 
-The evaluation scaffold exposes a small interface:
+The harness exposes a small interface:
 
 - `update(text, label)`: receive labeled training examples and store external memory.
 - `predict(text)`: predict an exact-match label for an unlabeled input.
@@ -27,7 +27,7 @@ The top retrieved examples are used as few-shot demonstrations. This keeps the p
 
 ### 2.2 Label-Space Task Routing
 
-The official task may include both intent classification and multiple-choice question answering. Instead of hard-coding option names, the harness inspects the label space at runtime. If all labels are short strings, such as `A`, `B`, `C`, or `D`, it switches to a multiple-choice prompt. Otherwise, it uses an intent-classification prompt.
+The benchmark suite includes both intent classification and multiple-choice question answering. Instead of hard-coding option names, the harness inspects the label space at runtime. If all labels are short strings, such as `A`, `B`, `C`, or `D`, it switches to a multiple-choice prompt. Otherwise, it uses an intent-classification prompt.
 
 This rule is intentionally simple: it avoids overfitting to one benchmark format while giving the LLM a better task framing for long natural-language questions.
 
@@ -44,11 +44,11 @@ The parser then extracts the content inside `<label>`. If the model violates the
 
 ### 2.4 Token Budget Control
 
-The harness starts from the top retrieved examples and removes the lowest-ranked demonstration until the assembled prompt fits the token budget. This explicit check reduces accidental truncation by the evaluation runner and leaves room for longer OOD or MCQ inputs.
+The harness starts from the top retrieved examples and removes the lowest-ranked demonstration until the assembled prompt fits the token budget. This explicit check reduces accidental truncation by the local runner and leaves room for longer OOD or MCQ inputs.
 
 ## 3. Experimental Observations
 
-The local DEV set contains 231 training examples, 539 test examples, and 77 labels. The submitted implementation reached about 83% accuracy on the official DEV split under the Qwen3-8B non-thinking setting.
+The local DEV set contains 231 training examples, 539 test examples, and 77 labels. The current implementation reached about 83% accuracy on this split under the Qwen3-8B non-thinking setting.
 
 An extended benchmark was also run on community/mock datasets covering same-distribution classification, OOD labels, MCQ tasks, bilingual inputs, and selected vertical domains:
 

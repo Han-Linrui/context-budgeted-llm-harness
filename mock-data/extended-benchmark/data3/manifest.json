@@ -4,7 +4,7 @@
   "ratio": "3:7",
   "tasks": {
     "task1_same_dev_labels_mixed_bilingual": {
-      "description": "Same labels as the official DEV set, with new mixed Chinese/English texts and prompt-injection stress cases.",
+      "description": "Same label space as the local DEV split, with new mixed Chinese/English texts and prompt-injection stress cases.",
       "train": 231,
       "test": 539,
       "labels": 77,

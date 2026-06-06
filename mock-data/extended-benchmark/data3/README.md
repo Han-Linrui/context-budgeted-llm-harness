@@ -1,6 +1,6 @@
 # Mixed Bilingual Multi-Task Benchmark
 
-This package recreates four benchmark tasks aligned with the expected hidden-test structure:
+This package contains four benchmark tasks for mixed bilingual and multi-domain robustness evaluation:
 
 1. Same DEV-label classification with different mixed Chinese/English text.
 2. OOD multi-domain classification with different labels and domains.

@@ -1,6 +1,6 @@
-# 2026创智学院夏令营Harness Engineering 考核模拟数据集
+# Multi-Task Classification Benchmark
 
-本仓库包含 2026 创智学院夏令营 Harness Engineering 考核模拟数据集，按任务拆分为训练集与测试集。
+本目录包含一组用于 Harness 鲁棒性评测的多任务数据，按任务拆分为训练集与测试集。
 
 ## 数据结构
 

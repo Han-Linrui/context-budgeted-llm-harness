@@ -1,6 +1,4 @@
-"""
-harness_base.py — Harness 基类（考生不可修改）
-"""
+"""Minimal base interface for classification harnesses."""
 
 
 class Harness:

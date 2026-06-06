@@ -1,18 +1,8 @@
-"""
-solution.py — 考生唯一需要提交的文件
+"""Core LLM harness implementation.
 
-规则
-----
-1. 只能修改 MyHarness 类内部；其余部分不可改动。考生可以先行查看 harness_base.py 以了解可用接口和调用约定。
-2. 只允许 import Python 标准库（re, math, random, json, collections 等）、numpy
-   以及 harness_base（已提供）。
-3. 禁止 import 其他第三方库（openai, sklearn, torch …）。
-4. 禁止通过任何途径读写磁盘文件。
-5. call_llm 每次调用的 prompt token 数若超过 max_prompt_tokens，
-   会被自动截断至预算上限后再发送，
-   可用 count_tokens（计算单条消息的 token 数） 和 count_messages_tokens（计算消息列表的总 token 数）预先控制 prompt 长度。
-6. predict() 只接收 text，任何绕过接口获取 label 的行为将导致得分归零。
-
+`MyHarness` keeps all task adaptation at inference time: it stores labeled
+examples, retrieves relevant demonstrations, assembles prompts under a fixed
+token budget, and parses the model response into a valid label.
 """
 
 import re
@@ -54,7 +44,7 @@ class MyHarness(Harness):
         is_mcq = all(len(str(lbl).strip()) <= 5 for lbl in labels_list)
         
         # ==========================================
-        # 强力 Prompt：引入轻量级 CoT (思维链) 格式约束
+        # Task-specific prompt with structured output constraints
         # ==========================================
         if is_mcq:
             sys_prompt = (
@@ -85,7 +75,7 @@ class MyHarness(Harness):
             sim = self._similarity(text, ex_text)
             scores.append((sim, ex_text, ex_label))
         
-        # 榨干上下文：提取 Top-15
+        # Keep a moderate candidate pool before token-budget pruning.
         scores.sort(key=lambda x: x[0], reverse=True)
         top_examples = scores[:15] 
         
@@ -95,7 +85,7 @@ class MyHarness(Harness):
         while True:
             messages =[{"role": "system", "content": sys_prompt}]
             
-            # 在 Few-shot 中伪造 CoT 思考过程，教导模型如何输出
+            # Few-shot demonstrations use the same XML-like output schema.
             for _, ex_text, ex_label in reversed(top_examples):
                 messages.append({"role": "user", "content": f"Text: {ex_text}"})
                 messages.append({"role": "assistant", 
@@ -141,7 +131,7 @@ class MyHarness(Harness):
             if lbl in extracted:
                 return lbl
                 
-        # 终极兜底
+        # Final fallback: reuse the label of the closest retrieved example.
         if scores:
             return scores[0][2]
         return self.label_counts.most_common(1)[0][0]

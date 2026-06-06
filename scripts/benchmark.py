@@ -1,8 +1,8 @@
 """Run the extended robustness benchmark suite.
 
-This script evaluates the harness on community/mock datasets stored under
-mock-data/. It keeps the official run.py entrypoint unchanged and only
-orchestrates repeated local evaluations.
+This script evaluates the harness on additional local datasets stored under
+mock-data/. It keeps `run.py` as the single evaluation entrypoint and
+orchestrates repeated runs across task variants.
 """
 
 from __future__ import annotations
@@ -16,11 +16,11 @@ from pathlib import Path
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-BASE_DIR = PROJECT_ROOT / "mock-data" / "SII-26Summer-HE-Data-main"
+BASE_DIR = PROJECT_ROOT / "mock-data" / "extended-benchmark"
 RUN_PY = PROJECT_ROOT / "run.py"
 
 TASKS = [
-    ("Data1 - official dev distribution", "data1/train_dev.jsonl", "data1/test_dev.jsonl"),
+    ("Data1 - local dev distribution", "data1/train_dev.jsonl", "data1/test_dev.jsonl"),
     ("Data1 - multiple-choice QA", "data1/train_mcq.jsonl", "data1/test_mcq.jsonl"),
     ("Data1 - out-of-domain labels", "data1/train_ood.jsonl", "data1/test_ood.jsonl"),
     ("Data1 - large label space OOD", "data1/train_ood_more_lables.jsonl", "data1/test_ood_more_lables.jsonl"),
